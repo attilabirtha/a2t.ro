@@ -49,6 +49,8 @@
   <h1>A2T Budget Tracking Dashboard</h1>
   <p class="subtitle">Daily budget control with high-signal KPIs first.</p>
   <p class="muted">Data source: <code>data/output/*.csv</code></p>
+  <p id="data-period" class="muted"></p>
+  <p id="last-refresh" class="muted"></p>
   <p id="warn" class="muted"></p>
 
   <div class="kpi-grid">
@@ -145,6 +147,19 @@ function dataUrl(fileName) {
   const u = new URL(`data/output/${fileName}`, document.baseURI);
   u.searchParams.set('t', String(Date.now()));
   return u.toString();
+}
+
+function setLastRefresh() {
+  const el = document.getElementById('last-refresh');
+  const ts = new Date().toLocaleString();
+  el.textContent = `Last refreshed: ${ts}`;
+}
+
+function setDataPeriod(pacingRows) {
+  const el = document.getElementById('data-period');
+  const p = pacingRows[0] || {};
+  const reportDate = p.report_date || 'unknown';
+  el.textContent = `Data period: report date ${reportDate}; campaign metrics use trailing 30 days (with 7-day rollups where shown).`;
 }
 
 function renderTable(el, rows) {
@@ -319,24 +334,34 @@ if (location.protocol === 'file:') {
     'Open this dashboard via http://127.0.0.1:4173/dashboard.html (not file://) so CSV data can load.';
 }
 
-Promise.all([
-  fetch(dataUrl('daily_pacing.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('daily_pacing.csv not found'); return r.text(); }).then(csvToRows),
-  fetch(dataUrl('campaign_recommendations.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('campaign_recommendations.csv not found'); return r.text(); }).then(csvToRows),
-  fetch(dataUrl('channel_summary.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('channel_summary.csv not found'); return r.text(); }).then(csvToRows),
-  fetch(dataUrl('history_daily_pacing.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('history_daily_pacing.csv not found'); return r.text(); }).then(csvToRows),
-]).then(([pacingRows, recRows, channelRows, historyRows]) => {
-  renderKpis(pacingRows, recRows);
-  renderBudgetSharePie(channelRows);
-  renderRoasBars(channelRows);
-  renderCampaignBudgetBars(recRows);
-  renderCampaignRoasBars(recRows);
-  renderTable(document.getElementById('pacing'), pacingRows);
-  renderTable(document.getElementById('recs'), recRows);
-  renderTable(document.getElementById('channels'), channelRows);
-  renderTable(document.getElementById('history'), historyRows);
-}).catch((err) => {
-  document.getElementById('warn').textContent = `Data load error: ${err.message}. Try hard refresh (Cmd+Shift+R).`;
-});
+async function loadDashboardData() {
+  try {
+    const [pacingRows, recRows, channelRows, historyRows] = await Promise.all([
+      fetch(dataUrl('daily_pacing.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('daily_pacing.csv not found'); return r.text(); }).then(csvToRows),
+      fetch(dataUrl('campaign_recommendations.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('campaign_recommendations.csv not found'); return r.text(); }).then(csvToRows),
+      fetch(dataUrl('channel_summary.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('channel_summary.csv not found'); return r.text(); }).then(csvToRows),
+      fetch(dataUrl('history_daily_pacing.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('history_daily_pacing.csv not found'); return r.text(); }).then(csvToRows),
+    ]);
+
+    renderKpis(pacingRows, recRows);
+    renderBudgetSharePie(channelRows);
+    renderRoasBars(channelRows);
+    renderCampaignBudgetBars(recRows);
+    renderCampaignRoasBars(recRows);
+    renderTable(document.getElementById('pacing'), pacingRows);
+    renderTable(document.getElementById('recs'), recRows);
+    renderTable(document.getElementById('channels'), channelRows);
+    renderTable(document.getElementById('history'), historyRows);
+    setDataPeriod(pacingRows);
+    document.getElementById('warn').textContent = '';
+    setLastRefresh();
+  } catch (err) {
+    document.getElementById('warn').textContent = `Data load error: ${err.message}. Try hard refresh (Cmd+Shift+R).`;
+  }
+}
+
+loadDashboardData();
+setInterval(loadDashboardData, 3600000);
 </script>
 </body>
 </html>
