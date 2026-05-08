@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node / Evidence
+node_modules/
+evidence/node_modules/
+
+# Build/runtime artifacts
+.evidence/
+dist/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+
+# Optional: generated outputs (keep sample inputs in repo)
+data/output/

@@ -1,0 +1,12 @@
+[project]
+name = "a2t-budget-control"
+version = "0.1.0"
+description = "A2T.ro Google Ads budget control v1 (recommend-only)"
+requires-python = ">=3.10"
+
+[project.scripts]
+a2t-budget = "a2t_budget_control.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"

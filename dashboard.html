@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A2T Budget Dashboard</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; margin: 24px; background:linear-gradient(180deg,#eef3ff 0%,#f8fbff 45%,#f6f8fb 100%); color:#17212b; }
+    h1 { margin:0 0 8px; font-size:34px; }
+    .subtitle { margin:0 0 18px; color:#445469; }
+    .card { background:#fff; border-radius:14px; padding:16px; margin-bottom:16px; box-shadow: 0 8px 24px rgba(17,34,68,.08); }
+    .kpi-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:12px; margin-bottom:16px; }
+    .kpi { border-radius:12px; padding:14px; color:#fff; }
+    .kpi h3 { margin:0; font-size:13px; font-weight:600; opacity:.9; }
+    .kpi .value { margin-top:8px; font-size:30px; font-weight:800; line-height:1.1; }
+    .kpi .note { margin-top:6px; font-size:12px; opacity:.9; }
+    .kpi.pacing { background:linear-gradient(135deg,#0f3c8a,#2d70ff); }
+    .kpi.forecast { background:linear-gradient(135deg,#004c47,#00a88f); }
+    .kpi.remaining { background:linear-gradient(135deg,#5a2a8a,#9559d6); }
+    .kpi.risk { background:linear-gradient(135deg,#8a2a2a,#d45151); }
+    table { width:100%; border-collapse: collapse; font-size:14px; }
+    th, td { text-align:left; padding:8px; border-bottom:1px solid #e8edf3; }
+    th { background:#f1f5f9; }
+    .muted { color:#5b6b7d; }
+    .pill { display:inline-block; padding:3px 8px; border-radius:999px; font-weight:700; font-size:12px; }
+    .pill.warn { background:#fff0f0; color:#9f1d1d; }
+    .pill.ok { background:#ecfff6; color:#0d7c50; }
+    tr.sev-critical { background:#fff1f1; }
+    tr.sev-high { background:#fff7ed; }
+    tr.sev-medium { background:#fffdf0; }
+    tr.sev-low { background:#f3fff8; }
+    .campaign-tag { font-weight:700; }
+    .campaign-tag.sev-critical { color:#9f1d1d; }
+    .campaign-tag.sev-high { color:#b45309; }
+    .campaign-tag.sev-medium { color:#a16207; }
+    .campaign-tag.sev-low { color:#0f766e; }
+  </style>
+</head>
+<body>
+  <h1>A2T Budget Tracking Dashboard</h1>
+  <p class="subtitle">Daily budget control with high-signal KPIs first.</p>
+  <p class="muted">Data source: <code>data/output/*.csv</code></p>
+  <p id="warn" class="muted"></p>
+
+  <div class="kpi-grid">
+    <div class="kpi pacing">
+      <h3>Pacing Ratio</h3>
+      <div class="value" id="kpi-pacing">-</div>
+      <div class="note">MTD spend vs expected spend</div>
+    </div>
+    <div class="kpi forecast">
+      <h3>Forecast vs Budget</h3>
+      <div class="value" id="kpi-forecast">-</div>
+      <div class="note">Month-end projection health</div>
+    </div>
+    <div class="kpi remaining">
+      <h3>Remaining Budget</h3>
+      <div class="value" id="kpi-remaining">-</div>
+      <div class="note">RON left in current month</div>
+    </div>
+    <div class="kpi risk">
+      <h3>Priority 1-2 Actions</h3>
+      <div class="value" id="kpi-risk">-</div>
+      <div class="note">Immediate intervention queue</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Daily Pacing</h2>
+    <div id="pacing"></div>
+  </div>
+
+  <div class="card">
+    <h2>Campaign Recommendations</h2>
+    <div id="recs"></div>
+  </div>
+
+  <div class="card">
+    <h2>Channel Summary</h2>
+    <div id="channels"></div>
+  </div>
+
+  <div class="card">
+    <h2>Pacing History</h2>
+    <div id="history"></div>
+  </div>
+
+<script>
+function csvToRows(csv) {
+  const lines = csv.trim().split(/\r?\n/);
+  const headers = lines[0].split(',');
+  return lines.slice(1).map(line => {
+    const cols = line.split(',');
+    const row = {};
+    headers.forEach((h,i)=>row[h]=cols[i] ?? '');
+    return row;
+  });
+}
+
+function num(v) {
+  const n = Number(v);
+  return Number.isFinite(n) ? n : 0;
+}
+function fmtPct(v) { return `${(num(v) * 100).toFixed(1)}%`; }
+function fmtRon(v) { return `${Math.round(num(v)).toLocaleString()} RON`; }
+
+function renderTable(el, rows) {
+  if (!rows.length) { el.innerHTML = '<p>No data</p>'; return; }
+  const headers = Object.keys(rows[0]);
+  let html = '<table><thead><tr>' + headers.map(h=>`<th>${h}</th>`).join('') + '</tr></thead><tbody>';
+  rows.forEach(r => {
+    let severity = '';
+    if ('priority' in r) {
+      const p = Number(r.priority || 99);
+      if (p <= 1) severity = 'sev-critical';
+      else if (p <= 2) severity = 'sev-high';
+      else if (p <= 4) severity = 'sev-medium';
+      else severity = 'sev-low';
+    }
+    html += `<tr class="${severity}">` + headers.map(h=>{
+      if (h === 'campaign' && severity) {
+        return `<td><span class="campaign-tag ${severity}">${r[h]}</span></td>`;
+      }
+      return `<td>${r[h]}</td>`;
+    }).join('') + '</tr>';
+  });
+  html += '</tbody></table>';
+  el.innerHTML = html;
+}
+
+function renderKpis(pacingRows, recRows) {
+  const p = pacingRows[0] || {};
+  const riskCount = recRows.filter(r => {
+    const pr = Number(r.priority || 99);
+    return pr <= 2;
+  }).length;
+
+  const forecastRatio = num(p.forecast_ratio_vs_budget);
+  document.getElementById('kpi-pacing').textContent = fmtPct(p.pacing_ratio || 0);
+  document.getElementById('kpi-forecast').innerHTML =
+    `${fmtPct(forecastRatio)} <span class="pill ${forecastRatio > 1.05 ? 'warn' : 'ok'}">${forecastRatio > 1.05 ? 'Overspend Risk' : 'In Control'}</span>`;
+  document.getElementById('kpi-remaining').textContent = fmtRon(p.remaining_budget || 0);
+  document.getElementById('kpi-risk').textContent = String(riskCount);
+}
+
+async function load(id, path) {
+  const res = await fetch(path);
+  const text = await res.text();
+  renderTable(document.getElementById(id), csvToRows(text));
+}
+
+if (location.protocol === 'file:') {
+  document.getElementById('warn').textContent =
+    'Open this dashboard via http://127.0.0.1:4173/dashboard.html (not file://) so CSV data can load.';
+}
+
+Promise.all([
+  fetch('/data/output/daily_pacing.csv').then(r => r.text()).then(csvToRows),
+  fetch('/data/output/campaign_recommendations.csv').then(r => r.text()).then(csvToRows),
+  fetch('/data/output/channel_summary.csv').then(r => r.text()).then(csvToRows),
+  fetch('/data/output/history_daily_pacing.csv').then(r => r.text()).then(csvToRows),
+]).then(([pacingRows, recRows, channelRows, historyRows]) => {
+  renderKpis(pacingRows, recRows);
+  renderTable(document.getElementById('pacing'), pacingRows);
+  renderTable(document.getElementById('recs'), recRows);
+  renderTable(document.getElementById('channels'), channelRows);
+  renderTable(document.getElementById('history'), historyRows);
+});
+</script>
+</body>
+</html>
