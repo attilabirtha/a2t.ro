@@ -141,6 +141,12 @@ function esc(s) {
   ));
 }
 
+function dataUrl(fileName) {
+  const u = new URL(`data/output/${fileName}`, document.baseURI);
+  u.searchParams.set('t', String(Date.now()));
+  return u.toString();
+}
+
 function renderTable(el, rows) {
   if (!rows.length) { el.innerHTML = '<p>No data</p>'; return; }
   const headers = Object.keys(rows[0]);
@@ -314,26 +320,10 @@ if (location.protocol === 'file:') {
 }
 
 Promise.all([
-  fetch(`${(() => {
-    const parts = location.pathname.split('/').filter(Boolean);
-    const base = parts.length ? `/${parts[0]}` : '';
-    return `${base}/data/output/daily_pacing.csv?t=${Date.now()}`;
-  })()}`, { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('daily_pacing.csv not found'); return r.text(); }).then(csvToRows),
-  fetch(`${(() => {
-    const parts = location.pathname.split('/').filter(Boolean);
-    const base = parts.length ? `/${parts[0]}` : '';
-    return `${base}/data/output/campaign_recommendations.csv?t=${Date.now()}`;
-  })()}`, { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('campaign_recommendations.csv not found'); return r.text(); }).then(csvToRows),
-  fetch(`${(() => {
-    const parts = location.pathname.split('/').filter(Boolean);
-    const base = parts.length ? `/${parts[0]}` : '';
-    return `${base}/data/output/channel_summary.csv?t=${Date.now()}`;
-  })()}`, { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('channel_summary.csv not found'); return r.text(); }).then(csvToRows),
-  fetch(`${(() => {
-    const parts = location.pathname.split('/').filter(Boolean);
-    const base = parts.length ? `/${parts[0]}` : '';
-    return `${base}/data/output/history_daily_pacing.csv?t=${Date.now()}`;
-  })()}`, { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('history_daily_pacing.csv not found'); return r.text(); }).then(csvToRows),
+  fetch(dataUrl('daily_pacing.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('daily_pacing.csv not found'); return r.text(); }).then(csvToRows),
+  fetch(dataUrl('campaign_recommendations.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('campaign_recommendations.csv not found'); return r.text(); }).then(csvToRows),
+  fetch(dataUrl('channel_summary.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('channel_summary.csv not found'); return r.text(); }).then(csvToRows),
+  fetch(dataUrl('history_daily_pacing.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('history_daily_pacing.csv not found'); return r.text(); }).then(csvToRows),
 ]).then(([pacingRows, recRows, channelRows, historyRows]) => {
   renderKpis(pacingRows, recRows);
   renderBudgetSharePie(channelRows);
