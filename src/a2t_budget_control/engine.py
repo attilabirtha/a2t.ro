@@ -86,7 +86,19 @@ def run_daily(report_date: date, campaigns: list[CampaignRow], output_dir: Path,
     recs = [recommend_for_campaign(c, account_under_pacing, policy) for c in campaigns]
 
     pacing_rows = [asdict(pacing)]
-    rec_rows = [asdict(r) | {"report_date": report_date.isoformat()} for r in sorted(recs, key=lambda x: x.priority)]
+    campaign_by_name = {c.campaign: c for c in campaigns}
+    rec_rows = []
+    for r in sorted(recs, key=lambda x: x.priority):
+        c = campaign_by_name.get(r.campaign)
+        rec_rows.append(
+            asdict(r)
+            | {
+                "report_date": report_date.isoformat(),
+                "roas_30d": round(c.roas_30d, 3) if c else 0.0,
+                "spend_30d": round(c.spend_30d, 2) if c else 0.0,
+                "conv_value_30d": round(c.conv_value_30d, 2) if c else 0.0,
+            }
+        )
 
     by_channel: dict[str, dict[str, float]] = defaultdict(lambda: {"spend_30d": 0.0, "conv_value_30d": 0.0, "daily_budget": 0.0})
     total_budget = sum(c.daily_budget for c in campaigns) or 1.0

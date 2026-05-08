@@ -18,6 +18,3 @@ dist/
 
 # OS
 .DS_Store
-
-# Optional: generated outputs (keep sample inputs in repo)
-data/output/
