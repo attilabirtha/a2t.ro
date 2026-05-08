@@ -1,0 +1,59 @@
+name: Refresh Dashboard Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Hourly (UTC)
+    - cron: '15 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install google-ads
+
+      - name: Write Google Ads service account key
+        env:
+          GOOGLE_ADS_JSON_KEY: ${{ secrets.GOOGLE_ADS_JSON_KEY }}
+        run: |
+          if [ -z "$GOOGLE_ADS_JSON_KEY" ]; then
+            echo "Missing secret: GOOGLE_ADS_JSON_KEY"
+            exit 1
+          fi
+          printf '%s' "$GOOGLE_ADS_JSON_KEY" > /tmp/google-ads-key.json
+
+      - name: Regenerate dashboard CSVs from live Google Ads
+        env:
+          GOOGLE_ADS_DEVELOPER_TOKEN: ${{ secrets.GOOGLE_ADS_DEVELOPER_TOKEN }}
+          GOOGLE_ADS_CUSTOMER_ID: ${{ secrets.GOOGLE_ADS_CUSTOMER_ID }}
+          GOOGLE_ADS_LOGIN_CUSTOMER_ID: ${{ secrets.GOOGLE_ADS_LOGIN_CUSTOMER_ID }}
+          GOOGLE_ADS_JSON_KEY_PATH: /tmp/google-ads-key.json
+        run: |
+          PYTHONPATH=src python -m a2t_budget_control.cli --from-google-ads --date "$(date -u +%F)"
+
+      - name: Commit & push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/output/*.csv
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(data): hourly refresh of dashboard CSVs"
+          git push

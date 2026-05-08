@@ -78,7 +78,7 @@ def fetch_campaign_rows(config: GoogleAdsConfig) -> list[CampaignRow]:
           metrics.cost_micros,
           metrics.conversions_value
         FROM campaign
-        WHERE campaign.status != 'REMOVED'
+        WHERE campaign.status = 'ENABLED'
           AND segments.date DURING LAST_30_DAYS
     """
 

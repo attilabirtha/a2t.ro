@@ -18,6 +18,7 @@
     .kpi.forecast { background:linear-gradient(135deg,#004c47,#00a88f); }
     .kpi.remaining { background:linear-gradient(135deg,#5a2a8a,#9559d6); }
     .kpi.risk { background:linear-gradient(135deg,#8a2a2a,#d45151); }
+    .kpi.roas { background:linear-gradient(135deg,#0b5f3b,#23b26d); }
     table { width:100%; border-collapse: collapse; font-size:14px; }
     th, td { text-align:left; padding:8px; border-bottom:1px solid #e8edf3; }
     th { background:#f1f5f9; }
@@ -43,11 +44,13 @@
     .bar-meta { display:flex; justify-content:space-between; font-size:12px; margin-bottom:4px; }
     .bar-track { background:#e8edf3; border-radius:999px; height:10px; overflow:hidden; }
     .bar-fill { height:100%; border-radius:999px; }
+    .btn-toggle { margin-top:10px; border:0; border-radius:8px; padding:8px 12px; background:#1f2937; color:#fff; font-size:12px; cursor:pointer; }
   </style>
 </head>
 <body>
   <h1>A2T Budget Tracking Dashboard</h1>
   <p class="subtitle">Daily budget control with high-signal KPIs first.</p>
+  <p id="target-budget" class="muted"></p>
   <p class="muted">Data source: <code>data/output/*.csv</code></p>
   <p id="data-period" class="muted"></p>
   <p id="last-refresh" class="muted"></p>
@@ -74,6 +77,11 @@
       <div class="value" id="kpi-risk">-</div>
       <div class="note">Immediate intervention queue</div>
     </div>
+    <div class="kpi roas">
+      <h3>Total ROAS (Account)</h3>
+      <div class="value" id="kpi-total-roas">-</div>
+      <div class="note">Total conversion value / total spend (30d)</div>
+    </div>
   </div>
 
   <div class="viz-grid">
@@ -92,10 +100,12 @@
     <div class="card">
       <h2 class="viz-title">Current Budget by Campaign</h2>
       <div id="campaign-budget-bars"></div>
+      <button id="campaign-budget-toggle" class="btn-toggle" type="button" style="display:none;">Show more</button>
     </div>
     <div class="card">
       <h2 class="viz-title">ROAS by Campaign (30d)</h2>
       <div id="campaign-roas-bars"></div>
+      <button id="campaign-roas-toggle" class="btn-toggle" type="button" style="display:none;">Show more</button>
     </div>
   </div>
 
@@ -143,6 +153,26 @@ function esc(s) {
   ));
 }
 
+function channelLabel(raw) {
+  const v = String(raw ?? '').trim();
+  const map = {
+    '2': 'Search',
+    '3': 'Display',
+    '4': 'Shopping',
+    '5': 'Hotel',
+    '6': 'Video',
+    '7': 'Multichannel',
+    '8': 'Local',
+    '9': 'Smart',
+    '10': 'Performance Max',
+    '11': 'Local Services',
+    '12': 'Travel',
+    '13': 'Discovery',
+    '14': 'Demand Gen',
+  };
+  return map[v] || v;
+}
+
 function dataUrl(fileName) {
   const u = new URL(`data/output/${fileName}`, document.baseURI);
   u.searchParams.set('t', String(Date.now()));
@@ -160,6 +190,12 @@ function setDataPeriod(pacingRows) {
   const p = pacingRows[0] || {};
   const reportDate = p.report_date || 'unknown';
   el.textContent = `Data period: report date ${reportDate}; campaign metrics use trailing 30 days (with 7-day rollups where shown).`;
+}
+
+function setTargetBudget(pacingRows) {
+  const el = document.getElementById('target-budget');
+  const p = pacingRows[0] || {};
+  el.textContent = `Target account budget (monthly): ${fmtRon(p.monthly_budget || 0)}`;
 }
 
 function renderTable(el, rows) {
@@ -228,7 +264,7 @@ function renderBudgetSharePie(channelRows) {
   legend.innerHTML = rows.map((row, i) => `
     <span class="legend-item">
       <span class="dot" style="background:${colors[i % colors.length]}"></span>
-      <span>${esc(row.channel)}: ${fmtPct(row.share)}</span>
+      <span>${esc(channelLabel(row.channel))}: ${fmtPct(row.share)}</span>
     </span>
   `).join('');
 }
@@ -248,7 +284,7 @@ function renderRoasBars(channelRows) {
       const color = value < 2.5 ? '#dc2626' : value < 4 ? '#f97316' : value <= 5 ? '#eab308' : '#16a34a';
       return `
         <div class="bar-row">
-          <div class="bar-meta"><span>${esc(r.channel)}</span><strong>${value.toFixed(2)}</strong></div>
+          <div class="bar-meta"><span>${esc(channelLabel(r.channel))}</span><strong>${value.toFixed(2)}</strong></div>
           <div class="bar-track"><div class="bar-fill" style="width:${w}%; background:${color}"></div></div>
         </div>
       `;
@@ -257,43 +293,66 @@ function renderRoasBars(channelRows) {
 
 function renderCampaignBudgetBars(recRows) {
   const root = document.getElementById('campaign-budget-bars');
+  const toggle = document.getElementById('campaign-budget-toggle');
   if (!recRows.length) {
     root.innerHTML = '<p>No data</p>';
+    if (toggle) toggle.style.display = 'none';
     return;
   }
+  const sorted = recRows.slice().sort((a,b) => num(b.current_budget) - num(a.current_budget));
+  const showAll = root.dataset.showAll === '1';
+  const visibleRows = showAll ? sorted : sorted.slice(0, 10);
   const totalBudget = recRows.reduce((sum, r) => sum + num(r.current_budget), 0) || 1;
-  root.innerHTML = recRows
-    .slice()
-    .sort((a,b) => num(b.current_budget) - num(a.current_budget))
+  root.innerHTML = visibleRows
     .map(r => {
       const value = num(r.current_budget);
       const share = value / totalBudget;
       const w = Math.max(2, share * 100);
+      const spendMtd = num(r.spend_mtd_est);
       const color = '#2563eb';
       return `
         <div class="bar-row">
           <div class="bar-meta"><span>${esc(r.campaign)}</span><strong>${Math.round(value).toLocaleString()} RON (${fmtPct(share)})</strong></div>
+          <div class="bar-meta"><span class="muted">Spend MTD (est.)</span><strong>${Math.round(spendMtd).toLocaleString()} RON</strong></div>
           <div class="bar-track"><div class="bar-fill" style="width:${w}%; background:${color}"></div></div>
         </div>
       `;
     }).join('');
+
+  if (toggle) {
+    if (sorted.length > 10) {
+      toggle.style.display = 'inline-block';
+      toggle.textContent = showAll ? 'Show less' : `Show more (${sorted.length - 10} more)`;
+      toggle.onclick = () => {
+        root.dataset.showAll = showAll ? '0' : '1';
+        renderCampaignBudgetBars(recRows);
+      };
+    } else {
+      toggle.style.display = 'none';
+    }
+  }
 }
 
 function renderCampaignRoasBars(recRows) {
   const root = document.getElementById('campaign-roas-bars');
+  const toggle = document.getElementById('campaign-roas-toggle');
   if (!recRows.length) {
     root.innerHTML = '<p>No data</p>';
+    if (toggle) toggle.style.display = 'none';
     return;
   }
-  const rows = recRows.map(r => {
+  const allRows = recRows.map(r => {
     const direct = num(r.roas_30d);
     const spend = num(r.spend_30d);
     const conv = num(r.conv_value_30d);
     const derived = spend > 0 ? conv / spend : 0;
     return { ...r, roas: direct > 0 ? direct : derived };
   });
-  const maxRoas = Math.max(...rows.map(r => num(r.roas)), 1);
-  root.innerHTML = rows
+  const sorted = allRows.sort((a,b) => num(b.roas) - num(a.roas));
+  const showAll = root.dataset.showAll === '1';
+  const visibleRows = showAll ? sorted : sorted.slice(0, 10);
+  const maxRoas = Math.max(...sorted.map(r => num(r.roas)), 1);
+  root.innerHTML = visibleRows
     .sort((a,b) => num(b.roas) - num(a.roas))
     .map(r => {
       const value = num(r.roas);
@@ -306,6 +365,19 @@ function renderCampaignRoasBars(recRows) {
         </div>
       `;
     }).join('');
+
+  if (toggle) {
+    if (sorted.length > 10) {
+      toggle.style.display = 'inline-block';
+      toggle.textContent = showAll ? 'Show less' : `Show more (${sorted.length - 10} more)`;
+      toggle.onclick = () => {
+        root.dataset.showAll = showAll ? '0' : '1';
+        renderCampaignRoasBars(recRows);
+      };
+    } else {
+      toggle.style.display = 'none';
+    }
+  }
 }
 
 function renderKpis(pacingRows, recRows) {
@@ -314,6 +386,9 @@ function renderKpis(pacingRows, recRows) {
     const pr = Number(r.priority || 99);
     return pr <= 2;
   }).length;
+  const totalSpend30d = recRows.reduce((sum, r) => sum + num(r.spend_30d), 0);
+  const totalConvValue30d = recRows.reduce((sum, r) => sum + num(r.conv_value_30d), 0);
+  const totalRoas = totalSpend30d > 0 ? (totalConvValue30d / totalSpend30d) : 0;
 
   const forecastRatio = num(p.forecast_ratio_vs_budget);
   document.getElementById('kpi-pacing').textContent = fmtPct(p.pacing_ratio || 0);
@@ -321,6 +396,7 @@ function renderKpis(pacingRows, recRows) {
     `${fmtPct(forecastRatio)} <span class="pill ${forecastRatio > 1.05 ? 'warn' : 'ok'}">${forecastRatio > 1.05 ? 'Overspend Risk' : 'In Control'}</span>`;
   document.getElementById('kpi-remaining').textContent = fmtRon(p.remaining_budget || 0);
   document.getElementById('kpi-risk').textContent = String(riskCount);
+  document.getElementById('kpi-total-roas').textContent = totalRoas.toFixed(2);
 }
 
 async function load(id, path) {
@@ -352,6 +428,7 @@ async function loadDashboardData() {
     renderTable(document.getElementById('recs'), recRows);
     renderTable(document.getElementById('channels'), channelRows);
     renderTable(document.getElementById('history'), historyRows);
+    setTargetBudget(pacingRows);
     setDataPeriod(pacingRows);
     document.getElementById('warn').textContent = '';
     setLastRefresh();

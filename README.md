@@ -54,3 +54,19 @@ Use the `evidence/` folder as your Evidence project root, and point it to the CS
 
 The starter page is:
 - `evidence/pages/index.md`
+
+## Live deploy setup (recommended)
+To keep the deployed dashboard working without local scripts, use the included GitHub Actions workflow:
+- `.github/workflows/refresh-dashboard-data.yml`
+
+It refreshes `data/output/*.csv` hourly from Google Ads and pushes updates to `main` (GitHub Pages then serves latest data).
+
+Required GitHub repository secrets:
+- `GOOGLE_ADS_DEVELOPER_TOKEN`
+- `GOOGLE_ADS_CUSTOMER_ID` (for A2T: `4653844399`)
+- `GOOGLE_ADS_LOGIN_CUSTOMER_ID` (manager account ID, no dashes)
+- `GOOGLE_ADS_JSON_KEY` (full JSON content of the service account key file)
+
+Notes:
+- Schedule runs hourly in UTC.
+- You can trigger an immediate refresh from Actions using `workflow_dispatch`.

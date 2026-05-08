@@ -1,8 +1,156 @@
-campaign,channel,current_budget,recommended_budget,recommendation,priority,reason,report_date,roas_30d,spend_30d,conv_value_30d
-DGen - All other categories,Demand Gen,1400.0,1120.0,Reduce 20%,2,ROAS sub 2.5.,2026-05-08,0.603,19900.0,12000.0
-DGen - Automatizari,Demand Gen,1700.0,1360.0,Reduce 20%,2,ROAS sub 2.5.,2026-05-08,1.322,24200.0,32000.0
-DGen - Supraveghere,Demand Gen,2200.0,1760.0,Reduce 20%,2,ROAS sub 2.5.,2026-05-08,1.385,29600.0,41000.0
-June 2024 - Search - Supraveghere - Generic,Search,1800.0,1530.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-05-08,3.396,31800.0,108000.0
-PMax - Main,Performance Max,8200.0,8200.0,Hold,6,Fara trigger de ajustare.,2026-05-08,5.494,162000.0,890000.0
-Search Brand,Search,2200.0,2420.0,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-05-08,8.179,37900.0,310000.0
-Video Views - NO RMKT - NO Product Feed,Video,1300.0,1040.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-05-08,0.0,18000.0,0.0
+campaign,channel,current_budget,recommended_budget,recommendation,priority,reason,report_date,roas_30d,spend_30d,spend_mtd_est,conv_value_30d
+BF 2021 - Video de BF - New Audiences Only,6,50.0,50.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF 2021 - Video de BF - RMKT Only,6,50.0,50.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF 2022 - Video Conversions - Shorts - Only Mobile #2,14,136.95,136.95,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF 2022 - Video Shorts - RMKT,6,136.95,136.95,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF-2016-RLSA -Search - Automatizari Porti,2,1000.0,1000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF-2016-RLSA -Search - Camere IP,2,45.0,45.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF-2016-RLSA -Search - Control acces si pontaj,2,15.0,15.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF-2016-RLSA -Search - DVR 16 canale,2,400.0,400.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF-2016-RLSA -Search - Dvr 4 canale,2,130.0,130.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF-2016-RLSA -Search - Dvr 8 canale,2,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF-2016-RLSA -Search - Nvr 4 canale,2,60.0,60.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF-2016-RLSA -Search - Sisteme de alarma,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF-2016-RLSA -Search - Sonorizare,2,60.0,60.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF-2016-RLSA -Search - Supraveghere video,2,1000.0,1000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF-2016-RLSA -Search - Videointerfon,2,60.0,60.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+BF2023 - Video Conversions #2,14,324.95,324.95,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Brand Protect,2,1500.0,1650.0000000000002,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-05-08,21.034,9261.35,2390.02,194801.53
+Brands,2,20.26,20.26,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Bumper Video - Automatizari - 20-23 sept 2019,6,0.0,0.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Camera de vanatoare,2,120.0,120.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Camere supraveghere exterior,2,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Casa inteligenta,2,20.26,20.26,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Caut Instalare,2,1000.0,1000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,3.452,769.25,198.52,2655.1
+Classic Shopping Campaign,4,2200.0,2200.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Cyber Monday 2020,3,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+DGen -  BF2024 - New Audiences,14,800.0,800.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+DGen - All other categories,14,600.0,480.0,Reduce 20%,2,ROAS sub 2.5.,2026-05-08,0.979,2369.64,611.52,2318.8
+DGen - Automatizari,14,750.0,637.5,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-05-08,3.385,9374.22,2419.15,31734.78
+DGen - BF2024 - RMKT Trafic,14,200.0,200.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+DGen - RMKT - BF Promo,14,600.0,600.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+DGen - Supraveghere,14,1150.0,977.5,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-05-08,3.44,18453.24,4762.13,63483.43
+DGen - Supraveghere - NO RMKT - tROAS - AC/BC,14,150.0,120.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-05-08,0.0,2192.41,565.78,0.0
+DSA - NO RMKT - NO Brand - Accesories ONLY,2,24.3,24.3,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+DSA - NO RMKT - NO Brand - NO Accesories,2,500.0,500.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+DSA+RLSA - NO Brand - Accesories ONLY,2,160.0,160.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+DSA+RLSA - NO Brand - NO Accesories,2,670.0,670.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Detectie febra,2,656.1,656.1,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Display,3,150.0,150.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Display - Black Friday,3,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Display ReMarketing,3,330.0,330.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Dynamic Remarketing,3,200.0,200.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Dynamic Remarketing (Merchant),3,300.0,300.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+HDD,3,240.0,240.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+HDD Seagate,2,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Interval Orar 12-17 -Brands,2,20.0,20.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Interval Orar 12-17 -Search - Automatizari Porti,2,600.0,600.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Interval Orar 12-17 -Search - Camere IP,2,45.0,45.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Interval Orar 12-17 -Search - Control acces si pontaj,2,15.0,15.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Interval Orar 12-17 -Search - DVR 16 canale,2,800.0,800.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Interval Orar 12-17 -Search - Dvr 4 canale,2,160.0,160.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Interval Orar 12-17 -Search - Dvr 8 canale,2,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Interval Orar 12-17 -Search - Nvr 4 canale,2,30.0,30.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Interval Orar 12-17 -Search - Sisteme de alarma,2,280.0,280.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Interval Orar 12-17 -Search - Sonorizare,2,45.0,45.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Interval Orar 12-17 -Search - Supraveghere video,2,900.0,900.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Interval Orar 12-17 -Search - Videointerfon,2,30.0,30.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+June 2023 - Search - Anti incendiu - tROAS,2,150.0,150.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+June 2024 - Search - Acces Pontaj - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,8.727,74.95,19.34,654.08
+June 2024 - Search - Accesorii Supraveghere - tROAS,2,3000.0,2550.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-05-08,2.725,1765.07,455.5,4809.82
+June 2024 - Search - Alarme - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,66.7,17.21,0.0
+June 2024 - Search - Automatizari - tROAS,2,3000.0,3000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-08,5.489,3348.33,864.09,18380.54
+June 2024 - Search - Fotovoltaice - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,38.25,9.87,0.0
+June 2024 - Search - Interfoane - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,14.826,110.2,28.44,1633.83
+June 2024 - Search - Smart Home - tROAS,2,300.0,300.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,5.92,1.53,0.0
+June 2024 - Search - Sonorizari - tROAS,2,1000.0,1000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,6.18,1.59,0.0
+June 2024 - Search - Supraveghere + Brands - tROAS,2,3000.0,3000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-08,7.317,2304.15,594.62,16859.29
+June 2024 - Search - Supraveghere - Generic,Search,1800.0,1530.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-05-08,3.396,31800.0,8206.45,108000.0
+June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,4000.0,3400.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-05-08,2.53,21626.06,5580.92,54714.77
+MC Dynamic Rmk,3,700.0,700.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Milwaukee Big Red,14,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+NEW - DSA - Automatizari Porti - No Accesories,2,2000.0,1700.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-05-08,3.147,1639.46,423.09,5159.89
+NEW - DSA - Supraveghere - No Accesories,2,1000.0,900.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-05-08,4.296,6742.19,1739.92,28967.14
+PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,3300.0,3300.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-08,7.717,16608.93,4286.18,128167.9
+PMax - Main,Performance Max,8200.0,8200.0,Hold,6,Fara trigger de ajustare.,2026-05-08,5.494,162000.0,41806.45,890000.0
+PMax - New - Accesorii Supraveghere,10,2900.0,2610.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-05-08,4.786,68200.64,17600.16,326384.94
+PMax - New - Alarme antiincendiu,10,1100.0,1100.0,Hold,6,Fara trigger de ajustare.,2026-05-08,5.851,32107.29,8285.75,187873.96
+PMax - New - Automatizari Porti,10,4500.0,4500.0,Hold,6,Fara trigger de ajustare.,2026-05-08,5.226,101076.22,26084.19,528217.24
+PMax - New - Control Acces,10,1000.0,1100.0,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-05-08,9.168,6195.29,1598.78,56801.39
+PMax - New - FotoVoltaice/Solare,10,2000.0,2000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-08,6.589,10530.19,2717.47,69387.03
+PMax - New - Interfoane,10,1800.0,1800.0,Hold,6,Fara trigger de ajustare.,2026-05-08,6.345,13067.5,3372.26,82911.43
+PMax - New - Kituri Supraveghere,10,2500.0,2125.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-05-08,3.491,5788.18,1493.72,20206.17
+PMax - New - Sisteme Alarma,10,1800.0,1800.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-08,5.742,6977.79,1800.72,40069.33
+PMax - New - SmartHome,10,2000.0,2000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-08,7.708,5192.62,1340.03,40025.8
+PMax - New - Sonorizari,10,500.0,550.0,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-05-08,7.97,7031.93,1814.69,56046.82
+PMax - New - Supraveghere Video,10,10000.0,9000.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-05-08,4.673,146828.79,37891.3,686081.92
+PMax - New Customers Only - 19-23 Hour Interval Only - All Core Products,10,535.66,535.66,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+PMax - New Customers Only - 6 to 23 Hour Only - All Core Products,10,4000.0,4000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+PMax - Poor Products - Shopping - LOW ROAS,10,620.0,682.0,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-05-08,8.743,18657.33,4814.8,163117.85
+PMax - Promo BF 2025 - Shopping Only,10,1800.0,1800.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+PMax - Purchase - Accesorii,10,3300.0,3300.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-08,6.948,13406.56,3459.76,93151.0
+PMax - Purchase - All Other Products,10,1100.0,1100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+PMax - Scule si Unelte,10,4000.0,4000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-08,7.717,11186.03,2886.72,86319.11
+PMax - Supraveghere - PH Heroes Only - Shopping Only - tROAS,10,900.0,900.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+PMax - Supraveghere - PH Sidekicks Only - Shopping Only - tROAS,10,300.0,300.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+PMax - Supraveghere - PH Villains Only - Shopping Only - tROAS,10,400.0,400.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+PMax - Supraveghere - PH Zombies Only - Shopping Only - tROAS,10,520.0,520.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+PMax - Top Products last 14 days - Feed Only,10,930.0,930.0,Hold,6,Fara trigger de ajustare.,2026-05-08,6.743,28557.21,7369.6,192574.41
+Remarketing - Added to Cart,3,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Accesorii Supraveghere,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Antifurt Magazine,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Automatizari Porti,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Camere Supraveghere Exterior,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Camere Supraveghere Interior,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Camere Supraveghere Ip,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Casa Inteligenta,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Control Acces Pontaj,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Dvr Standalone H264,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Interfoane-videointerfoane,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Kituri Supraveghere Video,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Retele Si Telefonie,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Securitate Mecanica,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Sisteme Antiincendiu,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Sisteme De Alarma,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Sisteme De Supraveghere Ahd,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Sisteme Supraveghere Hd Tvi,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Auto - Sisteme Supraveghere Hdcvi,2,140.0,140.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Automatizari Porti,2,420.0,420.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Automatizari Porti - Mobile,2,400.0,400.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Automatizari porti - new,2,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - BF2024 - Keywords,2,50.0,50.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Camere IP,2,324.03,324.03,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Competitie,2,101.26,101.26,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Concurenta,2,25.0,25.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Control acces si pontaj,2,16.2,16.2,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - DVR 16 canale,2,263.27,263.27,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Dvr 4 canale,2,24.3,24.3,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Dvr 4 canale Mobile,2,400.0,400.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Dvr 8 canale,2,40.51,40.51,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Dvr 8 canale Mobile,2,400.0,400.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Kituri Supraveghere Video(ok),2,171.98,171.98,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Nvr 4 canale,2,50.62,50.62,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Sisteme de alarma (ok),2,28.36,28.36,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Sisteme de alarma Mobile,2,400.0,400.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Sonorizare,2,580.0,580.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Supraveghere video,2,998.89,998.89,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Supraveghere video Mobile,2,400.0,400.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Videointerfon,2,20.26,20.26,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - Videointerfon Mobile,2,400.0,400.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search - tROAS - New Noi.2023 for BF,2,600.0,600.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Search Brand,Search,2200.0,2420.0,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-05-08,8.179,37900.0,9780.65,310000.0
+Sisteme de alarma,2,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Teaser Black Friday 2020,3,60.0,60.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Transport Gratuit - 17 iunie,3,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Video - BF2024 - Reach,6,0.0,0.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Video - Black Friday 2019,6,200.0,200.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Video Consideration - Camere IMOU - end 30 Oct 2022,6,0.0,0.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Video HikVision - 20-->31 Mai,6,0.0,0.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Video Skippable - 2019-11-08,6,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-05-08,0.0,2412.65,622.62,0.0
+YouTube Camere,6,10.0,10.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+[A2T] 100k+ VIEWS,6,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+[A2T] Long Videos Youtube #2,14,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+[A2T] Shorts,6,20.0,20.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+[A2T] Shorts Youtube #2,14,50.0,50.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0
+_mirror_DSA_test,2,100.0,100.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-08,0.0,0.0,0.0,0.0

@@ -90,13 +90,17 @@ def run_daily(report_date: date, campaigns: list[CampaignRow], output_dir: Path,
     rec_rows = []
     for r in sorted(recs, key=lambda x: x.priority):
         c = campaign_by_name.get(r.campaign)
+        spend_30d = round(c.spend_30d, 2) if c else 0.0
+        conv_30d = round(c.conv_value_30d, 2) if c else 0.0
+        spend_mtd_est = round((c.spend_30d * (month_day / month_days)), 2) if c else 0.0
         rec_rows.append(
             asdict(r)
             | {
                 "report_date": report_date.isoformat(),
                 "roas_30d": round(c.roas_30d, 3) if c else 0.0,
-                "spend_30d": round(c.spend_30d, 2) if c else 0.0,
-                "conv_value_30d": round(c.conv_value_30d, 2) if c else 0.0,
+                "spend_30d": spend_30d,
+                "spend_mtd_est": spend_mtd_est,
+                "conv_value_30d": conv_30d,
             }
         )
 
