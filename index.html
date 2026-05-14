@@ -222,6 +222,25 @@ function renderTable(el, rows) {
   el.innerHTML = html;
 }
 
+function formatPacingRows(rows) {
+  const numericKeys = new Set([
+    'monthly_budget',
+    'spend_mtd',
+    'spend_expected',
+    'pacing_ratio',
+    'forecast_month_end',
+    'remaining_budget',
+    'forecast_ratio_vs_budget'
+  ]);
+  return rows.map(row => {
+    const out = { ...row };
+    for (const k of Object.keys(out)) {
+      if (numericKeys.has(k)) out[k] = num(out[k]).toFixed(2);
+    }
+    return out;
+  });
+}
+
 function renderBudgetSharePie(channelRows) {
   const rows = channelRows.map(r => ({
     channel: r.channel,
@@ -424,7 +443,7 @@ async function loadDashboardData() {
     renderRoasBars(channelRows);
     renderCampaignBudgetBars(recRows);
     renderCampaignRoasBars(recRows);
-    renderTable(document.getElementById('pacing'), pacingRows);
+    renderTable(document.getElementById('pacing'), formatPacingRows(pacingRows));
     renderTable(document.getElementById('recs'), recRows);
     renderTable(document.getElementById('channels'), channelRows);
     renderTable(document.getElementById('history'), historyRows);

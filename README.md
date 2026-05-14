@@ -70,3 +70,10 @@ Required GitHub repository secrets:
 Notes:
 - Schedule runs hourly in UTC.
 - You can trigger an immediate refresh from Actions using `workflow_dispatch`.
+
+## Server deploy without GitHub Actions (pull + cron)
+If you prefer server-side refresh jobs:
+- Use `.env.server.example` as template for server secrets/config.
+- Use `scripts/refresh_a2t.sh` to pull live Google Ads data and publish `data/output/*.csv` to web root.
+- Use `scripts/install_cron.sh` to install hourly cron refresh.
+- Full steps: `docs/server-deploy.md`
