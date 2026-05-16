@@ -1,5 +1,5 @@
 report_date,campaign,recommendation,recommended_budget,decision,manual_note,applied_by,applied_at
-2026-05-16,Brand Protect,Hold,1500.0,PENDING,,,
+2026-05-16,Brand Protect,Hold / Preventive cap,1500.0,PENDING,,,
 2026-05-16,Caut Instalare,Hold,1000.0,PENDING,,,
 2026-05-16,PMax - New - Supraveghere Video,Reduce 10%,9000.0,PENDING,,,
 2026-05-16,PMax - New - FotoVoltaice/Solare,Reduce 10%,1800.0,PENDING,,,
@@ -24,7 +24,7 @@ report_date,campaign,recommendation,recommended_budget,decision,manual_note,appl
 2026-05-16,June 2024 - Search - Smart Home - tROAS,Hold,300.0,PENDING,,,
 2026-05-16,PMax - New - Alarme antiincendiu,Hold,1100.0,PENDING,,,
 2026-05-16,PMax - New - Control Acces,Hold / Preventive cap,1000.0,PENDING,,,
-2026-05-16,PMax - New - Accesorii Supraveghere,Hold,2900.0,PENDING,,,
+2026-05-16,PMax - New - Accesorii Supraveghere,Reduce 10%,2610.0,PENDING,,,
 2026-05-16,PMax - New - Kituri Supraveghere,Reduce 15%,2125.0,PENDING,,,
 2026-05-16,PMax - New - Sonorizari,Hold,500.0,PENDING,,,
 2026-05-16,DGen - All other categories,Reduce 15%,510.0,PENDING,,,
