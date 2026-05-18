@@ -11,6 +11,53 @@ from .models import CampaignRow, Policy
 from .rules import PacingSnapshot, calc_pacing, recommend_for_campaign
 
 
+def _normalize_token(token: str) -> str:
+    return " ".join(token.strip().split())
+
+
+def _campaign_parts(name: str) -> list[str]:
+    return [_normalize_token(p) for p in name.split("-") if _normalize_token(p)]
+
+
+def _infer_category_and_product(campaign_name: str) -> tuple[str, str]:
+    parts = _campaign_parts(campaign_name)
+    if not parts:
+        return ("Uncategorized", "Unknown")
+
+    stop_tokens = {
+        "pmax",
+        "search",
+        "dgen",
+        "video",
+        "new",
+        "purchase",
+        "views",
+        "no rmkt",
+        "no product feed",
+        "shopping only",
+        "no brand",
+        "troas",
+        "almax",
+        "generic",
+        "test",
+    }
+
+    filtered = []
+    for p in parts:
+        low = p.lower()
+        if low in stop_tokens:
+            continue
+        filtered.append(p)
+
+    if not filtered:
+        fallback = parts[-1]
+        return (fallback, fallback)
+
+    category = filtered[0]
+    product = filtered[-1]
+    return (category, product)
+
+
 def load_campaigns(path: Path) -> list[CampaignRow]:
     rows: list[CampaignRow] = []
     with path.open("r", newline="", encoding="utf-8") as f:
@@ -126,6 +173,60 @@ def run_daily(report_date: date, campaigns: list[CampaignRow], output_dir: Path,
             }
         )
 
+    by_category: dict[str, dict[str, float]] = defaultdict(lambda: {"spend_30d": 0.0, "spend_mtd_est": 0.0, "conv_value_30d": 0.0, "budget": 0.0, "campaigns": 0.0})
+    by_product: dict[str, dict[str, float]] = defaultdict(lambda: {"spend_30d": 0.0, "spend_mtd_est": 0.0, "conv_value_30d": 0.0, "budget": 0.0, "campaigns": 0.0})
+    product_categories: dict[str, set[str]] = defaultdict(set)
+    for c in campaigns:
+        category, product = _infer_category_and_product(c.campaign)
+        spend_mtd_est = c.spend_30d * (month_day / month_days)
+
+        by_category[category]["spend_30d"] += c.spend_30d
+        by_category[category]["spend_mtd_est"] += spend_mtd_est
+        by_category[category]["conv_value_30d"] += c.conv_value_30d
+        by_category[category]["budget"] += c.daily_budget
+        by_category[category]["campaigns"] += 1
+
+        by_product[product]["spend_30d"] += c.spend_30d
+        by_product[product]["spend_mtd_est"] += spend_mtd_est
+        by_product[product]["conv_value_30d"] += c.conv_value_30d
+        by_product[product]["budget"] += c.daily_budget
+        by_product[product]["campaigns"] += 1
+        product_categories[product].add(category)
+
+    category_rows = []
+    for category, m in by_category.items():
+        roas = m["conv_value_30d"] / m["spend_30d"] if m["spend_30d"] > 0 else 0.0
+        category_rows.append(
+            {
+                "report_date": report_date.isoformat(),
+                "category": category,
+                "campaign_count": int(m["campaigns"]),
+                "daily_budget_total": round(m["budget"], 2),
+                "spend_mtd_est": round(m["spend_mtd_est"], 2),
+                "spend_30d": round(m["spend_30d"], 2),
+                "conv_value_30d": round(m["conv_value_30d"], 2),
+                "roas_30d": round(roas, 3),
+            }
+        )
+
+    product_rows = []
+    for product, m in by_product.items():
+        roas = m["conv_value_30d"] / m["spend_30d"] if m["spend_30d"] > 0 else 0.0
+        categories = sorted(product_categories.get(product, set()))
+        product_rows.append(
+            {
+                "report_date": report_date.isoformat(),
+                "product": product,
+                "category": " | ".join(categories),
+                "campaign_count": int(m["campaigns"]),
+                "daily_budget_total": round(m["budget"], 2),
+                "spend_mtd_est": round(m["spend_mtd_est"], 2),
+                "spend_30d": round(m["spend_30d"], 2),
+                "conv_value_30d": round(m["conv_value_30d"], 2),
+                "roas_30d": round(roas, 3),
+            }
+        )
+
     decision_rows = [
         {
             "report_date": report_date.isoformat(),
@@ -143,6 +244,8 @@ def run_daily(report_date: date, campaigns: list[CampaignRow], output_dir: Path,
     _write_csv(output_dir / "daily_pacing.csv", pacing_rows)
     _write_csv(output_dir / "campaign_recommendations.csv", rec_rows)
     _write_csv(output_dir / "channel_summary.csv", channel_rows)
+    _write_csv(output_dir / "category_summary.csv", sorted(category_rows, key=lambda x: x["spend_mtd_est"], reverse=True))
+    _write_csv(output_dir / "product_summary.csv", sorted(product_rows, key=lambda x: x["spend_mtd_est"], reverse=True))
     _write_csv(output_dir / "decision_log.csv", decision_rows)
 
     # History tracking with upsert semantics to avoid duplicate rows for the same date.

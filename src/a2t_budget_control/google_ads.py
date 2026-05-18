@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import os
+import calendar
 from dataclasses import dataclass
+from datetime import date
 from typing import Iterable
 
 from .models import CampaignRow
@@ -156,3 +158,151 @@ def export_campaign_rows_csv(rows: Iterable[CampaignRow], path: str) -> None:
                     "conv_value_30d": round(r.conv_value_30d, 2),
                 }
             )
+
+
+def fetch_product_category_product_summaries(
+    config: GoogleAdsConfig,
+    report_date: date,
+    campaigns: list[CampaignRow],
+) -> tuple[list[dict], list[dict]]:
+    client = _load_google_ads_client(config)
+    service = client.get_service("GoogleAdsService")
+
+    query = """
+        SELECT
+          campaign.name,
+          campaign.status,
+          segments.product_type_l1,
+          segments.product_type_l2,
+          segments.product_category_level1,
+          segments.product_category_level2,
+          segments.product_item_id,
+          segments.product_title,
+          metrics.cost_micros,
+          metrics.conversions_value
+        FROM shopping_performance_view
+        WHERE campaign.status = 'ENABLED'
+          AND segments.date DURING LAST_30_DAYS
+          AND segments.product_item_id IS NOT NULL
+    """
+
+    stream = service.search_stream(customer_id=config.customer_id, query=query)
+
+    by_category: dict[str, dict[str, float | str | set[str]]] = {}
+    by_product: dict[str, dict[str, float | str | set[str]]] = {}
+    budget_by_campaign_name = {c.campaign: c.daily_budget for c in campaigns}
+    category_campaigns: dict[str, set[str]] = {}
+    product_campaigns: dict[str, set[str]] = {}
+    product_categories: dict[str, set[str]] = {}
+
+    for batch in stream:
+        for row in batch.results:
+            campaign_name = str(row.campaign.name)
+
+            product_type_l2 = str(row.segments.product_type_l2 or "").strip()
+            product_type_l1 = str(row.segments.product_type_l1 or "").strip()
+            level2 = str(row.segments.product_category_level2 or "").strip()
+            level1 = str(row.segments.product_category_level1 or "").strip()
+
+            # Prefer merchant-defined product types (readable business structure).
+            category_raw = product_type_l2 or product_type_l1 or level2 or level1 or "Uncategorized"
+            if category_raw.startswith("productCategoryConstants/LEVEL"):
+                category = category_raw.split("~", 1)[-1]
+                category = f"GoogleCategoryID {category}"
+            else:
+                category = category_raw
+
+            product_id = str(row.segments.product_item_id or "").strip()
+            product_title = str(row.segments.product_title or "").strip()
+            product = product_title or product_id or "Unknown product"
+
+            spend = row.metrics.cost_micros / 1_000_000
+            conv_value = row.metrics.conversions_value
+
+            if category not in by_category:
+                by_category[category] = {
+                    "category": category,
+                    "spend_30d": 0.0,
+                    "conv_value_30d": 0.0,
+                }
+                category_campaigns[category] = set()
+            by_category[category]["spend_30d"] += spend
+            by_category[category]["conv_value_30d"] += conv_value
+            category_campaigns[category].add(campaign_name)
+
+            if product not in by_product:
+                by_product[product] = {
+                    "product": product,
+                    "spend_30d": 0.0,
+                    "conv_value_30d": 0.0,
+                }
+                product_campaigns[product] = set()
+                product_categories[product] = set()
+            by_product[product]["spend_30d"] += spend
+            by_product[product]["conv_value_30d"] += conv_value
+            product_campaigns[product].add(campaign_name)
+            product_categories[product].add(category)
+
+    month_day = report_date.day
+    month_days = calendar.monthrange(report_date.year, report_date.month)[1]
+    mtd_factor = month_day / month_days if month_days > 0 else 0.0
+
+    category_rows: list[dict] = []
+    for category, m in by_category.items():
+        spend_30d = float(m["spend_30d"])
+        conv_30d = float(m["conv_value_30d"])
+        campaigns = category_campaigns[category]
+        campaign_list = sorted(campaigns)
+        budget_total = sum(budget_by_campaign_name.get(cname, 0.0) for cname in campaigns)
+        category_rows.append(
+            {
+                "report_date": report_date.isoformat(),
+                "category": category,
+                "campaign_count": len(campaigns),
+                "source_campaigns": " | ".join(campaign_list),
+                "daily_budget_total": round(budget_total, 2),
+                "spend_mtd_est": round(spend_30d * mtd_factor, 2),
+                "spend_30d": round(spend_30d, 2),
+                "conv_value_30d": round(conv_30d, 2),
+                "roas_30d": round((conv_30d / spend_30d) if spend_30d > 0 else 0.0, 3),
+            }
+        )
+
+    product_rows: list[dict] = []
+    for product, m in by_product.items():
+        spend_30d = float(m["spend_30d"])
+        conv_30d = float(m["conv_value_30d"])
+        campaigns = product_campaigns[product]
+        categories = sorted(product_categories.get(product, set()))
+        campaign_list = sorted(campaigns)
+        budget_total = sum(budget_by_campaign_name.get(cname, 0.0) for cname in campaigns)
+        product_rows.append(
+            {
+                "report_date": report_date.isoformat(),
+                "product": product,
+                "category": " | ".join(categories),
+                "campaign_count": len(campaigns),
+                "source_campaigns": " | ".join(campaign_list),
+                "daily_budget_total": round(budget_total, 2),
+                "spend_mtd_est": round(spend_30d * mtd_factor, 2),
+                "spend_30d": round(spend_30d, 2),
+                "conv_value_30d": round(conv_30d, 2),
+                "roas_30d": round((conv_30d / spend_30d) if spend_30d > 0 else 0.0, 3),
+            }
+        )
+
+    category_rows.sort(key=lambda x: x["spend_mtd_est"], reverse=True)
+    product_rows.sort(key=lambda x: x["spend_mtd_est"], reverse=True)
+    return category_rows, product_rows
+
+
+def export_dict_rows_csv(rows: list[dict], path: str) -> None:
+    import csv
+
+    if not rows:
+        return
+    fieldnames = list(rows[0].keys())
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(rows)
