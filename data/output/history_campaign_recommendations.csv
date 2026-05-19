@@ -342,7 +342,7 @@ Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidat
 Brand Protect,2,1500.0,1500.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-19,20.88,8863.36,5432.38,185068.11
 Caut Instalare,2,1000.0,1000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-19,6.271,963.7,590.65,6043.11
 DGen - All other categories,14,600.0,510.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-05-19,3.944,2256.72,1383.15,8899.41
-DGen - Automatizari,14,750.0,600.0,Reduce 20%,2,ROAS sub 2.5.,2026-05-19,2.017,6450.97,3953.82,13014.63
+DGen - Automatizari,14,750.0,600.0,Reduce 20%,2,ROAS sub 2.5.,2026-05-19,2.017,6451.0,3953.84,13014.63
 DGen - RMKT - BF Promo,14,600.0,600.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-19,0.0,0.0,0.0,0.0
 DGen - Supraveghere,14,1150.0,977.5,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-05-19,3.618,23965.47,14688.51,86698.56
 DGen - Supraveghere - NO RMKT - tROAS - AC/BC,14,210.0,168.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-05-19,0.0,3031.91,1858.27,0.0
@@ -369,7 +369,7 @@ PMax - New - Kituri Supraveghere,10,2500.0,2250.0,Reduce 10%,4,ROAS intre 4.0 si
 PMax - New - Sisteme Alarma,10,1800.0,1800.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-19,6.724,7313.82,4482.66,49177.24
 PMax - New - SmartHome,10,2000.0,2000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-19,9.967,5462.49,3347.97,54443.27
 PMax - New - Sonorizari,10,500.0,500.0,Hold,6,Fara trigger de ajustare.,2026-05-19,7.867,5841.05,3580.0,45952.95
-PMax - New - Supraveghere Video,10,10000.0,9000.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-05-19,4.729,144444.43,88530.46,683095.93
+PMax - New - Supraveghere Video,10,10000.0,9000.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-05-19,4.729,144444.42,88530.45,683126.81
 PMax - Poor Products - Shopping - LOW ROAS,10,620.0,620.0,Hold,6,Fara trigger de ajustare.,2026-05-19,9.712,18490.39,11332.82,179580.23
 PMax - Promo BF 2025 - Shopping Only,10,1800.0,1800.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-19,0.0,0.0,0.0,0.0
 PMax - Purchase - Accesorii,10,3300.0,3300.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-19,10.303,12579.17,7709.81,129598.65
