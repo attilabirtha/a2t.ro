@@ -1,9 +1,9 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
-Brand Protect,2,2,1500.0,2072.28,8881.2,46406.03,198883.01
+Brand Protect,2,2,1500.0,2072.28,8881.2,46452.0,199079.99
 Caut Instalare,2,2,1000.0,222.33,952.84,1410.06,6043.11
 PMax - New - Supraveghere Video,10,2,10000.0,32082.79,137497.69,151665.77,649996.16
 PMax - New - FotoVoltaice/Solare,10,2,2000.0,2060.09,8828.96,9524.49,40819.22
-PMax - New - Automatizari Porti,10,2,4500.0,23665.8,101424.85,123878.8,530909.15
+PMax - New - Automatizari Porti,10,2,4500.0,23665.8,101424.85,125513.76,537916.11
 PMax - New - Interfoane,10,2,1800.0,2518.26,10792.55,23550.58,100931.06
 PMax - New - Sisteme Alarma,10,2,1800.0,1671.35,7162.93,11572.33,49595.72
 PMax - New - SmartHome,10,2,2000.0,1290.33,5529.98,12844.54,55048.05
@@ -22,12 +22,12 @@ June 2024 - Search - Alarme - tROAS,2,2,2000.0,13.77,59.01,11.19,47.94
 June 2024 - Search - Acces Pontaj - tROAS,2,2,2000.0,23.68,101.49,201.34,862.87
 June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,1.83,7.83,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,1.58,6.79,0.0,0.0
-PMax - New - Alarme antiincendiu,10,2,1100.0,7703.86,33016.55,41343.8,177187.73
+PMax - New - Alarme antiincendiu,10,2,1100.0,7703.86,33016.54,41343.8,177187.73
 PMax - New - Control Acces,10,2,1000.0,77.6,332.58,947.93,4062.55
-PMax - New - Accesorii Supraveghere,10,2,2900.0,18049.74,77356.02,96013.97,411488.46
+PMax - New - Accesorii Supraveghere,10,2,2900.0,18049.74,77356.02,94628.45,405550.48
 PMax - New - Kituri Supraveghere,10,2,2500.0,1614.77,6920.45,8515.63,36495.55
-PMax - New - Sonorizari,10,2,500.0,1397.74,5990.32,11688.75,50094.62
-DGen - All other categories,14,2,600.0,563.55,2415.22,2751.99,11794.26
+PMax - New - Sonorizari,10,2,500.0,1397.74,5990.32,11763.17,50413.59
+DGen - All other categories,14,2,600.0,563.55,2415.22,2764.18,11846.47
 DGen - Supraveghere,14,2,1150.0,5741.46,24606.27,21312.36,91338.7
 PMax - Scule si Unelte,10,2,4000.0,2947.51,12632.17,23677.01,101472.89
 PMax - Poor Products - Shopping - LOW ROAS,10,2,620.0,4323.35,18528.63,43952.15,188366.34
