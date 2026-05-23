@@ -490,9 +490,9 @@ Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidat
 Brand Protect,2,1500.0,1500.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-23,21.571,8943.04,6635.16,192907.09
 Caut Instalare,2,1000.0,1000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-23,6.395,945.03,701.15,6043.11
 DGen - All other categories,14,600.0,600.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-23,5.214,2644.28,1961.89,13786.34
-DGen - Automatizari,14,750.0,600.0,Reduce 20%,2,ROAS sub 2.5.,2026-05-23,2.213,6809.13,5051.94,15071.45
+DGen - Automatizari,14,750.0,600.0,Reduce 20%,2,ROAS sub 2.5.,2026-05-23,2.213,6808.96,5051.81,15071.45
 DGen - RMKT - BF Promo,14,600.0,600.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-23,0.0,0.0,0.0,0.0
-DGen - Supraveghere,14,1150.0,1035.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-05-23,4.052,25508.95,18926.0,103369.1
+DGen - Supraveghere,14,1150.0,1035.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-05-23,4.052,25508.12,18925.38,103369.1
 DGen - Supraveghere - NO RMKT - tROAS - AC/BC,14,210.0,168.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-05-23,0.0,2922.02,2167.95,0.0
 June 2024 - Search - Acces Pontaj - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-23,9.617,89.72,66.57,862.87
 June 2024 - Search - Accesorii Supraveghere - tROAS,2,3000.0,2550.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-05-23,2.834,1983.85,1471.89,5622.91
@@ -507,8 +507,8 @@ June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,40
 NEW - DSA - Automatizari Porti - No Accesories,2,2000.0,1600.0,Reduce 20%,2,ROAS sub 2.5.,2026-05-23,1.185,1654.54,1227.56,1959.89
 NEW - DSA - Supraveghere - No Accesories,2,1000.0,900.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-05-23,4.595,9996.35,7416.65,45931.34
 PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,3300.0,3300.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-23,9.308,14993.43,11124.16,139558.28
-PMax - New - Accesorii Supraveghere,10,2900.0,2900.0,Hold,6,Fara trigger de ajustare.,2026-05-23,5.266,74805.48,55500.84,393952.41
-PMax - New - Alarme antiincendiu,10,1100.0,990.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-05-23,4.845,32965.8,24458.5,159727.14
+PMax - New - Accesorii Supraveghere,10,2900.0,2900.0,Hold,6,Fara trigger de ajustare.,2026-05-23,5.266,74805.48,55500.84,393954.57
+PMax - New - Alarme antiincendiu,10,1100.0,990.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-05-23,4.845,32965.78,24458.48,159727.14
 PMax - New - Automatizari Porti,10,4500.0,4500.0,Hold,6,Fara trigger de ajustare.,2026-05-23,5.031,97563.18,72385.59,490873.64
 PMax - New - Control Acces,10,1000.0,1000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-23,13.088,310.41,230.31,4062.53
 PMax - New - FotoVoltaice/Solare,10,2000.0,1800.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-05-23,4.728,8550.04,6343.57,40427.38
@@ -518,7 +518,7 @@ PMax - New - Sisteme Alarma,10,1800.0,1800.0,Hold / Preventive cap,5,Buget > 5x 
 PMax - New - SmartHome,10,2000.0,2000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-23,8.922,5470.5,4058.76,48810.35
 PMax - New - Sonorizari,10,500.0,550.0,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-05-23,8.616,6092.74,4520.42,52494.07
 PMax - New - Supraveghere Video,10,10000.0,9000.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-05-23,4.836,128342.17,95221.61,620699.22
-PMax - Poor Products - Shopping - LOW ROAS,10,620.0,682.0,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-05-23,9.7,18458.91,13695.32,179045.77
+PMax - Poor Products - Shopping - LOW ROAS,10,620.0,682.0,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-05-23,9.7,18458.91,13695.32,179048.16
 PMax - Promo BF 2025 - Shopping Only,10,1800.0,1800.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-05-23,0.0,0.0,0.0,0.0
 PMax - Purchase - Accesorii,10,3300.0,3300.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-23,9.348,13350.64,9905.31,124799.92
 PMax - Scule si Unelte,10,4000.0,4000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-05-23,8.874,12336.33,9152.76,109478.29
