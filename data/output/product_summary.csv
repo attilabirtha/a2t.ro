@@ -131,8 +131,8 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Tablou cu contrapanou, usa transparenta, din ABS, IP65, 441/3314",cabluri,2,PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,2020.0,379.8,436.07,4353.1,9.983
 2026-05-27,"Card MicroSD, 32GB, Clasa 10, citire 95 Mbps, scriere 25 Mbps, IMOU, ST2-32-S1 MICROSD32-IMOU",hard disk-uri,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Purchase - Accesorii | PMax - Top Products last 14 days - Feed Only,8000.0,378.91,435.04,2563.44,5.892
 2026-05-27,"Sina V, 3 metri, aplicata, culisare la sol, Combi Arialdo 906",porti culisante,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Automatizari Porti,7800.0,373.65,429.01,1914.91,4.464
-2026-05-27,"Kit supraveghere IP wireless de exterior Hikvision HiLook IKS-2042BH-PH/W, EasyLink, 2 camere , 2MP, IR 30m, Audio, microSD, NVS,",kituri supraveghere,2,PMax - New - Kituri Supraveghere | PMax - Top Products last 14 days - Feed Only,3900.0,371.43,426.46,3715.62,8.713
-2026-05-27,"Kit de alimentare pentru camere auto 70Mai, cablu 4m, Type-C, 12V-30V, Plug and play, Midrive-OBD01",alimentatori si surse,1,PMax - New - Accesorii Supraveghere,2900.0,369.45,424.18,4653.98,10.972
+2026-05-27,"Kit supraveghere IP wireless de exterior Hikvision HiLook IKS-2042BH-PH/W, EasyLink, 2 camere , 2MP, IR 30m, Audio, microSD, NVS,",kituri supraveghere,2,PMax - New - Kituri Supraveghere | PMax - Top Products last 14 days - Feed Only,3900.0,371.43,426.46,3716.09,8.714
+2026-05-27,"Kit de alimentare pentru camere auto 70Mai, cablu 4m, Type-C, 12V-30V, Plug and play, Midrive-OBD01",alimentatori si surse,1,PMax - New - Accesorii Supraveghere,2900.0,369.45,424.18,4672.13,11.014
 2026-05-27,"Panou fotovoltaic TOPHiku6 Canadian Solar CS6.2-48TD-450-BF, 450W, monocristalin, IP68",sisteme fotovoltaice,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - FotoVoltaice/Solare | PMax - Top Products last 14 days - Feed Only,6700.0,368.59,423.2,206.66,0.488
 2026-05-27,"Rack slim 19 inch, 3U, 580x500x180mm, metal, alb, Stalflex CR19-3U-180-W",rack si ups,1,PMax - New - Accesorii Supraveghere,2900.0,365.39,419.52,1393.54,3.322
 2026-05-27,Kit automatizare poarta batanta 2x5 metri Life Optimo5,porti batante,1,PMax - New - Automatizari Porti,4500.0,364.91,418.97,21.24,0.051
@@ -167,7 +167,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Kit automatizare poarta culisanta 600 Kg LIFE Acer, ACER600",porti culisante,2,PMax - New - Automatizari Porti | PMax - Top Products last 14 days - Feed Only,5900.0,304.27,349.35,2080.18,5.954
 2026-05-27,"Automatizare ventilatie cu lant, pentru geamuri batante, Comunello SMART 20 MSMART20H0G00, 230V, 22W",automatizari ferestre,1,PMax - New - Automatizari Porti,4500.0,302.71,347.55,1965.08,5.654
 2026-05-27,"Sina C75 pentru porti autoportante, Galvanizata, 6 metri",porti culisante,1,PMax - New - Automatizari Porti,4500.0,301.99,346.73,175.76,0.507
-2026-05-27,"Rack de perete 4U, SOHO, 540x450mm, usa din sticla securizata, yala cu cheie, Safer SAF-WMQ5404",rack si ups,1,PMax - New - Accesorii Supraveghere,2900.0,301.61,346.29,967.05,2.793
+2026-05-27,"Rack de perete 4U, SOHO, 540x450mm, usa din sticla securizata, yala cu cheie, Safer SAF-WMQ5404",rack si ups,1,PMax - New - Accesorii Supraveghere,2900.0,301.61,346.29,967.64,2.794
 2026-05-27,"Camera supraveghere IP Wi-Fi Hikvision HiLook IPC-B140HA-D/W(W), 4 MP, IR 30m, EXIR 2.0, microfon si difuzor, slot card MicroSD, IP66",camere ip wireless,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Supraveghere Video,13300.0,301.55,346.22,4248.05,12.27
 2026-05-27,"Set boxe Power Dynamics BC30V, 60W, 100V, 8 Ohmi, IPX5, negre",sonorizare pa 100v,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Sonorizari | PMax - Top Products last 14 days - Feed Only,5200.0,300.47,344.98,2693.83,7.809
 2026-05-27,"Patch Panel 1U, FTP cat6, 24 porturi RJ45, ASY-PP-FTP6-24",rack si ups,2,PMax - New - Accesorii Supraveghere | PMax - Top Products last 14 days - Feed Only,4300.0,298.52,342.74,1873.18,5.465
@@ -394,7 +394,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Camera supraveghere IP Dahua ECO Series IPC-B1E49-A-IL-0280B-S2, 4MP, 2.8mm, Iluminare duala, microfon, PoE, IP67",camere ip,1,PMax - New - Supraveghere Video,10000.0,139.1,159.71,29.4,0.184
 2026-05-27,"Acumulator 12V, PL 12 AH, AGM VRLA 12V 12,05A, TED12125",accesorii alarme,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Sisteme Alarma | PMax - Purchase - Accesorii,8400.0,138.89,159.47,153.58,0.963
 2026-05-27,"Switch HDMI 2 canale, 4K, 60Hz, indicatori LED, IP54, Ugreen CM217",cabluri supraveghere,1,PMax - New - Accesorii Supraveghere,2900.0,138.55,159.07,152.68,0.96
-2026-05-27,"Cablu electric, cupru unifilar clasa de flexibilitate 1, izolatie de PVC, armatura din banda de otel, CYABY5X10",cabluri,1,PMax - Poor Products - Shopping - LOW ROAS,620.0,138.51,159.03,724.87,4.558
+2026-05-27,"Cablu electric, cupru unifilar clasa de flexibilitate 1, izolatie de PVC, armatura din banda de otel, CYABY5X10",cabluri,1,PMax - Poor Products - Shopping - LOW ROAS,620.0,138.51,159.03,784.96,4.936
 2026-05-27,"UPS smart APC SMT1500IC, 1500VA, 1000W, 8x priza IEC 320 C14",rack si ups,1,PMax - New - Accesorii Supraveghere,2900.0,138.41,158.91,0.0,0.0
 2026-05-27,"UPS Hikvision DS-UPS1000, 1000VA, 600W, baterie 12V 9Ah, protectii multiple",rack si ups,2,PMax - New - Accesorii Supraveghere | PMax - Top Products last 14 days - Feed Only,4300.0,137.27,157.61,347.63,2.206
 2026-05-27,"Post de interior interfon Electra PAS.37A, taste touch iluminate, Compatibil cu sistemul Digital PAS.17A si P4S.A91, Seria Mini, Alb",interfon,2,PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,2020.0,137.2,157.53,661.71,4.201
@@ -407,7 +407,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Aspirator umed/uscat M18 Milwaukee, motor 18V, suflanta incorporata, autonomie 30min, 4933464029",scule electrice,2,PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,2020.0,134.4,154.31,3585.78,23.237
 2026-05-27,"Post exterior Hikvision pentru videointerfon, 4MP, WiFi 6, cititor card M1, tastatura, Bluetooth, PoE, IP65, DS-KV6124-WBE1",videointerfon,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Interfoane,5100.0,134.29,154.18,0.48,0.003
 2026-05-27,"Automatizare cu lant pentru geamuri batante, Trape 24V KATO253 24V/Gri",antiincendiu adresabil,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Alarme antiincendiu,4400.0,134.06,153.92,946.76,6.151
-2026-05-27,"Dispozitiv electric tragator cabluri Milwaukee cu tambur interschimbabil, model M18 FPFT-202, tambur otel 36m, 18V, 4933471953",scule electrice,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Scule si Unelte | PMax - Top Products last 14 days - Feed Only,8700.0,133.87,153.7,11319.31,73.645
+2026-05-27,"Dispozitiv electric tragator cabluri Milwaukee cu tambur interschimbabil, model M18 FPFT-202, tambur otel 36m, 18V, 4933471953",scule electrice,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Scule si Unelte | PMax - Top Products last 14 days - Feed Only,8700.0,133.87,153.7,14324.28,93.196
 2026-05-27,"Cablu de retea FTP Schrack HSEKP423HAx400, CAT 6A, LS0H-3, 400m, 4x2xAWG23/1",cabluri supraveghere,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Accesorii Supraveghere,6200.0,133.51,153.29,2606.97,17.007
 2026-05-27,"Prelungitor 9 prize, comutator, cablu de 2m, mufe Schuko, Safer SAF- PDU9",rack si ups,2,PMax - New - Accesorii Supraveghere | PMax - Purchase - Accesorii,6200.0,133.29,153.04,357.36,2.335
 2026-05-27,"Videointerfon IP, Wi-Fi / LAN / PoE, cu control acces, Hikvision DS-KV6113-WPE1",videointerfon,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Interfoane | PMax - Top Products last 14 days - Feed Only,6500.0,133.14,152.87,2127.44,13.917
@@ -850,7 +850,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Releu inteligent wireless Shelly i4 GEN3, Bluetooth, Wi-Fi, aplicatie mobila, ALL-KIE-PLUSI4-R3",dispozitive smart home,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - SmartHome,5300.0,66.78,76.67,1089.72,14.213
 2026-05-27,"Camera de exterior Hikvision Smart Hybrid cu LED alb si IR 40m, 5MP 3K, 3.6mm, Audio, IP67, DS-2CE17K0T-LFS-3.6mm",camere supraveghere exterior,1,PMax - New - Supraveghere Video,10000.0,66.7,76.58,580.96,7.586
 2026-05-27,"Usa de garaj sectionala ARGINTIU RAL9006 2220 x 2500, Usa9006",usi de garaj,1,PMax - New - Automatizari Porti,4500.0,66.67,76.55,0.0,0.0
-2026-05-27,"Rack 6U cu montaj pe perete, 600x450, usa din sticla securizata, yala cu cheie, Safer SAF-WMA-6406",rack si ups,1,PMax - New - Accesorii Supraveghere,2900.0,66.64,76.51,679.98,8.887
+2026-05-27,"Rack 6U cu montaj pe perete, 600x450, usa din sticla securizata, yala cu cheie, Safer SAF-WMA-6406",rack si ups,1,PMax - New - Accesorii Supraveghere,2900.0,66.64,76.51,680.47,8.894
 2026-05-27,"Camera supraveghere wireless de exterior cu alarma, 2 lentile de 3+3MP, 3K, 4mm, iluminare cu LED si IR, audio bidirectional, IP66, Tiandy TC-H363N-I5",camere ip wireless,1,PMax - New - Supraveghere Video,10000.0,66.55,76.41,228.08,2.985
 2026-05-27,"Poarta auto curte Virtuoso Poseidon, aluminiu, 3000x1800mm, gri antracit, prefabricata, 50-805P/7016",porti batante,1,PMax - New - Automatizari Porti,4500.0,66.4,76.24,17.31,0.227
 2026-05-27,"Unitate de control Comunello MX00AU09L0W00, pentru automatizarile MOWIN, 24V, Wi-Fi 2.4GHz, control din aplicatie",automatizari ferestre,1,PMax - New - Automatizari Porti,4500.0,66.14,75.94,0.53,0.007
@@ -1132,9 +1132,9 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Camera de supraveghere pentru vanatoare Safer PH910K, 8MP 4K Video, 48MP Foto, IR 20m, PIR, microSD, Audio, IP56",camere supraveghere exterior,1,PMax - New - Supraveghere Video,10000.0,50.46,57.93,977.98,16.882
 2026-05-27,"Contor monofazic, smart meter, digital 45A, Adeleq 02-553/dig",sisteme fotovoltaice,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - FotoVoltaice/Solare,5300.0,50.46,57.94,387.2,6.683
 2026-05-27,"Tabla interactiva cu touch screen Dahua LCH75-MC410-B Whiteboard, 75 inci 4K, camera 5MP incorporata",monitoare,1,PMax - New - Accesorii Supraveghere,2900.0,50.37,57.83,0.0,0.0
+2026-05-27,"Cutie metalica pentru exterior cu incuietoare si garnitura, 250x200x150mm, IP56, accesorii incluse, Freder, 32-400/25",cabluri,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - FotoVoltaice/Solare,5300.0,50.27,57.72,191.29,3.314
 2026-05-27,"Brat automatizare Life Optimo5, 1MP0110001",porti batante,1,PMax - New - Automatizari Porti,4500.0,50.27,57.71,1803.73,31.252
 2026-05-27,"Masina de gaurit, compacta Milwaukee, motor fara perii M18, mandrina 13mm, cuplu 60.5 Nm, 4933492831",scule electrice,1,PMax - Scule si Unelte,4000.0,50.25,57.69,697.86,12.097
-2026-05-27,"Cutie metalica pentru exterior cu incuietoare si garnitura, 250x200x150mm, IP56, accesorii incluse, Freder, 32-400/25",cabluri,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - FotoVoltaice/Solare,5300.0,50.1,57.53,191.29,3.325
 2026-05-27,"Sursa de alimentare Mean Well NDR-240-24, 24V, 10A, montare pe sina DIN",alimentatori si surse,1,PMax - Poor Products - Shopping - LOW ROAS,620.0,50.0,57.41,2704.61,47.11
 2026-05-27,"UPS 2200VA/1980W, AVR, linie interactiva, unda sinusoidala pura, display LCD, 8 conectori, APC SMT2200IC",rack si ups,1,PMax - New - Accesorii Supraveghere,2900.0,49.97,57.37,0.0,0.0
 2026-05-27,Automatizare desfumare cursa 200-500MM certificat EN 12101-2 KATO 305 RWA 24V-ALB,antiincendiu adresabil,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Alarme antiincendiu,4400.0,49.85,57.23,0.0,0.0
@@ -1180,7 +1180,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Videointerfon IP Dahua VTO2111D-P-S3, camera 2MP, Iluminare IR, Comunicare bidirectionala, PoE, IP65, IK04",producator videointerfon,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Interfoane,5100.0,48.17,55.31,0.0,0.0
 2026-05-27,"Statie de control pentru videointerfon/supraveghere/alarma, 10.1 Inch, WiFi, Hikvison DS-KH9510-WTE1(B)",videointerfon,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Interfoane,5100.0,48.15,55.28,568.38,10.282
 2026-05-27,"Alimentator de exterior 12V 1.25A pentru camere de supraveghere, Safer SAF-15LW",alimentatori si surse,2,PMax - New - Accesorii Supraveghere | PMax - Purchase - Accesorii,6200.0,48.09,55.21,0.0,0.0
-2026-05-27,"Rack de perete 6U, SOHO, 540x450mm, usa din sticla securizata, yala cu cheie, Safer SAF-WMQ5406",rack si ups,1,PMax - New - Accesorii Supraveghere,2900.0,48.09,55.22,4.33,0.078
+2026-05-27,"Rack de perete 6U, SOHO, 540x450mm, usa din sticla securizata, yala cu cheie, Safer SAF-WMQ5406",rack si ups,1,PMax - New - Accesorii Supraveghere,2900.0,48.09,55.22,4.92,0.089
 2026-05-27,"Set Karaoke all In one, boxe, mixer si 2 microfoane, USB Bluetooth, 2x75W, LTC KARAOKE-STAR4",kit-uri de sonorizare,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Sonorizari,3800.0,48.02,55.13,1523.98,27.643
 2026-05-27,"Switch PoE 9 porturi Tp-Link LS109P, 8x porturi PoE+, 1x port RJ45 10/100Mbps, max 63W, fara management",echipamente retea,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,48.02,55.13,5370.44,97.414
 2026-05-27,"Acumulator AGM cu GEL, Deep Cycle, 12V, 67Ah, TED TED003461",accesorii alarme,1,PMax - Poor Products - Shopping - LOW ROAS,620.0,47.99,55.1,550.05,9.983
@@ -2404,7 +2404,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Cablu adaptor display port Tata, HDMI Mama, Full HD pana la 60Hz, Gembird A-DPM-HDMIF-002",cabluri supraveghere,1,PMax - Poor Products - Shopping - LOW ROAS,620.0,18.71,21.48,54.43,2.534
 2026-05-27,"Camera auto spate RC12, 70mai Midrive-RC12",camere supraveghere interior,1,PMax - New - Supraveghere Video,10000.0,18.69,21.46,615.33,28.668
 2026-05-27,Patchcord retea CAT5e 0.5M Galben SP-PT-CAT5-0.5M-Y,cabluri supraveghere,1,PMax - New - Accesorii Supraveghere,2900.0,18.69,21.46,50.22,2.34
-2026-05-27,"Monitor 7"" inch TCP/IP cu Touch Screen Hikvision DS-KH6320-TE1, cablat, 128 Mb memorie, PoE DS-KH6320-TE1",producator videointerfon,1,PMax - New - Interfoane,1800.0,18.67,21.44,62.27,2.904
+2026-05-27,"Monitor 7"" inch TCP/IP cu Touch Screen Hikvision DS-KH6320-TE1, cablat, 128 Mb memorie, PoE DS-KH6320-TE1",producator videointerfon,1,PMax - New - Interfoane,1800.0,18.67,21.44,766.59,35.755
 2026-05-27,"Set receptor wireless 1 canal + 2 Telecomenzi 1 buton Elmes, U1HS",sisteme de alarma wireless,1,PMax - New - Sisteme Alarma,1800.0,18.67,21.44,4.28,0.2
 2026-05-27,"Priza de retea UTP CAT6 aplicata, 2 porturi, ABS, Safer SAF-DUALPORT-6",echipamente retea,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,18.67,21.44,0.0,0.0
 2026-05-27,"Automatizare LIFE pentru usi de garaj sectionale sau basculante, pana la 16m, IP40, PR120-XL",usi de garaj,1,PMax - New - Automatizari Porti,4500.0,18.65,21.41,0.0,0.0
@@ -2650,7 +2650,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Cablu de energie cu izolatie si manta PVC, Multicab CYYF5X1.5, 1.5mm, 0.6/1KV, 100m",cabluri,1,PMax - New - FotoVoltaice/Solare,2000.0,16.36,18.78,61.53,3.276
 2026-05-27,"Ansamblu piston pentru brat automatizare Linomatik 400, LINO-AP",accesorii automatizari porti | accesorii porti si automatizari,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Automatizari Porti | PMax - Purchase - Accesorii,11100.0,16.35,18.77,24.55,1.308
 2026-05-27,"Centrala de alarma 6 zone, 2 partitii, memorie 500 de evenimente, DSC NEO-2016ICON",sisteme alarma cablu,1,PMax - New - Sisteme Alarma,1800.0,16.35,18.77,0.0,0.0
-2026-05-27,"Media convertor Gigabit SM/MM, TP-Link, MC220L",echipamente fibra optica,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,16.35,18.77,9.83,0.524
+2026-05-27,"Media convertor Gigabit SM/MM, TP-Link, MC220L",echipamente fibra optica,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,16.35,18.77,10.25,0.546
 2026-05-27,"Cap multifunctional M18 FUEL QUIK-LOK Milwaukee, 3 setari de viteza, maner reglabil, 4933492662",producatori scule si unelte,1,PMax - Scule si Unelte,4000.0,16.34,18.76,0.0,0.0
 2026-05-27,"Cutter cu lama tip Snap Knife Milwaukee, latime de 25mm, 48221962",producatori scule si unelte,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Scule si Unelte,7300.0,16.33,18.75,73.99,3.946
 2026-05-27,"DVR Pentabrid Dahua XVR5108HS-4KL-I3/T, WizSense, 4K, latime de banda 128Mbps, 1 port SATA",dvr,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,16.33,18.75,0.0,0.0
@@ -2851,7 +2851,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Camera supraveghere HDTVI Hikvision DS-2CE16D0T-ITPFS(2.8MM), 2MP, 2.8mm, IR 25m, Microfon, IP67",camere supraveghere exterior,1,PMax - New - Supraveghere Video,10000.0,14.54,16.69,32.44,1.944
 2026-05-27,"Camera supraveghere TurboHD Hikvision DS-2CE16U0T-LPF(2.8mm), 4K, 2.8mm, Smart Hybrid Light, IP67",camere supraveghere exterior,1,PMax - New - Supraveghere Video,10000.0,14.54,16.69,0.0,0.0
 2026-05-27,Cablu programare sisteme de alarma DSC PC LINK,sisteme alarma cablu,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Sisteme Alarma,5100.0,14.53,16.68,466.71,27.98
-2026-05-27,"Gard anti-trecere pentru barierele Comunello, GLTHEDGE02W00",bariera si sistem parcare | sisteme parcare,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Automatizari Porti,7800.0,14.52,16.67,0.0,0.0
+2026-05-27,"Gard anti-trecere pentru barierele Comunello, GLTHEDGE02W00",bariera si sistem parcare | sisteme parcare,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Automatizari Porti,7800.0,14.52,16.67,317.99,19.076
 2026-05-27,"Set chei imbus hex Milwaukee, 9 bucati, 1.5-10mm, 4932478621",scule de mana,1,PMax - Scule si Unelte,4000.0,14.52,16.67,0.0,0.0
 2026-05-27,"Cleste Milwaukee pentru dezizolare cabluri, 7 in 1, 4932478554",producatori scule si unelte,1,PMax - Scule si Unelte,4000.0,14.51,16.66,0.0,0.0
 2026-05-27,"Organizator cabluri orizontal, 2U, metalic, otel SPCC 1 mm, 19 inch, negru, SAF- ORGM2U",rack si ups,1,PMax - New - Accesorii Supraveghere,2900.0,14.48,16.63,0.0,0.0
@@ -2905,7 +2905,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Kit bariera acces auto KING GATES NUURKIT4, lungime 4m, 24V, IP54",bariera si sistem parcare | sisteme parcare,1,PMax - New - Automatizari Porti,4500.0,14.07,16.15,0.0,0.0
 2026-05-27,"Card de memorie microSD 256GB Kingston CANVAS GO Plus, pana la 200 Mb/s, SDCG4/256GB",hard disk-uri,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Purchase - Accesorii,6600.0,14.07,16.15,14084.23,872.089
 2026-05-27,"Cutie PACKOUT Milwaukee, suporta pana la 22kg, 4932471724",producatori scule si unelte,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Scule si Unelte,7300.0,14.05,16.13,0.0,0.0
-2026-05-27,"Switch cu 8 porturi PoE+ Gigabit, 1 port LAN, 1 port SFP, 63W, Plug And Play, Tp-Link, TL-SG1210P",echipamente retea,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,14.05,16.13,0.0,0.0
+2026-05-27,"Switch cu 8 porturi PoE+ Gigabit, 1 port LAN, 1 port SFP, 63W, Plug And Play, Tp-Link, TL-SG1210P",echipamente retea,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,14.05,16.13,1.27,0.079
 2026-05-27,"Boxa activa 800W cu USB si MP3 Mobila, PORT15VHF-BT",sisteme sonorizare home,1,PMax - New - Sonorizari,500.0,14.05,16.13,0.0,0.0
 2026-05-27,"Capac compatibil cu automatizarile Linomatik Slide, SL-COVER",accesorii porti si automatizari | porti culisante,1,PMax - New - Automatizari Porti,4500.0,14.03,16.11,0.0,0.0
 2026-05-27,"Set mediaconvertor RX+TX Single Mode 100Mb/s 25Km, OM1-SM",echipamente fibra optica,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,14.03,16.1,0.0,0.0
@@ -3030,7 +3030,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Camera supraveghere IP Hikvision HiLook IPC-B149HA-LU, 4MP, 2.8mm, ColorVu, Iluminare duala, Audio, PoE, IP67",camere ip,1,PMax - New - Supraveghere Video,10000.0,13.1,15.04,0.0,0.0
 2026-05-27,"Senzor de inundatie, scurgere apa, 12VDC, iesire releu NC/C/NO, 404-004",accesorii alarme,2,PMax - New - Sisteme Alarma | PMax - Purchase - Accesorii,5100.0,13.09,15.03,113.18,7.528
 2026-05-27,"Camera de supraveghere IP, de interior, Hikvision DS-2CD1123G2-I(2.8mm), 2MP Full HD, IR 30m cu EXIR, detectie miscare cu AI",camere ip,1,PMax - New - Supraveghere Video,10000.0,13.08,15.02,5.7,0.38
-2026-05-27,Receptor radio 2 canale FREDDY2 de la KING GATES,accesorii automatizari porti | accesorii porti si automatizari,2,PMax - New - Automatizari Porti | PMax - Purchase - Accesorii,7800.0,13.08,15.02,0.0,0.0
+2026-05-27,Receptor radio 2 canale FREDDY2 de la KING GATES,accesorii automatizari porti | accesorii porti si automatizari,2,PMax - New - Automatizari Porti | PMax - Purchase - Accesorii,7800.0,13.08,15.02,704.32,46.892
 2026-05-27,"Bec LED, 24V, E14, 1.5W, 3000K, pentru lampi de automatizare, 5RI2000100",accesorii automatizari porti | accesorii porti si automatizari,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Automatizari Porti | PMax - Purchase - Accesorii,11100.0,13.06,15.0,0.0,0.0
 2026-05-27,"Copertina auto carport Virtuoso OMEGA, aluminiu si policarbonat, 3000x5050mm, gri antracit RAL 7016, vopsit termic, 23-718",pergole si mobilier gradina,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,13.06,15.0,0.0,0.0
 2026-05-27,"Monitor curbat cu LED, diagonala 31.5 inch, rezolutie Full HD, timp de raspuns 1ms, VESA 75x75 mm, Dahua LM32-E230C",monitoare,1,PMax - New - Accesorii Supraveghere,2900.0,13.06,15.0,0.0,0.0
@@ -3047,7 +3047,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Amplificator pentru sonorizare Power Dynamics PDW360MP3, 6 zone, 200W, Bluetooth, USB, SD, FM",sonorizare 4-8-16 ohmi,1,PMax - New - Sonorizari,500.0,12.98,14.9,0.0,0.0
 2026-05-27,"Placa compactoare Milwaukee FUEL MXF PC50-122, ONE-KEY,16kN, viteza 26 m/min, cu acumulator 12Ah, 4933493268",scule electrice,1,PMax - Scule si Unelte,4000.0,12.98,14.9,0.0,0.0
 2026-05-27,"Camera de supraveghere interior Full Color, 5MP, 2.8mm, LED 20 metri, Safer SAF-DM5MP20F28-LED",camere supraveghere interior,1,PMax - New - Supraveghere Video,10000.0,12.97,14.89,0.0,0.0
-2026-05-27,"Detector de fum Tri-X wireless fotoelectric, HIKVISION AX PRO DS-PDSMK-S-WE",sisteme de alarma wireless,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Sisteme Alarma,5100.0,12.97,14.89,0.0,0.0
+2026-05-27,"Detector de fum Tri-X wireless fotoelectric, HIKVISION AX PRO DS-PDSMK-S-WE",sisteme de alarma wireless,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Sisteme Alarma,5100.0,12.97,14.89,283.89,19.065
 2026-05-27,"Corp iluminat stradal, 50W, 135LM/W 4000K, alb neutru, IK07 - IP65, V-tac SKU-21958",corpuri iluminat led,1,PMax - New - FotoVoltaice/Solare,2000.0,12.96,14.88,0.0,0.0
 2026-05-27,"Kit alarma wireless antiefractie Heyi cu buton de panica, comunicare 3G/4G, Wi-Fi, 32 zone, sirena inclusa si control din aplicatie mobila, KIT-HEYI-W",sisteme de alarma wireless,1,PMax - New - Sisteme Alarma,1800.0,12.96,14.88,0.0,0.0
 2026-05-27,"Acumulatori reincarcabili Varta AA, Ni-MH 1.2V 2100 mAh, VAR-R6-AA",pc si multimedia,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,12.95,14.87,26.99,1.815
@@ -3146,7 +3146,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Kit sistem de alarma Wireless GSM, 2 zone, 1x detector miscare perdea, 1x senzor de miscare, 1x sirena exterior, 1x sirena interior, Heyi KIT-HEYI-H7-",sisteme de alarma wireless,1,PMax - New - Sisteme Alarma,1800.0,12.1,13.89,0.0,0.0
 2026-05-27,"NVR Hikvision DS-7608NXI-K2(D), 8 canale, 4K, Acusense, 80 Mbps, 2xSATA 16TB, HDMI/VGA",nvr-uri,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,12.09,13.88,547.92,39.475
 2026-05-27,"Bratara de proximitate din silicon cu catarama, mifare 13.56Khz, Albastra, IDT-4009MF-BL",accesorii interfon si videointerfon,2,PMax - New - Interfoane | PMax - Purchase - Accesorii,5100.0,12.07,13.86,0.0,0.0
-2026-05-27,Detector de inundatie wireless Tri-X Hikvision AX Pro DS-PDWL-E-WE,sisteme de alarma wireless,1,PMax - New - Sisteme Alarma,1800.0,12.06,13.85,1801.3,130.058
+2026-05-27,Detector de inundatie wireless Tri-X Hikvision AX Pro DS-PDWL-E-WE,sisteme de alarma wireless,1,PMax - New - Sisteme Alarma,1800.0,12.06,13.85,2085.18,150.555
 2026-05-27,"Surub M10X30 cap T - BOLT, inox, M10X30-TBOLT",sisteme fotovoltaice,1,PMax - New - FotoVoltaice/Solare,2000.0,12.05,13.83,0.0,0.0
 2026-05-27,"Sistem de alarma DSC wireless Alexor 3 zone, KITALEXOR",sisteme alarma cablu,1,PMax - New - Sisteme Alarma,1800.0,12.05,13.84,0.0,0.0
 2026-05-27,"Amestecator ciment cu palete, Milwaukee M18 Fuel, 8 viteze, 550rpm, 18V, maner reglabil, indicator LED, prelungitor paleta 150mm, 4933459719",scule electrice,1,PMax - Scule si Unelte,4000.0,12.03,13.81,0.0,0.0
@@ -3197,7 +3197,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Cablu HDMI 1.4 Ultra Slim, 4K pana la 30Hz, 10.5 Gbps, 32AWG, 1m, Safer SAF-HMAA6008-1",cabluri supraveghere,1,PMax - New - Accesorii Supraveghere,2900.0,11.72,13.45,0.0,0.0
 2026-05-27,"Sistem de supraveghere exterior 4 camere 5MP, IR 80 metri, lentila 3.6mm, Microfon, Safer KIT4EXT80IR",kituri supraveghere,1,PMax - New - Kituri Supraveghere,2500.0,11.71,13.45,0.0,0.0
 2026-05-27,Set boxe lemn 6W (2X3W) alimentare prin USB Spacer SPSK-201-WD,sisteme sonorizare home,1,PMax - New - Sonorizari,500.0,11.71,13.45,565.6,42.052
-2026-05-27,"Switch cu 8 porturi Gigabit si 2 porturi SFP, L2+, JetStream , Tp-Link TL-SG3210",echipamente retea,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,11.7,13.43,0.0,0.0
+2026-05-27,"Switch cu 8 porturi Gigabit si 2 porturi SFP, L2+, JetStream , Tp-Link TL-SG3210",echipamente retea,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,11.7,13.43,0.42,0.032
 2026-05-27,"Suport perete pentru camere supraveghere Dahua, 162x130x80mm, aliaj aluminiu, PFB2204W",alimentatori si surse,1,PMax - New - Accesorii Supraveghere,2900.0,11.69,13.42,0.0,0.0
 2026-05-27,"Tag de proximitate Ezviz CS-DL-IC-CPU-R200 (GR), functie anti-copiere, 13.8-14.4MHz, viteza comunicare 106kbps, material ABS",sisteme smart home,1,PMax - New - SmartHome,2000.0,11.68,13.41,0.0,0.0
 2026-05-27,"NVR 4 canale Hikvision HiLook NVR-104MH-C(D), 8MP 4K, latime de banda 40Mbps, Detectare miscare, 1 port SATA",nvr-uri,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,11.68,13.41,0.0,0.0
@@ -3304,7 +3304,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Post exterior videointerfon, 1 familie, negru, montaj incastrat, Electra VPH.01F03.ELBTL",producator videointerfon,1,PMax - New - Interfoane,1800.0,10.95,12.57,0.0,0.0
 2026-05-27,"Spray aerosol pentru senzorii de CO, 250ml, tester senzor CO, SOLO-C3-001","accesorii | senzori fum, gaz, standalone",2,PMax - New - Alarme antiincendiu | PMax - Purchase - Accesorii,4400.0,10.94,12.56,0.0,0.0
 2026-05-27,"ROUTER TP-LINK wireless, 5 porturi, 2.4 si 5GHz, 300 si 867Mbps, 4 antene interne si 1 interna, ARCHER C6",echipamente retea,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,10.94,12.56,0.0,0.0
-2026-05-27,Switch cu 5 porturi Gigabit 4x PoE+ si 1x PoE++ Tp-Link TL-SG1005P-PD,echipamente retea,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,10.94,12.56,41.05,3.268
+2026-05-27,Switch cu 5 porturi Gigabit 4x PoE+ si 1x PoE++ Tp-Link TL-SG1005P-PD,echipamente retea,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,10.94,12.56,41.47,3.302
 2026-05-27,"Slefuitor orbital M12 FUEL Milwaukee, 150mm, cu orbita 5mm, cu 2 acumulatori 5Ah, incarcator M12, 4933493651",scule electrice,1,PMax - Scule si Unelte,4000.0,10.94,12.56,0.0,0.0
 2026-05-27,"Lanterna LED Milwaukee TRUEVIEW, 500 lumeni, model IR FL500, incarcare prin cablu USB, 4933478586",producatori scule si unelte,1,PMax - Scule si Unelte,4000.0,10.92,12.54,0.0,0.0
 2026-05-27,"Senzor wireless detectare fum, montare pe tavan, cu Wi-Fi, compatibil cu Tuya Smart, Safer SMOKETU",sisteme smart home,1,PMax - New - SmartHome,2000.0,10.91,12.53,0.0,0.0
@@ -3405,7 +3405,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Camera supraveghere IP 4K 8MP, 2.8mm, IR50m, PoE, ONVIF, slot MicroSD, IP67, Safer SAF-IPCBM8MP50ES-28",producatori camere ip,1,PMax - New - Supraveghere Video,10000.0,10.16,11.66,0.0,0.0
 2026-05-27,"Kit sistem alarma wireless antiefractie Heyi, GSM, Wi-Fi, 2 zone, priza, detector si senzor miscare, sirena exterior, KIT HY-W7-03",sisteme de alarma wireless,1,PMax - New - Sisteme Alarma,1800.0,10.16,11.67,0.0,0.0
 2026-05-27,"Acumulator 12V, 2.3Ah, MW Power, MWS 2.3-12",accesorii alarme,2,PMax - New - Sisteme Alarma | PMax - Purchase - Accesorii,5100.0,10.16,11.67,2907.98,249.185
-2026-05-27,"Switch cu 8 porturi PoE+, TP-Link TL-SF1009P, 65 W, 9x LAN 10/100Mbps",echipamente retea,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,10.16,11.67,0.0,0.0
+2026-05-27,"Switch cu 8 porturi PoE+, TP-Link TL-SF1009P, 65 W, 9x LAN 10/100Mbps",echipamente retea,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,10.16,11.67,0.42,0.036
 2026-05-27,"Buton de incendiu conventional cu geam de sticla si fara capac, Tane SM-108",antiincendiu conventional,1,PMax - New - Alarme antiincendiu,1100.0,10.16,11.66,0.0,0.0
 2026-05-27,"Placa compactoare Milwaukee MXF RAM60-122 MX FUEL, 2 viteze, 2x acumulatori 72V 12Ah, incarcator, tehnologie One Key, 4933498159",scule electrice,1,PMax - Scule si Unelte,4000.0,10.16,11.66,0.0,0.0
 2026-05-27,"Camera supraveghere Hikvision Hilook, 3K, 3.6mm, microfon, Smart Dual Light, IR 30m, IP66, THC-T157-LMS(3.6mm)",camere supraveghere interior,1,PMax - New - Supraveghere Video,10000.0,10.15,11.66,0.0,0.0
@@ -4399,7 +4399,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,Proiector LED cu sticla securizata 10W 800LM 3000k IP65 BR-BT61-01002,corpuri iluminat led,1,PMax - New - FotoVoltaice/Solare,2000.0,5.36,6.15,125.99,20.486
 2026-05-27,"Sistem de alarma Heyi wireless GSM, Wi-Fi, 3 zone, Android/iOS, TCP/IP HEYI-W20-2PIR",sisteme de alarma wireless,1,PMax - New - Sisteme Alarma,1800.0,5.36,6.15,0.0,0.0
 2026-05-27,"Ruleta Milwaukee SLIM (GEN2) 3M-16, lungime 3m, latimea lamei 16mm, 4932498782",producatori scule si unelte,1,PMax - Scule si Unelte,4000.0,5.35,6.14,0.0,0.0
-2026-05-27,Switch 8 Porturi Gigabit 8 x 10/100/1000 Mbps TP-LINK TL-SG1008,echipamente retea,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,5.34,6.13,0.0,0.0
+2026-05-27,Switch 8 Porturi Gigabit 8 x 10/100/1000 Mbps TP-LINK TL-SG1008,echipamente retea,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,5.34,6.13,0.53,0.087
 2026-05-27,"DVR 8 canale, 2MP, H.256Pro+, SATA, Hikvision DS-7108HGHI-M1/C",dvr,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,5.34,6.13,0.0,0.0
 2026-05-27,"Conector mecanic fibra optica SM/MM (Sudura Mecanica), 5 buc, Safer FAST-MS1",echipamente fibra optica,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,5.33,6.12,0.0,0.0
 2026-05-27,"Microfon de conferinta Azusa MIK0022, cardioid, tija 80cm, XLR, 60Hz-12.5kHz, -42dB, 2.2 kohm",microfoane,1,PMax - New - Sonorizari,500.0,5.33,6.12,0.0,0.0
@@ -4840,7 +4840,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-05-27,"Acces Point Wireless, 5 porturi Gigabit Ethernet, 5GHz, 720MHz, 12-57V, PoE, USB, Mikrotik RBOmniTikPG-5HacD",echipamente retea,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,4.0,4.59,0.0,0.0
 2026-05-27,"Post exterior videointerfon, 3 familii, montaj incastrat, 4 fire, culoare alba, cititor RFID, Electra VPH.03F03.ELWTL",producator videointerfon,1,PMax - New - Interfoane,1800.0,3.99,4.58,0.0,0.0
 2026-05-27,Selector rotativ cu cheie pentru automatizari glisante Ditec COM501MKS,automatizari usi glisante,1,PMax - New - Automatizari Porti,4500.0,3.98,4.57,0.0,0.0
-2026-05-27,Set interfon audio COMMAX RM201HA,interfon,1,PMax - New - Interfoane,1800.0,3.98,4.57,19.72,4.316
+2026-05-27,Set interfon audio COMMAX RM201HA,interfon,1,PMax - New - Interfoane,1800.0,3.98,4.57,724.04,158.502
 2026-05-27,"Suport L 350 mm, pentru rack podea 600 mm, otel SPCC 2 mm, standard 19 inch, negru, SAF- SINAL350-RK600FLOOR",rack si ups,1,PMax - New - Accesorii Supraveghere,2900.0,3.98,4.57,0.0,0.0
 2026-05-27,"Camera supraveghere HDCVI Dahua HAC-HFW1500TH-IL-A-0360B-S3, 5MP, 3.6mm, Iluminare duala, Microfon, IP67",camere supraveghere exterior,1,PMax - New - Supraveghere Video,10000.0,3.97,4.56,98.48,21.597
 2026-05-27,"Camera supraveghere Dome, Turbo HD, 5 MP, 2.8mm, IR 40 metri, PoC, Hikvision, DS-2CE78H0T-IT3E(2.8mm)",camere supraveghere interior,1,PMax - New - Supraveghere Video,10000.0,3.97,4.56,0.0,0.0
