@@ -9,7 +9,7 @@ report_date,category,campaign_count,source_campaigns,daily_budget_total,spend_mt
 2026-05-30,cabluri supraveghere,5,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Accesorii Supraveghere | PMax - Poor Products - Shopping - LOW ROAS | PMax - Purchase - Accesorii | PMax - Top Products last 14 days - Feed Only,11520.0,11522.5,11906.59,67199.99,5.644
 2026-05-30,scule electrice,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Poor Products - Shopping - LOW ROAS | PMax - Scule si Unelte | PMax - Top Products last 14 days - Feed Only,9320.0,9270.59,9579.61,103042.51,10.756
 2026-05-30,camere supraveghere exterior,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Supraveghere Video | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,15320.0,8210.36,8484.04,39577.11,4.665
-2026-05-30,accesorii alarme,5,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Sisteme Alarma | PMax - Poor Products - Shopping - LOW ROAS | PMax - Purchase - Accesorii | PMax - Top Products last 14 days - Feed Only,10420.0,8141.32,8412.7,61318.12,7.289
+2026-05-30,accesorii alarme,5,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Sisteme Alarma | PMax - Poor Products - Shopping - LOW ROAS | PMax - Purchase - Accesorii | PMax - Top Products last 14 days - Feed Only,10420.0,8141.32,8412.7,61297.94,7.286
 2026-05-30,camere supraveghere interior,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Supraveghere Video | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,15320.0,6987.46,7220.38,49110.06,6.802
 2026-05-30,producatori scule si unelte,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Scule si Unelte | PMax - Top Products last 14 days - Feed Only,8700.0,6827.49,7055.07,62988.43,8.928
 2026-05-30,videointerfon,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Interfoane | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,7120.0,6524.51,6741.99,67788.9,10.055
@@ -58,7 +58,7 @@ report_date,category,campaign_count,source_campaigns,daily_budget_total,spend_mt
 2026-05-30,aparataj electric,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Poor Products - Shopping - LOW ROAS,3920.0,429.54,443.85,2597.29,5.852
 2026-05-30,pc si multimedia,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Poor Products - Shopping - LOW ROAS,3920.0,408.98,422.61,3550.22,8.401
 2026-05-30,camere auto,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,389.65,402.64,11711.56,29.087
-2026-05-30,tester cctv,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Accesorii Supraveghere | PMax - Poor Products - Shopping - LOW ROAS,6820.0,387.18,400.09,6776.28,16.937
+2026-05-30,tester cctv,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Accesorii Supraveghere | PMax - Poor Products - Shopping - LOW ROAS,6820.0,387.18,400.09,6776.25,16.937
 2026-05-30,pergole si mobilier gradina,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,345.06,356.56,0.0,0.0
 2026-05-30,automatizari usi glisante,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Automatizari Porti,7800.0,302.86,312.96,0.0,0.0
 2026-05-30,echipamente telecomunicatii,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,273.08,282.18,3175.63,11.254
