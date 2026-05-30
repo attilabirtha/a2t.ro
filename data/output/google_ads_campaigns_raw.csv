@@ -1,9 +1,9 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
-Brand Protect,2,2,1500.0,2251.08,9647.49,42943.76,184044.7
+Brand Protect,2,2,1500.0,2251.07,9647.44,42943.76,184044.7
 Caut Instalare,2,2,1000.0,189.12,810.52,857.57,3675.32
-PMax - New - Supraveghere Video,10,2,10000.0,24716.9,105929.58,136232.17,583852.17
-PMax - New - FotoVoltaice/Solare,10,2,2000.0,1626.76,6971.84,8937.2,38302.3
-PMax - New - Automatizari Porti,10,2,4500.0,18166.87,77858.02,104730.7,448845.86
+PMax - New - Supraveghere Video,10,2,10000.0,24716.9,105929.58,136693.03,585827.27
+PMax - New - FotoVoltaice/Solare,10,2,2000.0,1626.76,6971.84,9221.01,39518.61
+PMax - New - Automatizari Porti,10,2,4500.0,18166.87,77858.02,105159.1,450681.85
 PMax - New - Interfoane,10,2,1800.0,2037.77,8733.3,21033.15,90142.06
 PMax - New - Sisteme Alarma,10,2,1800.0,1195.32,5122.81,10345.77,44339.0
 PMax - New - SmartHome,10,2,2000.0,1205.33,5165.69,18920.72,81088.79
@@ -27,12 +27,12 @@ PMax - New - Control Acces,10,2,1000.0,56.06,240.24,904.82,3877.81
 PMax - New - Accesorii Supraveghere,10,2,2900.0,17401.62,74578.38,105730.94,453132.62
 PMax - New - Kituri Supraveghere,10,2,2500.0,1773.82,7602.09,10936.56,46870.98
 PMax - New - Sonorizari,10,2,500.0,1536.87,6586.57,11744.58,50333.93
-DGen - All other categories,14,2,600.0,763.6,3272.59,3065.86,13139.39
-DGen - Supraveghere,14,2,1150.0,6384.26,27361.12,17476.91,74901.03
+DGen - All other categories,14,2,600.0,763.6,3272.58,3065.86,13139.39
+DGen - Supraveghere,14,2,1150.0,6384.26,27361.13,17605.41,75451.74
 PMax - Scule si Unelte,10,2,4000.0,2993.12,12827.64,32286.87,138372.32
-PMax - Poor Products - Shopping - LOW ROAS,10,2,620.0,4257.32,18245.64,39642.92,169898.24
+PMax - Poor Products - Shopping - LOW ROAS,10,2,620.0,4257.32,18245.64,39663.1,169984.73
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
-PMax - Top Products last 14 days - Feed Only,10,2,1400.0,7689.3,32954.12,48504.96,207878.4
+PMax - Top Products last 14 days - Feed Only,10,2,1400.0,7689.3,32954.12,48543.11,208041.89
 DGen - Supraveghere - NO RMKT - tROAS - AC/BC,14,2,210.0,521.14,2233.47,0.0,0.0
 Video Views - NO RMKT - NO Product Feed,6,2,100.0,689.78,2956.21,0.0,0.0
