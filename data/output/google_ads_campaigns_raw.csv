@@ -1,18 +1,18 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
 Brand Protect,2,2,1500.0,2370.65,10159.93,42949.33,184068.55
 Caut Instalare,2,2,1000.0,188.18,806.51,1045.63,4481.27
-PMax - New - Supraveghere Video,10,2,10000.0,23767.89,101862.38,143063.92,613131.07
-PMax - New - FotoVoltaice/Solare,10,2,2000.0,1497.67,6418.58,7301.97,31294.16
-PMax - New - Automatizari Porti,10,2,4500.0,17708.12,75891.96,100687.78,431519.08
-PMax - New - Interfoane,10,2,1800.0,1967.91,8433.91,22009.98,94328.48
-PMax - New - Sisteme Alarma,10,2,1800.0,1108.78,4751.9,9905.13,42450.56
+PMax - New - Supraveghere Video,10,2,10000.0,23767.89,101862.38,143353.52,614372.23
+PMax - New - FotoVoltaice/Solare,10,2,2000.0,1497.67,6418.58,7581.26,32491.11
+PMax - New - Automatizari Porti,10,2,4500.0,17708.12,75891.96,100697.7,431561.58
+PMax - New - Interfoane,10,2,1800.0,1967.91,8433.91,22010.79,94331.95
+PMax - New - Sisteme Alarma,10,2,1800.0,1108.78,4751.9,9913.59,42486.82
 PMax - New - SmartHome,10,2,2000.0,1254.77,5377.59,14820.1,63514.71
-PMax - Purchase - Accesorii,10,2,3300.0,4027.5,17260.73,36940.98,158318.48
-NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,2992.96,12826.95,13740.38,58887.33
+PMax - Purchase - Accesorii,10,2,3300.0,4027.5,17260.73,37389.64,160241.31
+NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,2993.24,12828.16,13740.38,58887.33
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,292.55,1253.8,534.6,2291.16
-DGen - Automatizari,14,2,750.0,1260.75,5403.23,2468.56,10579.54
-June 2024 - Search - Automatizari - tROAS,2,2,3000.0,723.17,3099.32,3978.39,17050.23
-PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,2937.03,12587.28,33564.87,143849.46
+DGen - Automatizari,14,2,750.0,1260.75,5403.23,2479.72,10627.36
+June 2024 - Search - Automatizari - tROAS,2,2,3000.0,723.17,3099.32,4873.68,20887.19
+PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,2937.03,12587.28,34006.04,145740.15
 June 2024 - Search - Accesorii Supraveghere - tROAS,2,2,3000.0,529.6,2269.73,11437.96,49019.83
 June 2024 - Search - Supraveghere + Brands - tROAS,2,2,3000.0,634.53,2719.41,9174.92,39321.1
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,2,4000.0,5629.15,24124.94,13906.1,59597.58
@@ -22,17 +22,17 @@ June 2024 - Search - Alarme - tROAS,2,2,2000.0,9.28,39.76,11.19,47.94
 June 2024 - Search - Acces Pontaj - tROAS,2,2,2000.0,17.43,74.68,128.69,551.52
 June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,1.58,6.78,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,1.03,4.4,0.0,0.0
-PMax - New - Alarme antiincendiu,10,2,1100.0,7809.87,33470.87,30511.93,130765.41
+PMax - New - Alarme antiincendiu,10,2,1100.0,7809.87,33470.87,30516.16,130783.54
 PMax - New - Control Acces,10,2,1000.0,49.62,212.64,1006.6,4314.01
 PMax - New - Accesorii Supraveghere,10,2,2900.0,19011.7,81478.73,113702.67,487297.17
 PMax - New - Kituri Supraveghere,10,2,2500.0,2324.5,9962.16,11507.47,49317.75
 PMax - New - Sonorizari,10,2,500.0,1684.3,7218.44,11250.23,48215.26
-DGen - All other categories,14,2,600.0,1233.34,5285.75,3909.19,16753.67
-DGen - Supraveghere,14,2,1150.0,6754.13,28946.28,18164.48,77847.78
-PMax - Scule si Unelte,10,2,4000.0,3433.08,14713.2,38172.81,163597.76
-PMax - Poor Products - Shopping - LOW ROAS,10,2,620.0,4246.58,18199.62,37333.35,160000.08
+DGen - All other categories,14,2,600.0,1233.34,5285.75,4016.82,17214.93
+DGen - Supraveghere,14,2,1150.0,6755.63,28952.68,18576.51,79613.6
+PMax - Scule si Unelte,10,2,4000.0,3433.14,14713.45,38172.81,163597.76
+PMax - Poor Products - Shopping - LOW ROAS,10,2,620.0,4246.58,18199.62,37334.16,160003.55
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
 PMax - Top Products last 14 days - Feed Only,10,2,1400.0,8303.79,35587.68,48275.37,206894.46
 DGen - Supraveghere - NO RMKT - tROAS - AC/BC,14,2,210.0,372.72,1597.39,0.0,0.0
-Video Views - NO RMKT - NO Product Feed,6,2,100.0,688.75,2951.79,0.0,0.0
+Video Views - NO RMKT - NO Product Feed,6,2,100.0,688.74,2951.74,0.0,0.0
