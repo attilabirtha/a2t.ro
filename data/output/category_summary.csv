@@ -1,6 +1,6 @@
 report_date,category,campaign_count,source_campaigns,daily_budget_total,spend_mtd_est,spend_30d,conv_value_30d,roas_30d
 2026-06-06,camere ip wireless,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Supraveghere Video | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,15320.0,9202.84,46014.19,371451.4,8.073
-2026-06-06,porti culisante,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Automatizari Porti | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,9820.0,8029.65,40148.27,218102.37,5.432
+2026-06-06,porti culisante,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Automatizari Porti | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,9820.0,8029.65,40148.27,218105.33,5.432
 2026-06-06,porti batante,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Automatizari Porti | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,9820.0,6972.46,34862.32,239097.96,6.858
 2026-06-06,rack si ups,5,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Accesorii Supraveghere | PMax - Poor Products - Shopping - LOW ROAS | PMax - Purchase - Accesorii | PMax - Top Products last 14 days - Feed Only,11520.0,5685.53,28427.67,141982.8,4.995
 2026-06-06,alimentatori si surse,5,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Accesorii Supraveghere | PMax - Poor Products - Shopping - LOW ROAS | PMax - Purchase - Accesorii | PMax - Top Products last 14 days - Feed Only,11520.0,3554.67,17773.35,111399.1,6.268
@@ -42,7 +42,7 @@ report_date,category,campaign_count,source_campaigns,daily_budget_total,spend_mt
 2026-06-06,dvr,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Top Products last 14 days - Feed Only,4700.0,239.85,1199.23,8625.43,7.192
 2026-06-06,sonerie,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Interfoane | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,7120.0,216.29,1081.44,11715.42,10.833
 2026-06-06,inchizatori electro-mecanice,1,PMax - Poor Products - Shopping - LOW ROAS,620.0,195.92,979.59,5643.58,5.761
-2026-06-06,sisteme sonorizare home,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Sonorizari,3800.0,195.58,977.88,6706.71,6.858
+2026-06-06,sisteme sonorizare home,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Sonorizari,3800.0,195.58,977.88,6632.72,6.783
 2026-06-06,echipamente fibra optica,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,5320.0,189.38,946.91,2124.83,2.244
 2026-06-06,sport & outdoor,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Poor Products - Shopping - LOW ROAS,3920.0,177.23,886.15,1787.1,2.017
 2026-06-06,centrale si dispozitive stand-alone,1,PMax - Poor Products - Shopping - LOW ROAS,620.0,154.6,773.01,6520.31,8.435
