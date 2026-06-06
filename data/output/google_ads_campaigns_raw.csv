@@ -1,13 +1,13 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
-Brand Protect,2,2,1500.0,2382.47,10210.61,45856.09,196526.09
+Brand Protect,2,2,1500.0,2382.47,10210.61,46226.15,198112.06
 Caut Instalare,2,2,1000.0,188.9,809.56,1220.63,5231.25
-PMax - New - Supraveghere Video,10,2,10000.0,23429.32,100411.39,149248.7,639637.3
-PMax - New - FotoVoltaice/Solare,10,2,2000.0,1460.64,6259.89,6992.38,29967.34
-PMax - New - Automatizari Porti,10,2,4500.0,17434.82,74720.68,99397.91,425991.06
+PMax - New - Supraveghere Video,10,2,10000.0,23429.32,100411.39,149653.98,641374.18
+PMax - New - FotoVoltaice/Solare,10,2,2000.0,1460.64,6259.89,7050.0,30214.3
+PMax - New - Automatizari Porti,10,2,4500.0,17434.82,74720.68,99917.54,428218.04
 PMax - New - Interfoane,10,2,1800.0,1966.51,8427.92,21072.61,90311.18
 PMax - New - Sisteme Alarma,10,2,1800.0,1083.03,4641.56,10404.08,44588.92
 PMax - New - SmartHome,10,2,2000.0,1261.73,5407.42,16104.15,69017.78
-PMax - Purchase - Accesorii,10,2,3300.0,4078.79,17480.53,38314.59,164205.39
+PMax - Purchase - Accesorii,10,2,3300.0,4078.79,17480.53,38884.73,166648.85
 NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,3056.92,13101.07,15227.83,65262.15
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,287.13,1230.57,488.64,2094.18
 DGen - Automatizari,14,2,750.0,1278.07,5477.44,2794.32,11975.64
@@ -24,7 +24,7 @@ June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,1.81,7.74,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,1.03,4.4,0.0,0.0
 PMax - New - Alarme antiincendiu,10,2,1100.0,7811.72,33478.8,32372.95,138741.22
 PMax - New - Control Acces,10,2,1000.0,47.99,205.69,1277.38,5474.47
-PMax - New - Accesorii Supraveghere,10,2,2900.0,19037.29,81588.38,98136.41,420584.61
+PMax - New - Accesorii Supraveghere,10,2,2900.0,19037.29,81588.38,98163.71,420701.59
 PMax - New - Kituri Supraveghere,10,2,2500.0,2399.28,10282.64,12063.26,51699.68
 PMax - New - Sonorizari,10,2,500.0,1694.0,7260.0,12122.93,51955.43
 DGen - All other categories,14,2,600.0,1305.55,5595.19,3504.03,15017.29
