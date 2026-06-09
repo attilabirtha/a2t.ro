@@ -1,9 +1,9 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
 Brand Protect,2,2,1500.0,2474.25,10603.93,50289.7,215527.27
 Caut Instalare,2,2,1000.0,211.02,904.38,1585.33,6794.28
-PMax - New - Supraveghere Video,10,2,10000.0,22667.29,97145.55,144129.47,617697.71
+PMax - New - Supraveghere Video,10,2,10000.0,22667.32,97145.67,144129.47,617697.71
 PMax - New - FotoVoltaice/Solare,10,2,2000.0,1281.68,5492.9,9141.48,39177.75
-PMax - New - Automatizari Porti,10,2,4500.0,15986.02,68511.5,96045.69,411624.4
+PMax - New - Automatizari Porti,10,2,4500.0,15986.02,68511.5,96047.53,411632.29
 PMax - New - Interfoane,10,2,1800.0,1981.25,8491.08,19950.2,85500.84
 PMax - New - Sisteme Alarma,10,2,1800.0,1027.18,4402.21,12262.89,52555.25
 PMax - New - SmartHome,10,2,2000.0,1364.68,5848.61,16610.0,71185.73
@@ -27,12 +27,12 @@ PMax - New - Control Acces,10,2,1000.0,40.04,171.61,1277.63,5475.58
 PMax - New - Accesorii Supraveghere,10,2,2900.0,19554.65,83805.62,108886.03,466654.42
 PMax - New - Kituri Supraveghere,10,2,2500.0,2548.97,10924.15,13103.87,56159.46
 PMax - New - Sonorizari,10,2,500.0,1626.6,6971.14,11524.1,49389.0
-DGen - All other categories,14,2,600.0,1780.97,7632.75,4068.82,17437.82
-DGen - Supraveghere,14,2,1150.0,7651.76,32793.27,16628.93,71266.84
+DGen - All other categories,14,2,600.0,1781.03,7633.0,4068.82,17437.82
+DGen - Supraveghere,14,2,1150.0,7653.26,32799.67,16628.93,71266.84
 PMax - Scule si Unelte,10,2,4000.0,3636.61,15585.49,36899.57,158140.99
 PMax - Poor Products - Shopping - LOW ROAS,10,2,620.0,4290.31,18387.06,44643.2,191328.02
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
-PMax - Top Products last 14 days - Feed Only,10,2,1400.0,8991.71,38535.89,51186.84,219372.15
+PMax - Top Products last 14 days - Feed Only,10,2,1400.0,8991.71,38535.89,51172.37,219310.16
 DGen - Supraveghere - NO RMKT - tROAS - AC/BC,14,2,210.0,186.43,799.0,0.0,0.0
-Video Views - NO RMKT - NO Product Feed,6,2,100.0,692.96,2969.84,0.0,0.0
+Video Views - NO RMKT - NO Product Feed,6,2,100.0,692.96,2969.83,0.0,0.0

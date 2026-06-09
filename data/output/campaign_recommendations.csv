@@ -1,10 +1,10 @@
 campaign,channel,current_budget,recommended_budget,recommendation,priority,reason,report_date,roas_30d,spend_30d,spend_mtd_est,conv_value_30d
-Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-06-09,0.0,2969.84,890.95,0.0
+Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-06-09,0.0,2969.83,890.95,0.0
 NEW - DSA - Automatizari Porti - No Accesories,2,2000.0,1600.0,Reduce 20%,2,ROAS sub 2.5.,2026-06-09,1.692,1237.36,371.21,2094.18
 DGen - Automatizari,14,750.0,600.0,Reduce 20%,2,ROAS sub 2.5.,2026-06-09,1.846,5546.0,1663.8,10238.27
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,4000.0,3200.0,Reduce 20%,2,ROAS sub 2.5.,2026-06-09,2.407,24260.46,7278.14,58386.51
-DGen - All other categories,14,600.0,480.0,Reduce 20%,2,ROAS sub 2.5.,2026-06-09,2.285,7632.75,2289.82,17437.82
-DGen - Supraveghere,14,1150.0,920.0,Reduce 20%,2,ROAS sub 2.5.,2026-06-09,2.173,32793.27,9837.98,71266.84
+DGen - All other categories,14,600.0,480.0,Reduce 20%,2,ROAS sub 2.5.,2026-06-09,2.285,7633.0,2289.9,17437.82
+DGen - Supraveghere,14,1150.0,920.0,Reduce 20%,2,ROAS sub 2.5.,2026-06-09,2.173,32799.67,9839.9,71266.84
 NEW - DSA - Supraveghere - No Accesories,2,1000.0,850.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-06-09,3.53,14166.07,4249.82,50001.03
 PMax - New - Alarme antiincendiu,10,1100.0,935.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-06-09,3.741,32635.03,9790.51,122096.95
 PMax - New - FotoVoltaice/Solare,10,2000.0,2000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-06-09,7.132,5492.9,1647.87,39177.75
@@ -20,8 +20,8 @@ PMax - New - Kituri Supraveghere,10,2500.0,2500.0,Hold / Preventive cap,5,Buget 
 PMax - Scule si Unelte,10,4000.0,4000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-06-09,10.147,15585.49,4675.65,158140.99
 Brand Protect,2,1500.0,1650.0000000000002,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-06-09,20.325,10603.93,3181.18,215527.27
 Caut Instalare,2,1000.0,1000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-06-09,7.513,904.38,271.32,6794.28
-PMax - New - Supraveghere Video,10,10000.0,10000.0,Hold,6,Fara trigger de ajustare.,2026-06-09,6.358,97145.55,29143.66,617697.71
-PMax - New - Automatizari Porti,10,4500.0,4500.0,Hold,6,Fara trigger de ajustare.,2026-06-09,6.008,68511.5,20553.45,411624.4
+PMax - New - Supraveghere Video,10,10000.0,10000.0,Hold,6,Fara trigger de ajustare.,2026-06-09,6.358,97145.67,29143.7,617697.71
+PMax - New - Automatizari Porti,10,4500.0,4500.0,Hold,6,Fara trigger de ajustare.,2026-06-09,6.008,68511.5,20553.45,411632.29
 June 2024 - Search - Interfoane - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-06-09,0.0,96.11,28.83,0.0
 June 2024 - Search - Fotovoltaice - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-06-09,0.0,26.28,7.88,0.0
 June 2024 - Search - Alarme - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-06-09,1.368,35.05,10.52,47.94
@@ -34,5 +34,5 @@ PMax - New - Sonorizari,10,500.0,550.0,Increase up to 10%,6,ROAS > 7.0 si cont s
 PMax - Poor Products - Shopping - LOW ROAS,10,620.0,682.0,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-06-09,10.406,18387.06,5516.12,191328.02
 DGen - RMKT - BF Promo,14,600.0,600.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-06-09,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,1800.0,1800.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-06-09,0.0,0.0,0.0,0.0
-PMax - Top Products last 14 days - Feed Only,10,1400.0,1400.0,Hold,6,Fara trigger de ajustare.,2026-06-09,5.693,38535.89,11560.77,219372.15
+PMax - Top Products last 14 days - Feed Only,10,1400.0,1400.0,Hold,6,Fara trigger de ajustare.,2026-06-09,5.691,38535.89,11560.77,219310.16
 DGen - Supraveghere - NO RMKT - tROAS - AC/BC,14,210.0,210.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-06-09,0.0,799.0,239.7,0.0
