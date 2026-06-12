@@ -155,6 +155,14 @@
   </section>
 
   <section id="tab-category" class="tab-panel">
+    <div class="filters">
+      <select id="category-name-filter" class="filter-select" multiple size="6" title="Hold Ctrl/Cmd to select multiple categories"></select>
+      <select id="category-campaign-filter" class="filter-select">
+        <option value="">All source campaigns</option>
+      </select>
+      <input id="category-search-filter" class="filter-input" type="text" placeholder="Search category..." />
+    </div>
+    <p id="category-filter-stats" class="muted"></p>
     <div class="viz-grid">
       <div class="card">
         <h2 class="viz-title">Spend MTD by Category <span class="section-help" data-section="spend_category" tabindex="0">?</span></h2>
@@ -173,9 +181,7 @@
 
   <section id="tab-product" class="tab-panel">
     <div class="filters">
-      <select id="product-category-filter" class="filter-select">
-        <option value="">All categories</option>
-      </select>
+      <select id="product-category-filter" class="filter-select" multiple size="6" title="Hold Ctrl/Cmd to select multiple categories"></select>
       <input id="product-search-filter" class="filter-input" type="text" placeholder="Search product name..." />
     </div>
     <div class="viz-grid">
@@ -601,6 +607,7 @@ function renderEntityRoasBars(rows, keyField, rootId) {
 }
 
 let productRowsState = [];
+let categoryRowsState = [];
 
 function categoryTokens(rawCategory) {
   return String(rawCategory || "")
@@ -609,15 +616,88 @@ function categoryTokens(rawCategory) {
     .filter(Boolean);
 }
 
+function campaignTokens(rawCampaigns) {
+  return String(rawCampaigns || "")
+    .split("|")
+    .map((x) => x.trim())
+    .filter(Boolean);
+}
+
+function getMultiSelectValues(selectEl) {
+  if (!selectEl) return [];
+  return Array.from(selectEl.selectedOptions || [])
+    .map((opt) => String(opt.value || '').trim().toLowerCase())
+    .filter(Boolean);
+}
+
+function applyCategoryFilters() {
+  const nameEl = document.getElementById('category-name-filter');
+  const campaignEl = document.getElementById('category-campaign-filter');
+  const searchEl = document.getElementById('category-search-filter');
+  const selectedNames = getMultiSelectValues(nameEl);
+  const selectedCampaign = (campaignEl?.value || '').trim().toLowerCase();
+  const search = (searchEl?.value || '').trim().toLowerCase();
+
+  const filtered = categoryRowsState.filter((r) => {
+    const categoryName = String(r.category || '').trim().toLowerCase();
+    const campaigns = campaignTokens(r.source_campaigns).map((c) => c.toLowerCase());
+    const inName = selectedNames.length === 0 || selectedNames.includes(categoryName);
+    const inCampaign = !selectedCampaign || campaigns.includes(selectedCampaign);
+    const inSearch = !search || categoryName.includes(search);
+    return inName && inCampaign && inSearch;
+  });
+
+  renderEntitySpendBars(filtered, 'category', 'category-spend-bars');
+  renderEntityRoasBars(filtered, 'category', 'category-roas-bars');
+  renderTable(document.getElementById('category-summary-table'), filtered);
+  const statsEl = document.getElementById('category-filter-stats');
+  if (statsEl) {
+    statsEl.textContent = `Showing ${filtered.length} of ${categoryRowsState.length} categories`;
+  }
+}
+
+function initCategoryFilters(rows) {
+  categoryRowsState = rows.slice();
+  const nameEl = document.getElementById('category-name-filter');
+  const campaignEl = document.getElementById('category-campaign-filter');
+  const searchEl = document.getElementById('category-search-filter');
+  const categories = Array.from(
+    new Set(rows.map((r) => String(r.category || '').trim()).filter(Boolean))
+  ).sort((a, b) => a.localeCompare(b));
+  const campaigns = Array.from(
+    new Set(rows.flatMap((r) => campaignTokens(r.source_campaigns)))
+  ).sort((a, b) => a.localeCompare(b));
+
+  if (nameEl) {
+    const current = new Set(getMultiSelectValues(nameEl));
+    nameEl.innerHTML = categories.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+    Array.from(nameEl.options).forEach((opt) => {
+      opt.selected = current.has(String(opt.value || '').trim().toLowerCase());
+    });
+    nameEl.onchange = applyCategoryFilters;
+  }
+  if (campaignEl) {
+    const current = campaignEl.value || '';
+    campaignEl.innerHTML = '<option value="">All source campaigns</option>' +
+      campaigns.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+    if (current && campaigns.includes(current)) campaignEl.value = current;
+    campaignEl.onchange = applyCategoryFilters;
+  }
+  if (searchEl) {
+    searchEl.oninput = applyCategoryFilters;
+  }
+  applyCategoryFilters();
+}
+
 function applyProductFilters() {
   const categoryEl = document.getElementById('product-category-filter');
   const searchEl = document.getElementById('product-search-filter');
-  const selectedCategory = (categoryEl?.value || '').trim().toLowerCase();
+  const selectedCategories = getMultiSelectValues(categoryEl);
   const search = (searchEl?.value || '').trim().toLowerCase();
 
   const filtered = productRowsState.filter((r) => {
     const cats = categoryTokens(r.category).map((c) => c.toLowerCase());
-    const inCategory = !selectedCategory || cats.includes(selectedCategory);
+    const inCategory = selectedCategories.length === 0 || selectedCategories.some((selected) => cats.includes(selected));
     const inSearch = !search || String(r.product || '').toLowerCase().includes(search);
     return inCategory && inSearch;
   });
@@ -636,10 +716,11 @@ function initProductFilters(rows) {
   ).sort((a, b) => a.localeCompare(b));
 
   if (categoryEl) {
-    const current = categoryEl.value || '';
-    categoryEl.innerHTML = '<option value="">All categories</option>' +
-      categories.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
-    if (current && categories.includes(current)) categoryEl.value = current;
+    const current = new Set(getMultiSelectValues(categoryEl));
+    categoryEl.innerHTML = categories.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+    Array.from(categoryEl.options).forEach((opt) => {
+      opt.selected = current.has(String(opt.value || '').trim().toLowerCase());
+    });
     categoryEl.onchange = applyProductFilters;
   }
   if (searchEl) {
@@ -712,9 +793,7 @@ async function loadDashboardData() {
     renderTable(document.getElementById('recs'), recRows);
     renderTable(document.getElementById('channels'), channelRows);
     renderTable(document.getElementById('history'), historyRows);
-    renderEntitySpendBars(categoryRows, 'category', 'category-spend-bars');
-    renderEntityRoasBars(categoryRows, 'category', 'category-roas-bars');
-    renderTable(document.getElementById('category-summary-table'), categoryRows);
+    initCategoryFilters(categoryRows);
     initProductFilters(productRows);
     setTargetBudget(pacingRows);
     setDataPeriod(pacingRows);
