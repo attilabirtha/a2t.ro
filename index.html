@@ -53,14 +53,100 @@
     .tab-btn.active { color:#1d4ed8; border-bottom-color:#1d4ed8; }
     .tab-panel { display:none; }
     .tab-panel.active { display:block; }
-    .filters { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 12px; }
+    .filters { display:flex; flex-direction:column; gap:8px; margin:0 0 12px; }
+    .filter-row { display:flex; flex-wrap:wrap; align-items:flex-start; gap:8px; }
     .filter-input, .filter-select { border:1px solid #d0d7e2; border-radius:8px; padding:8px 10px; font-size:13px; }
+    .filter-select[size="6"] { min-height:140px; }
+    #category-search-filter, #product-search-filter, #category-campaign-filter { min-width:200px; }
+    #category-export-btn, #product-export-btn { flex-shrink:0; }
     .kpi-help { display:inline-flex; align-items:center; justify-content:center; width:16px; height:16px; border-radius:50%; border:1px solid rgba(255,255,255,.7); color:#fff; font-size:11px; font-weight:700; line-height:1; cursor:help; position:relative; z-index:20; }
     .kpi-help::after { content: attr(data-tooltip); position:absolute; left:22px; top:-6px; width:300px; background-color:#0f172a; color:#f8fafc; border:1px solid #1e293b; border-radius:8px; padding:8px 10px; font-size:12px; font-weight:500; line-height:1.35; opacity:0; pointer-events:none; transition:opacity .12s ease-in-out; z-index:2147483647; white-space:normal; box-shadow:0 10px 24px #020617; filter:none; mix-blend-mode:normal; }
     .kpi-help:hover::after, .kpi-help:focus-visible::after { opacity:1; }
     .section-help { display:inline-flex; align-items:center; justify-content:center; width:16px; height:16px; border-radius:50%; border:1px solid #64748b; color:#334155; font-size:11px; font-weight:700; line-height:1; cursor:help; position:relative; background:#fff; z-index:20; }
     .section-help::after { content: attr(data-tooltip); position:absolute; left:22px; top:-6px; width:320px; background-color:#0f172a; color:#f8fafc; border:1px solid #1e293b; border-radius:8px; padding:8px 10px; font-size:12px; font-weight:500; line-height:1.35; opacity:0; pointer-events:none; transition:opacity .12s ease-in-out; z-index:2147483647; white-space:normal; box-shadow:0 10px 24px #020617; }
     .section-help:hover::after, .section-help:focus-visible::after { opacity:1; }
+    .export-btn {
+      border:1px solid #d0d7e2; border-radius:10px; padding:8px 16px;
+      background:linear-gradient(180deg,#fff 0%,#f8fafc 100%); color:#1e293b;
+      font-size:13px; font-weight:600; cursor:pointer;
+      display:inline-flex; align-items:center; gap:7px;
+      box-shadow:0 1px 2px rgba(0,0,0,.04); transition:all .15s ease;
+    }
+    .export-btn:hover { background:linear-gradient(180deg,#f8fafc 0%,#f1f5f9 100%); border-color:#94a3b8; box-shadow:0 2px 8px rgba(0,0,0,.06); }
+    .export-btn:active { transform:scale(.97); }
+    .select-all-btn {
+      border:1px solid #d0d7e2; border-radius:8px; padding:5px 12px;
+      background:#fff; color:#475569; font-size:12px; font-weight:600;
+      cursor:pointer; transition:all .12s ease; display:inline-flex; align-items:center; gap:4px;
+    }
+    .select-all-btn:hover { background:#f1f5f9; border-color:#94a3b8; color:#1e293b; }
+    .select-all-btn:active { background:#e2e8f0; }
+    .select-group { display:inline-flex; gap:2px; align-items:center; }
+    .select-group .select-all-btn:first-child { border-radius:8px 3px 3px 8px; }
+    .select-group .select-all-btn:last-child { border-radius:3px 8px 8px 3px; }
+    .targets-toggle {
+      display:inline-flex; align-items:center; gap:10px;
+      font-size:13px; font-weight:600; color:#334155; cursor:pointer;
+      margin-bottom:12px; padding:8px 14px; background:#fff; border-radius:10px;
+      border:1px solid #e2e8f0; box-shadow:0 1px 3px rgba(0,0,0,.03);
+      transition:all .15s ease; user-select:none;
+    }
+    .targets-toggle:hover { border-color:#94a3b8; box-shadow:0 2px 8px rgba(0,0,0,.05); }
+    .switch-track {
+      width:36px; height:20px; background:#cbd5e1; border-radius:999px;
+      position:relative; transition:background .2s ease; flex-shrink:0;
+    }
+    .switch-track::after {
+      content:''; width:16px; height:16px; background:#fff; border-radius:50%;
+      position:absolute; top:2px; left:2px;
+      transition:transform .2s cubic-bezier(.22,1,.36,1);
+      box-shadow:0 1px 3px rgba(0,0,0,.15);
+    }
+    .targets-toggle input:checked + .switch-track { background:#2563eb; }
+    .targets-toggle input:checked + .switch-track::after { transform:translateX(16px); }
+    .targets-toggle input { position:absolute; opacity:0; width:0; height:0; }
+    .target-progress-track {
+      background:#f1f5f9; border-radius:999px; height:10px; overflow:hidden;
+      margin:5px 0; min-width:100px; box-shadow:inset 0 1px 2px rgba(0,0,0,.06);
+    }
+    .target-progress-fill {
+      height:100%; border-radius:999px;
+      transition:width .4s cubic-bezier(.22,1,.36,1);
+    }
+    .target-input {
+      border:1px solid #e2e8f0; border-radius:8px; padding:5px 8px;
+      font-size:12px; font-weight:600; width:60px; text-align:right;
+      color:#1e293b; background:#fff; transition:all .15s ease; font-family:inherit;
+    }
+    .target-input:hover { border-color:#94a3b8; }
+    .target-input:focus { border-color:#2563eb; outline:none; box-shadow:0 0 0 3px rgba(37,99,235,.12); }
+    .target-summary {
+      background:linear-gradient(135deg,#f8fafc 0%,#f1f5f9 100%);
+      border:1px solid #e2e8f0; border-radius:12px;
+      padding:14px 18px; margin:0 0 14px; font-size:13px;
+      display:flex; flex-wrap:wrap; gap:20px; align-items:center;
+      box-shadow:0 1px 4px rgba(0,0,0,.03);
+    }
+    .target-summary-item { display:flex; align-items:center; gap:8px; }
+    .target-summary strong { font-weight:700; }
+    .target-summary .label { color:#64748b; font-size:12px; }
+    .target-warn {
+      color:#dc2626; font-weight:700; font-size:12px; padding:3px 10px;
+      background:#fef2f2; border-radius:999px; display:inline-flex; align-items:center; gap:4px;
+    }
+    .target-ok {
+      color:#16a34a; font-weight:700; font-size:12px; padding:3px 10px;
+      background:#f0fdf4; border-radius:999px; display:inline-flex; align-items:center; gap:4px;
+    }
+    .filter-stats-card {
+      background:linear-gradient(135deg,#f8fafc 0%,#fff 100%);
+      border:1px solid #e8edf3; border-radius:10px; padding:10px 14px;
+      margin-bottom:8px; font-size:13px; color:#475569;
+      display:flex; flex-wrap:wrap; gap:16px; align-items:center;
+    }
+    .filter-stats-card strong { color:#1e293b; font-weight:700; }
+    .conv-bar-track { background:#f0e7ff; }
+    .conv-bar-fill { background:linear-gradient(90deg,#7c3aed,#a855f7); }
   </style>
 </head>
 <body>
@@ -156,22 +242,41 @@
 
   <section id="tab-category" class="tab-panel">
     <div class="filters">
-      <select id="category-name-filter" class="filter-select" multiple size="6" title="Hold Ctrl/Cmd to select multiple categories"></select>
-      <select id="category-campaign-filter" class="filter-select">
-        <option value="">All source campaigns</option>
-      </select>
-      <input id="category-search-filter" class="filter-input" type="text" placeholder="Search category..." />
+      <div class="filter-row">
+        <select id="category-name-filter" class="filter-select" multiple size="6" title="Hold Ctrl/Cmd to select multiple categories"></select>
+        <div style="display:flex;flex-direction:column;gap:4px">
+          <div class="select-group">
+            <button id="category-select-all" class="select-all-btn" type="button">Select all</button>
+            <button id="category-deselect-all" class="select-all-btn" type="button">Deselect all</button>
+          </div>
+          <select id="category-campaign-filter" class="filter-select">
+            <option value="">All source campaigns</option>
+          </select>
+          <input id="category-search-filter" class="filter-input" type="text" placeholder="Search category or campaign..." />
+          <button id="category-export-btn" class="export-btn" type="button">⬇ CSV</button>
+        </div>
+      </div>
     </div>
-    <p id="category-filter-stats" class="muted"></p>
+    <div id="category-filter-stats" class="filter-stats-card"></div>
+    <label class="targets-toggle">
+      <input type="checkbox" id="targets-toggle" />
+      <span class="switch-track"></span>
+      <span>Spend targets (% of total MTD)</span>
+    </label>
+    <div id="target-summary" class="target-summary"></div>
     <div class="viz-grid">
       <div class="card">
         <h2 class="viz-title">Spend MTD by Category <span class="section-help" data-section="spend_category" tabindex="0">?</span></h2>
         <div id="category-spend-bars"></div>
       </div>
       <div class="card">
-        <h2 class="viz-title">ROAS by Category (30d) <span class="section-help" data-section="roas_category" tabindex="0">?</span></h2>
-        <div id="category-roas-bars"></div>
+        <h2 class="viz-title">Conversion Value (30d) by Category</h2>
+        <div id="category-conv-bars"></div>
       </div>
+    </div>
+    <div class="card">
+      <h2 class="viz-title">ROAS by Category (30d) <span class="section-help" data-section="roas_category" tabindex="0">?</span></h2>
+      <div id="category-roas-bars"></div>
     </div>
     <div class="card">
       <h2 class="viz-title">Category Summary <span class="section-help" data-section="category_summary" tabindex="0">?</span></h2>
@@ -181,8 +286,13 @@
 
   <section id="tab-product" class="tab-panel">
     <div class="filters">
-      <select id="product-category-filter" class="filter-select" multiple size="6" title="Hold Ctrl/Cmd to select multiple categories"></select>
-      <input id="product-search-filter" class="filter-input" type="text" placeholder="Search product name..." />
+      <div class="filter-row">
+        <select id="product-category-filter" class="filter-select" multiple size="6" title="Hold Ctrl/Cmd to select multiple categories"></select>
+        <div style="display:flex;flex-direction:column;gap:4px">
+          <input id="product-search-filter" class="filter-input" type="text" placeholder="Search product name..." />
+          <button id="product-export-btn" class="export-btn" type="button">⬇ CSV</button>
+        </div>
+      </div>
     </div>
     <div class="viz-grid">
       <div class="card">
@@ -607,6 +717,127 @@ function renderEntityRoasBars(rows, keyField, rootId) {
     }).join('');
 }
 
+function downloadCSV(rows, filename) {
+  if (!rows.length) return;
+  const headers = Object.keys(rows[0]);
+  let csv = headers.map(h => `"${h}"`).join(',') + '\n';
+  rows.forEach(r => {
+    csv += headers.map(h => {
+      const v = String(r[h] ?? '');
+      if (v.includes(',') || v.includes('"') || v.includes('\n')) {
+        return `"${v.replace(/"/g, '""')}"`;
+      }
+      return v;
+    }).join(',') + '\n';
+  });
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function renderConvValueBars(rows, keyField, rootId) {
+  const root = document.getElementById(rootId);
+  if (!rows.length) { root.innerHTML = '<p>No data</p>'; return; }
+  const maxVal = Math.max(...rows.map(r => num(r.conv_value_30d)), 1);
+  root.innerHTML = rows.slice().sort((a, b) => num(b.conv_value_30d) - num(a.conv_value_30d)).slice(0, 15).map(r => {
+    const value = num(r.conv_value_30d);
+    const w = Math.max(3, (value / maxVal) * 100);
+    return `<div class="bar-row"><div class="bar-meta"><span>${esc(r[keyField])}</span><strong>${fmtRon(value)}</strong></div><div class="bar-track conv-bar-track"><div class="bar-fill conv-bar-fill" style="width:${w}%"></div></div></div>`;
+  }).join('');
+}
+
+function loadTargets() {
+  try { return JSON.parse(localStorage.getItem('a2t_category_targets') || '{}'); } catch { return {}; }
+}
+
+function saveTargets(targets) {
+  localStorage.setItem('a2t_category_targets', JSON.stringify(targets));
+}
+
+function renderTargetSummary(filtered) {
+  const el = document.getElementById('target-summary');
+  if (!el) return;
+  const targets = loadTargets();
+  const totalSpend = filtered.reduce((s, r) => s + num(r.spend_mtd_est), 0) || 1;
+  let totalAllocated = 0;
+  let count = 0;
+  filtered.forEach(r => {
+    const catKey = String(r.category || '').trim().toLowerCase();
+    const t = num(targets[catKey] || 0);
+    if (t > 0) { totalAllocated += t; count++; }
+  });
+  if (count === 0) { el.innerHTML = ''; return; }
+  const warn = totalAllocated > 100;
+  el.innerHTML = `
+    <span class="target-summary-item"><span class="target-summary-dot" style="background:#2563eb"></span><span><span class="label">Categories</span> <strong>${count}</strong></span></span>
+    <span class="target-summary-item"><span class="target-summary-dot" style="background:#f59e0b"></span><span><span class="label">Total allocated</span> <strong>${totalAllocated.toFixed(1)}%</strong></span></span>
+    <span class="target-summary-item"><span class="target-summary-dot" style="background:#10b981"></span><span><span class="label">Account MTD</span> <strong>${fmtRon(totalSpend)}</strong></span></span>
+    <span class="${warn ? 'target-warn' : 'target-ok'}">${warn ? '&#9888; Exceeds 100%' : '&#10003; Within budget'}</span>`;
+}
+
+function renderCategoryTableWithTargets(rows) {
+  const el = document.getElementById('category-summary-table');
+  if (!rows.length) { el.innerHTML = '<p>No data</p>'; return; }
+  const targetsEnabled = document.getElementById('targets-toggle').checked;
+  const targets = loadTargets();
+  const totalSpend = rows.reduce((s, r) => s + num(r.spend_mtd_est), 0) || 1;
+
+  let html = '<table><thead><tr>';
+  if (targetsEnabled) {
+    html += '<th>Category</th><th>Spend MTD</th><th>% of Total</th><th>Target %</th><th>Progress</th><th>Conv Value 30d</th><th>ROAS 30d</th>';
+  } else {
+    const headers = Object.keys(rows[0]);
+    html += headers.map(h => `<th>${esc(h)}</th>`).join('');
+  }
+  html += '</tr></thead><tbody>';
+
+  rows.forEach(r => {
+    const spend = num(r.spend_mtd_est);
+    const pctTotal = (spend / totalSpend) * 100;
+    if (targetsEnabled) {
+      const catKey = String(r.category || '').trim().toLowerCase();
+      const targetPct = num(targets[catKey] || 0);
+      const progress = targetPct > 0 ? Math.min(100, (pctTotal / targetPct) * 100) : 0;
+      const progressColor = progress >= 90 ? '#16a34a' : progress >= 70 ? '#eab308' : progress >= 40 ? '#f97316' : '#dc2626';
+      const convValue = num(r.conv_value_30d);
+      const spend30d = num(r.spend_30d);
+      const roas = spend30d > 0 ? (convValue / spend30d) : 0;
+      const targetInput = `<input type="number" class="target-input" data-category="${esc(catKey)}" value="${targetPct}" min="0" max="100" step="0.5" />`;
+      html += `<tr>
+        <td><strong>${esc(r.category)}</strong></td>
+        <td>${fmtRon(spend)}</td>
+        <td>${pctTotal.toFixed(1)}%</td>
+        <td>${targetInput}</td>
+        <td><div class="target-progress-track"><div class="target-progress-fill" style="width:${Math.min(progress, 100)}%;background:${progressColor}"></div></div><span class="target-progress-label">${pctTotal.toFixed(1)}% / ${targetPct.toFixed(1)}%</span></td>
+        <td>${fmtRon(convValue)}</td>
+        <td>${roas.toFixed(2)}</td>
+      </tr>`;
+    } else {
+      html += '<tr>' + Object.keys(rows[0]).map(h => `<td>${esc(String(r[h] ?? ''))}</td>`).join('') + '</tr>';
+    }
+  });
+  html += '</tbody></table>';
+  el.innerHTML = html;
+
+  if (targetsEnabled) {
+    el.querySelectorAll('.target-input').forEach(inp => {
+      inp.addEventListener('change', function () {
+        const cat = this.getAttribute('data-category');
+        const val = num(this.value);
+        const t = loadTargets();
+        if (val > 0) t[cat] = val;
+        else delete t[cat];
+        saveTargets(t);
+        applyCategoryFilters();
+      });
+    });
+  }
+}
+
 let productRowsState = [];
 let categoryRowsState = [];
 
@@ -644,16 +875,23 @@ function applyCategoryFilters() {
     const campaigns = campaignTokens(r.source_campaigns).map((c) => c.toLowerCase());
     const inName = selectedNames.length === 0 || selectedNames.includes(categoryName);
     const inCampaign = !selectedCampaign || campaigns.includes(selectedCampaign);
-    const inSearch = !search || categoryName.includes(search);
+    const inSearch = !search || categoryName.includes(search) || campaigns.some(c => c.includes(search));
     return inName && inCampaign && inSearch;
   });
 
   renderEntitySpendBars(filtered, 'category', 'category-spend-bars');
+  renderConvValueBars(filtered, 'category', 'category-conv-bars');
   renderEntityRoasBars(filtered, 'category', 'category-roas-bars');
-  renderTable(document.getElementById('category-summary-table'), filtered);
+  renderCategoryTableWithTargets(filtered);
+  renderTargetSummary(filtered);
+
   const statsEl = document.getElementById('category-filter-stats');
   if (statsEl) {
-    statsEl.textContent = `Showing ${filtered.length} of ${categoryRowsState.length} categories`;
+    const totalSpend = filtered.reduce((s, r) => s + num(r.spend_mtd_est), 0);
+    const totalConv = filtered.reduce((s, r) => s + num(r.conv_value_30d), 0);
+    const totalSpend30d = filtered.reduce((s, r) => s + num(r.spend_30d), 0);
+    const roas = totalSpend30d > 0 ? (totalConv / totalSpend30d) : 0;
+    statsEl.innerHTML = `<span><strong>${filtered.length}</strong> of <strong>${categoryRowsState.length}</strong> categories</span><span class="filter-stats-divider">|</span><span>Spend MTD <strong>${fmtRon(totalSpend)}</strong></span><span class="filter-stats-divider">|</span><span>Conv Value 30d <strong>${fmtRon(totalConv)}</strong></span><span class="filter-stats-divider">|</span><span>ROAS 30d <strong>${roas.toFixed(2)}x</strong></span>`;
   }
 }
 
@@ -687,6 +925,31 @@ function initCategoryFilters(rows) {
   if (searchEl) {
     searchEl.oninput = applyCategoryFilters;
   }
+
+  document.getElementById('category-select-all')?.addEventListener('click', () => {
+    if (nameEl) { Array.from(nameEl.options).forEach(o => o.selected = true); applyCategoryFilters(); }
+  });
+  document.getElementById('category-deselect-all')?.addEventListener('click', () => {
+    if (nameEl) { Array.from(nameEl.options).forEach(o => o.selected = false); applyCategoryFilters(); }
+  });
+  document.getElementById('category-export-btn')?.addEventListener('click', () => {
+    const nameE2 = document.getElementById('category-name-filter');
+    const campaignE2 = document.getElementById('category-campaign-filter');
+    const searchE2 = document.getElementById('category-search-filter');
+    const selectedNames2 = getMultiSelectValues(nameE2);
+    const selectedCampaign2 = (campaignE2?.value || '').trim().toLowerCase();
+    const search2 = (searchE2?.value || '').trim().toLowerCase();
+    const filtered2 = categoryRowsState.filter((r) => {
+      const n = String(r.category || '').trim().toLowerCase();
+      const cs = campaignTokens(r.source_campaigns).map((x) => x.toLowerCase());
+      return (selectedNames2.length === 0 || selectedNames2.includes(n)) &&
+        (!selectedCampaign2 || cs.includes(selectedCampaign2)) &&
+        (!search2 || n.includes(search2) || cs.some(x => x.includes(search2)));
+    });
+    downloadCSV(filtered2, `a2t_categories_${new Date().toISOString().slice(0, 10)}.csv`);
+  });
+  document.getElementById('targets-toggle')?.addEventListener('change', applyCategoryFilters);
+
   applyCategoryFilters();
 }
 
@@ -727,6 +990,21 @@ function initProductFilters(rows) {
   if (searchEl) {
     searchEl.oninput = applyProductFilters;
   }
+
+  document.getElementById('product-export-btn')?.addEventListener('click', () => {
+    const catE2 = document.getElementById('product-category-filter');
+    const searchE2 = document.getElementById('product-search-filter');
+    const selectedCats = getMultiSelectValues(catE2);
+    const searchQ = (searchE2?.value || '').trim().toLowerCase();
+    const filtered2 = productRowsState.filter((r) => {
+      const cats = categoryTokens(r.category).map((c) => c.toLowerCase());
+      const inCat = selectedCats.length === 0 || selectedCats.some((s) => cats.includes(s));
+      const inSearch = !searchQ || String(r.product || '').toLowerCase().includes(searchQ);
+      return inCat && inSearch;
+    });
+    downloadCSV(filtered2, `a2t_products_${new Date().toISOString().slice(0, 10)}.csv`);
+  });
+
   applyProductFilters();
 }
 
