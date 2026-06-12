@@ -1,7 +1,7 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
 Brand Protect,2,2,1500.0,2469.54,10583.76,52139.58,223455.33
 Caut Instalare,2,2,1000.0,198.45,850.51,1657.65,7104.22
-PMax - New - Supraveghere Video,10,2,10000.0,22270.47,95444.85,144257.8,618247.7
+PMax - New - Supraveghere Video,10,2,10000.0,22270.47,95444.85,144229.58,618126.77
 PMax - New - FotoVoltaice/Solare,10,2,2000.0,1209.01,5181.49,9668.49,41436.38
 PMax - New - Automatizari Porti,10,2,4500.0,15358.77,65823.29,89900.18,385286.49
 PMax - New - Interfoane,10,2,1800.0,1960.76,8403.25,23138.87,99166.57
@@ -15,7 +15,7 @@ June 2024 - Search - Automatizari - tROAS,2,2,3000.0,802.33,3438.54,5680.37,2434
 PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,2678.88,11480.9,26492.6,113539.69
 June 2024 - Search - Accesorii Supraveghere - tROAS,2,2,3000.0,640.33,2744.26,14269.93,61156.86
 June 2024 - Search - Supraveghere + Brands - tROAS,2,2,3000.0,732.11,3137.6,7843.09,33613.26
-June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,2,4000.0,5548.34,23778.6,13356.88,57243.79
+June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,2,4000.0,5548.34,23778.6,13467.48,57717.77
 June 2024 - Search - Interfoane - tROAS,2,2,2000.0,21.26,91.12,0.0,0.0
 June 2024 - Search - Fotovoltaice - tROAS,2,2,2000.0,4.25,18.23,0.0,0.0
 June 2024 - Search - Alarme - tROAS,2,2,2000.0,7.22,30.96,0.0,0.0
@@ -28,7 +28,7 @@ PMax - New - Accesorii Supraveghere,10,2,3300.0,19531.69,83707.23,117561.37,5038
 PMax - New - Kituri Supraveghere,10,2,2500.0,2745.32,11765.67,15491.97,66394.17
 PMax - New - Sonorizari,10,2,500.0,1596.27,6841.16,12310.92,52761.11
 DGen - All other categories,14,2,600.0,1877.91,8048.19,5502.84,23583.59
-DGen - Supraveghere,14,2,1150.0,7811.32,33477.09,16881.24,72348.17
+DGen - Supraveghere,14,2,1150.0,7811.32,33477.09,16883.55,72358.06
 PMax - Scule si Unelte,10,2,4000.0,3609.91,15471.06,38429.61,164698.34
 PMax - Poor Products - Shopping - LOW ROAS,10,2,620.0,4251.78,18221.89,43297.95,185562.66
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
