@@ -297,7 +297,8 @@ function channelLabel(raw) {
 }
 
 function dataUrl(fileName) {
-  const u = new URL(`data/output/${fileName}`, document.baseURI);
+  const base = window.location.href.replace(/\?.*$/, '').replace(/\/?$/, '/');
+  const u = new URL(`data/output/${fileName}`, base);
   u.searchParams.set('t', String(Date.now()));
   return u.toString();
 }
