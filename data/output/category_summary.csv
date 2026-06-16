@@ -1,7 +1,7 @@
 report_date,category,campaign_count,source_campaigns,daily_budget_total,spend_mtd_est,spend_30d,conv_value_30d,roas_30d
-2026-06-16,camere ip wireless,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Supraveghere Video | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,15320.0,28334.4,53127.0,415993.2,7.83
+2026-06-16,camere ip wireless,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Supraveghere Video | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,15320.0,28334.4,53127.0,416978.72,7.849
 2026-06-16,porti culisante,5,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Automatizari Porti | PMax - New - Kituri Supraveghere | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,12320.0,17924.43,33608.31,217732.87,6.479
-2026-06-16,rack si ups,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Accesorii Supraveghere | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,8620.0,15638.89,29322.92,180897.89,6.169
+2026-06-16,rack si ups,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Accesorii Supraveghere | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,8620.0,15638.89,29322.92,181411.88,6.187
 2026-06-16,porti batante,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Automatizari Porti | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,9820.0,15324.12,28732.72,228489.83,7.952
 2026-06-16,alimentatori si surse,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Accesorii Supraveghere | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,8620.0,9620.88,18039.14,129046.03,7.154
 2026-06-16,camere ip,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Supraveghere Video | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,15320.0,8557.27,16044.88,69754.35,4.347
@@ -25,7 +25,7 @@ report_date,category,campaign_count,source_campaigns,daily_budget_total,spend_mt
 2026-06-16,antiincendiu adresabil,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Alarme antiincendiu | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,6420.0,1804.26,3382.99,9626.58,2.846
 2026-06-16,monitoare,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Accesorii Supraveghere | PMax - Poor Products - Shopping - LOW ROAS,7220.0,1542.37,2891.94,9961.69,3.445
 2026-06-16,video balun si mufe,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Accesorii Supraveghere | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,8620.0,1541.49,2890.3,30910.11,10.694
-2026-06-16,accesorii interfon si videointerfon,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Poor Products - Shopping - LOW ROAS | PMax - Purchase - Accesorii | PMax - Top Products last 14 days - Feed Only,8620.0,1423.78,2669.6,55876.19,20.931
+2026-06-16,accesorii interfon si videointerfon,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Poor Products - Shopping - LOW ROAS | PMax - Purchase - Accesorii | PMax - Top Products last 14 days - Feed Only,8620.0,1423.78,2669.6,55881.52,20.933
 2026-06-16,interfon,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Interfoane | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,7120.0,1311.61,2459.27,18193.83,7.398
 2026-06-16,"senzori fum, gaz, standalone",3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Alarme antiincendiu | PMax - Top Products last 14 days - Feed Only,5800.0,1310.99,2458.1,16186.31,6.585
 2026-06-16,sonorizare pa 100v,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Sonorizari | PMax - Top Products last 14 days - Feed Only,5200.0,1235.64,2316.83,24710.46,10.666
@@ -66,7 +66,7 @@ report_date,category,campaign_count,source_campaigns,daily_budget_total,spend_mt
 2026-06-16,scule si unelte pentru gradinarit,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Scule si Unelte,7300.0,101.8,190.88,0.0,0.0
 2026-06-16,siguranta muncii,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,64.52,120.97,279.63,2.312
 2026-06-16,accesorii supraveghere,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Top Products last 14 days - Feed Only,4700.0,52.68,98.78,422.81,4.28
-2026-06-16,"dulap scule, depozitare scule",2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Scule si Unelte,7300.0,46.92,87.97,30.39,0.345
+2026-06-16,"dulap scule, depozitare scule",2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Scule si Unelte,7300.0,46.92,87.97,91.16,1.036
 2026-06-16,cabluri si conectori audio,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,40.99,76.85,981.07,12.766
 2026-06-16,fi - iluminat stradal,1,PMax - New - FotoVoltaice/Solare,2000.0,35.18,65.95,0.0,0.0
 2026-06-16,casa inteligenta,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,29.89,56.04,0.0,0.0
