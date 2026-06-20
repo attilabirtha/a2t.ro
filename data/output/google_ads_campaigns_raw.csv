@@ -10,7 +10,7 @@ PMax - New - SmartHome,10,2,2000.0,1534.38,6575.91,23165.3,99279.87
 PMax - Purchase - Accesorii,10,2,3300.0,5022.37,21524.46,46502.62,199296.95
 NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,3416.24,14641.02,15985.29,68508.4
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,260.64,1117.03,717.88,3076.61
-DGen - Automatizari,14,2,750.0,946.32,4055.64,2591.64,11107.01
+DGen - Automatizari,14,2,750.0,946.31,4055.63,3271.22,14019.51
 June 2024 - Search - Automatizari - tROAS,2,2,3000.0,996.39,4270.24,4868.01,20862.88
 PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,2621.21,11233.77,24787.96,106234.13
 June 2024 - Search - Accesorii Supraveghere - tROAS,2,2,3000.0,997.81,4276.34,17578.69,75337.24
@@ -23,16 +23,16 @@ June 2024 - Search - Acces Pontaj - tROAS,2,2,2000.0,18.9,80.98,86.9,372.43
 June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,1.6,6.84,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,2.79,11.95,0.0,0.0
 PMax - New - Alarme antiincendiu,10,2,1100.0,7598.31,32564.17,28653.16,122799.25
-PMax - New - Control Acces,10,2,1000.0,805.03,3450.13,7126.14,30540.61
+PMax - New - Control Acces,10,2,1000.0,805.03,3450.13,7234.94,31006.9
 PMax - New - Accesorii Supraveghere,10,2,3300.0,20710.14,88757.74,126421.99,541808.54
-PMax - New - Kituri Supraveghere,10,2,2500.0,3960.28,16972.64,21375.07,91607.46
+PMax - New - Kituri Supraveghere,10,2,2500.0,3960.37,16973.03,21375.07,91607.46
 PMax - New - Sonorizari,10,2,500.0,1646.74,7057.45,14044.61,60191.17
-DGen - All other categories,14,2,600.0,1986.88,8515.19,8895.85,38125.08
-DGen - Supraveghere,14,2,1150.0,7715.91,33068.19,26299.02,112710.09
-PMax - Scule si Unelte,10,2,4000.0,3315.13,14207.69,34669.51,148583.6
+DGen - All other categories,14,2,600.0,1986.88,8515.19,9489.72,40670.25
+DGen - Supraveghere,14,2,1150.0,7715.88,33068.08,26908.17,115320.74
+PMax - Scule si Unelte,10,2,4000.0,3315.13,14207.69,34907.46,149603.41
 PMax - Poor Products - Shopping - LOW ROAS,10,2,1000.0,4068.13,17434.86,39931.35,171134.37
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
 PMax - Top Products last 14 days - Feed Only,10,2,750.0,8121.31,34805.63,42746.54,183199.46
 DGen - Supraveghere - NO RMKT - tROAS - AC/BC,14,2,210.0,27.53,117.99,0.0,0.0
-Video Views - NO RMKT - NO Product Feed,6,2,100.0,700.99,3004.23,0.0,0.0
+Video Views - NO RMKT - NO Product Feed,6,2,100.0,700.98,3004.21,0.0,0.0
