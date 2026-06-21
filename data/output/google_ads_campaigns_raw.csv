@@ -10,7 +10,7 @@ PMax - New - SmartHome,10,2,2000.0,1518.04,6505.87,23093.44,98971.89
 PMax - Purchase - Accesorii,10,2,3300.0,4977.31,21331.33,45849.21,196496.6
 NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,3325.8,14253.41,15259.5,65397.87
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,244.18,1046.49,717.88,3076.61
-DGen - Automatizari,14,2,750.0,908.17,3892.16,3254.62,13948.39
+DGen - Automatizari,14,2,750.0,908.17,3892.16,3187.47,13660.6
 June 2024 - Search - Automatizari - tROAS,2,2,3000.0,989.92,4242.5,4849.94,20785.45
 PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,2691.84,11536.45,24816.54,106356.6
 June 2024 - Search - Accesorii Supraveghere - tROAS,2,2,3000.0,996.53,4270.85,17356.94,74386.87
@@ -27,12 +27,12 @@ PMax - New - Control Acces,10,2,1000.0,885.56,3795.24,7457.06,31958.84
 PMax - New - Accesorii Supraveghere,10,2,3300.0,20778.36,89050.1,120907.79,518176.24
 PMax - New - Kituri Supraveghere,10,2,2500.0,3985.09,17078.95,19639.24,84168.15
 PMax - New - Sonorizari,10,2,500.0,1582.48,6782.06,12763.93,54702.57
-DGen - All other categories,14,2,600.0,2148.88,9209.47,10550.28,45215.47
-DGen - Supraveghere,14,2,1150.0,7763.47,33272.03,20422.84,87526.46
-PMax - Scule si Unelte,10,2,4000.0,3218.86,13795.12,33748.31,144635.6
+DGen - All other categories,14,2,600.0,2148.88,9209.47,9941.02,42604.35
+DGen - Supraveghere,14,2,1150.0,7763.47,33272.04,20324.23,87103.84
+PMax - Scule si Unelte,10,2,4000.0,3218.86,13795.12,33478.13,143477.69
 PMax - Poor Products - Shopping - LOW ROAS,10,2,1000.0,4138.13,17734.84,41635.59,178438.26
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
-PMax - Top Products last 14 days - Feed Only,10,2,750.0,8096.38,34698.77,42945.74,184053.19
+PMax - Top Products last 14 days - Feed Only,10,2,750.0,8096.38,34698.77,43047.61,184489.76
 DGen - Supraveghere - NO RMKT - tROAS - AC/BC,14,2,210.0,23.15,99.22,0.0,0.0
 Video Views - NO RMKT - NO Product Feed,6,2,100.0,701.72,3007.38,0.0,0.0
