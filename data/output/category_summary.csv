@@ -24,7 +24,7 @@ report_date,category,campaign_count,source_campaigns,daily_budget_total,spend_mt
 2026-06-21,producatori camere ip,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Supraveghere Video | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,15050.0,2257.29,3224.7,14266.37,4.424
 2026-06-21,"senzori fum, gaz, standalone",4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Alarme antiincendiu | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,6150.0,2122.51,3032.15,18267.16,6.024
 2026-06-21,video balun si mufe,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Accesorii Supraveghere | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,8350.0,2115.8,3022.57,16094.43,5.325
-2026-06-21,sisteme smart home,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - SmartHome | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,7050.0,2100.4,3000.56,37505.06,12.499
+2026-06-21,sisteme smart home,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - SmartHome | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,7050.0,2100.4,3000.56,37696.05,12.563
 2026-06-21,monitoare,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Accesorii Supraveghere | PMax - Poor Products - Shopping - LOW ROAS,7600.0,2097.58,2996.54,7873.94,2.628
 2026-06-21,antiincendiu conventional,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Alarme antiincendiu | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,6150.0,1851.74,2645.34,10675.68,4.036
 2026-06-21,sisteme de alarma wireless,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Sisteme Alarma | PMax - Poor Products - Shopping - LOW ROAS,6100.0,1649.51,2356.44,29672.22,12.592
@@ -34,7 +34,7 @@ report_date,category,campaign_count,source_campaigns,daily_budget_total,spend_mt
 2026-06-21,bariera si sistem parcare,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Automatizari Porti | PMax - Poor Products - Shopping - LOW ROAS,8800.0,1571.95,2245.64,16102.62,7.171
 2026-06-21,inchizatori electro-mecanice,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Control Acces | PMax - Poor Products - Shopping - LOW ROAS,5300.0,1472.58,2103.69,23688.46,11.26
 2026-06-21,automatizari ferestre,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Automatizari Porti | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,9550.0,1434.94,2049.92,3471.84,1.694
-2026-06-21,accesorii,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Poor Products - Shopping - LOW ROAS | PMax - Purchase - Accesorii,7600.0,1379.27,1970.38,8181.17,4.152
+2026-06-21,accesorii,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Poor Products - Shopping - LOW ROAS | PMax - Purchase - Accesorii,7600.0,1379.27,1970.38,8372.16,4.249
 2026-06-21,cabluri,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - FotoVoltaice/Solare | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,7050.0,1190.99,1701.41,21391.89,12.573
 2026-06-21,centrale si dispozitive stand-alone,3,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Control Acces | PMax - Poor Products - Shopping - LOW ROAS,5300.0,1190.64,1700.92,15498.43,9.112
 2026-06-21,usi de garaj,4,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Automatizari Porti | PMax - Poor Products - Shopping - LOW ROAS | PMax - Top Products last 14 days - Feed Only,9550.0,1142.65,1632.36,9163.42,5.614
@@ -69,7 +69,7 @@ report_date,category,campaign_count,source_campaigns,daily_budget_total,spend_mt
 2026-06-21,echipamente telecomunicatii,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,120.46,172.08,517.77,3.009
 2026-06-21,siguranta muncii,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Poor Products - Shopping - LOW ROAS,4300.0,109.81,156.87,338.58,2.158
 2026-06-21,GoogleCategoryID 7261,1,PMax - Poor Products - Shopping - LOW ROAS,1000.0,78.69,112.41,1525.75,13.573
-2026-06-21,cititoare control acces,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Control Acces,4300.0,68.31,97.59,0.0,0.0
+2026-06-21,cititoare control acces,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Control Acces,4300.0,68.31,97.59,16.45,0.169
 2026-06-21,accesorii si consumabile,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Poor Products - Shopping - LOW ROAS,4300.0,62.95,89.93,469.71,5.223
 2026-06-21,cabluri si conectori audio,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,59.69,85.28,913.95,10.717
 2026-06-21,accesorii supraveghere,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - Top Products last 14 days - Feed Only,4050.0,57.24,81.77,421.14,5.15
