@@ -1,7 +1,7 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
 Brand Protect,2,2,1500.0,2356.59,10099.66,51029.14,218696.31
 Caut Instalare,2,2,1000.0,212.54,910.89,2114.98,9064.21
-PMax - New - Supraveghere Video,10,2,10000.0,23898.17,102420.72,156756.94,671815.46
+PMax - New - Supraveghere Video,10,2,10000.0,23898.17,102420.72,156765.48,671852.06
 PMax - New - FotoVoltaice/Solare,10,2,2000.0,1161.6,4978.27,11775.26,50465.4
 PMax - New - Automatizari Porti,10,2,4500.0,13497.9,57848.13,99350.0,425785.73
 PMax - New - Interfoane,10,2,1800.0,1665.28,7136.93,23629.69,101270.11
@@ -15,7 +15,7 @@ June 2024 - Search - Automatizari - tROAS,2,2,3000.0,989.92,4242.5,4849.94,20785
 PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,2691.84,11536.45,24819.96,106371.24
 June 2024 - Search - Accesorii Supraveghere - tROAS,2,2,3000.0,996.53,4270.85,17356.94,74386.87
 June 2024 - Search - Supraveghere + Brands - tROAS,2,2,3000.0,992.33,4252.85,5295.58,22695.35
-June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,2,4000.0,5789.21,24810.89,14636.51,62727.89
+June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,2,4000.0,5789.46,24811.98,14636.51,62727.89
 June 2024 - Search - Interfoane - tROAS,2,2,2000.0,18.44,79.03,0.0,0.0
 June 2024 - Search - Fotovoltaice - tROAS,2,2,2000.0,2.39,10.26,0.0,0.0
 June 2024 - Search - Alarme - tROAS,2,2,2000.0,7.91,33.9,1356.46,5813.42
@@ -35,4 +35,4 @@ DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
 PMax - Top Products last 14 days - Feed Only,10,2,750.0,8096.38,34698.77,43047.61,184489.76
 DGen - Supraveghere - NO RMKT - tROAS - AC/BC,14,2,210.0,23.15,99.22,0.0,0.0
-Video Views - NO RMKT - NO Product Feed,6,2,100.0,701.72,3007.37,0.0,0.0
+Video Views - NO RMKT - NO Product Feed,6,2,100.0,701.72,3007.36,0.0,0.0
