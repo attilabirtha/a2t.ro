@@ -1,18 +1,18 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
 Brand Protect,2,2,1500.0,2362.37,10124.43,49954.6,214091.16
 Caut Instalare,2,2,1000.0,237.99,1019.97,2201.78,9436.2
-PMax - New - Supraveghere Video,10,2,10000.0,23993.67,102830.01,160355.61,687238.35
+PMax - New - Supraveghere Video,10,2,10000.0,23993.67,102830.01,160697.45,688703.37
 PMax - New - FotoVoltaice/Solare,10,2,2000.0,1135.66,4867.11,12319.92,52799.66
-PMax - New - Automatizari Porti,10,2,4500.0,13436.72,57585.96,97582.1,418209.02
+PMax - New - Automatizari Porti,10,2,4500.0,13436.66,57585.67,97582.1,418209.02
 PMax - New - Interfoane,10,2,1800.0,1612.35,6910.08,18667.2,80002.29
-PMax - New - Sisteme Alarma,10,2,1800.0,852.84,3655.04,12933.54,55429.46
+PMax - New - Sisteme Alarma,10,2,1800.0,852.84,3655.04,12937.47,55446.32
 PMax - New - SmartHome,10,2,2000.0,1550.06,6643.1,22577.01,96758.59
-PMax - Purchase - Accesorii,10,2,3300.0,5059.81,21684.9,34524.14,147960.62
+PMax - Purchase - Accesorii,10,2,3300.0,5059.81,21684.9,34589.93,148242.58
 NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,3350.27,14358.29,18036.81,77300.63
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,237.72,1018.81,717.88,3076.61
 DGen - Automatizari,14,2,750.0,850.21,3643.76,2514.15,10774.94
 June 2024 - Search - Automatizari - tROAS,2,2,3000.0,1038.91,4452.46,5641.87,24179.44
-PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,2959.92,12685.37,26473.37,113457.32
+PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,2959.92,12685.37,26559.54,113826.59
 June 2024 - Search - Accesorii Supraveghere - tROAS,2,2,3000.0,1020.01,4371.47,17347.0,74344.27
 June 2024 - Search - Supraveghere + Brands - tROAS,2,2,3000.0,1045.67,4481.45,5477.82,23476.36
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,2,4000.0,5797.19,24845.11,14985.83,64225.0
@@ -22,18 +22,18 @@ June 2024 - Search - Alarme - tROAS,2,2,2000.0,9.02,38.64,3616.97,15501.28
 June 2024 - Search - Acces Pontaj - tROAS,2,2,2000.0,23.01,98.62,57.28,245.47
 June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,1.6,6.84,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,3.03,12.99,0.0,0.0
-PMax - New - Alarme antiincendiu,10,2,1100.0,7359.06,31538.85,25843.0,110755.7
+PMax - New - Alarme antiincendiu,10,2,1100.0,7359.34,31540.03,25876.36,110898.69
 PMax - New - Control Acces,10,2,1000.0,1019.05,4367.35,8592.85,36826.52
-PMax - New - Accesorii Supraveghere,10,2,3300.0,21652.05,92794.48,129461.35,554834.34
-PMax - New - Kituri Supraveghere,10,2,2500.0,4233.61,18144.04,21868.03,93720.14
-PMax - New - Sonorizari,10,2,500.0,1513.45,6486.21,12889.67,55241.43
-DGen - All other categories,14,2,600.0,2439.67,10455.73,11691.08,50104.61
-DGen - Supraveghere,14,2,1150.0,7976.8,34186.3,18115.51,77637.92
-PMax - Scule si Unelte,10,2,4000.0,3127.74,13404.62,33694.7,144405.87
-PMax - Poor Products - Shopping - LOW ROAS,10,2,1000.0,4364.45,18704.8,48165.82,206424.95
+PMax - New - Accesorii Supraveghere,10,2,3300.0,21652.05,92794.52,129523.02,555098.64
+PMax - New - Kituri Supraveghere,10,2,2500.0,4234.43,18147.57,21868.03,93720.14
+PMax - New - Sonorizari,10,2,500.0,1513.45,6486.21,12955.47,55523.42
+DGen - All other categories,14,2,600.0,2440.01,10457.19,11691.65,50107.06
+DGen - Supraveghere,14,2,1150.0,7977.95,34191.21,18279.16,78339.28
+PMax - Scule si Unelte,10,2,4000.0,3127.74,13404.62,33707.66,144461.38
+PMax - Poor Products - Shopping - LOW ROAS,10,2,1000.0,4364.45,18704.8,48168.14,206434.87
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
-PMax - Top Products last 14 days - Feed Only,10,2,750.0,7901.06,33861.68,41388.91,177381.05
+PMax - Top Products last 14 days - Feed Only,10,2,750.0,7901.34,33862.87,41388.91,177381.05
 DGen - Supraveghere - NO RMKT - tROAS - AC/BC,14,2,210.0,19.4,83.13,0.0,0.0
-Video Views - NO RMKT - NO Product Feed,6,2,100.0,703.41,3014.62,0.0,0.0
+Video Views - NO RMKT - NO Product Feed,6,2,100.0,703.4,3014.58,0.0,0.0
 PMax - Promotii - Full Assets - Male - 25 to 55,10,2,500.0,34.07,146.03,0.0,0.0
