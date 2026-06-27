@@ -7,7 +7,7 @@ PMax - New - Automatizari Porti,10,2,4500.0,13703.09,58727.55,95854.73,410805.98
 PMax - New - Interfoane,10,2,1800.0,1570.46,6730.53,29918.66,128222.83
 PMax - New - Sisteme Alarma,10,2,1800.0,804.71,3448.77,14998.89,64280.96
 PMax - New - SmartHome,10,2,2000.0,1645.2,7050.87,17964.43,76990.42
-PMax - Purchase - Accesorii,10,2,3300.0,5025.11,21536.19,40106.42,171884.66
+PMax - Purchase - Accesorii,10,2,3300.0,5025.11,21536.19,40121.35,171948.65
 NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,3318.26,14221.1,18494.66,79262.81
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,224.7,962.98,763.46,3271.96
 DGen - Automatizari,14,2,750.0,831.29,3562.69,2378.66,10194.27
@@ -22,9 +22,9 @@ June 2024 - Search - Alarme - tROAS,2,2,2000.0,10.0,42.85,5877.47,25189.14
 June 2024 - Search - Acces Pontaj - tROAS,2,2,2000.0,24.79,106.23,57.28,245.47
 June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,0.97,4.16,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,3.03,12.99,13.53,57.97
-PMax - New - Alarme antiincendiu,10,2,1100.0,7176.61,30756.91,24647.38,105631.64
+PMax - New - Alarme antiincendiu,10,2,1100.0,7176.61,30756.91,24669.78,105727.64
 PMax - New - Control Acces,10,2,1000.0,1261.69,5407.24,11814.58,50633.91
-PMax - New - Accesorii Supraveghere,10,2,3300.0,22042.34,94467.17,128284.47,549790.59
+PMax - New - Accesorii Supraveghere,10,2,3300.0,22042.34,94467.17,128291.94,549822.59
 PMax - New - Kituri Supraveghere,10,2,2500.0,5030.24,21558.16,33376.06,143040.24
 PMax - New - Sonorizari,10,2,500.0,1360.19,5829.37,12552.73,53797.4
 DGen - All other categories,14,2,600.0,2774.31,11889.88,13020.23,55801.0
@@ -35,5 +35,5 @@ DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
 PMax - Top Products last 14 days - Feed Only,10,2,1100.0,7678.87,32909.46,32570.97,139589.85
 DGen - Promo - NO RMKT - tROAS - AC,14,2,500.0,445.81,1910.63,0.0,0.0
-Video Views - NO RMKT - NO Product Feed,6,2,100.0,706.4,3027.44,0.0,0.0
+Video Views - NO RMKT - NO Product Feed,6,2,100.0,706.39,3027.39,0.0,0.0
 PMax - Promotii - Full Assets - Male - 25 to 55,10,2,500.0,581.94,2494.02,1815.48,7780.63
