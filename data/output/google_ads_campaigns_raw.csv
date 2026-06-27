@@ -12,7 +12,7 @@ NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,3318.26,14221.1,18494.66,792
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,224.7,962.98,763.46,3271.96
 DGen - Automatizari,14,2,750.0,831.29,3562.69,2393.45,10257.64
 June 2024 - Search - Automatizari - tROAS,2,2,3000.0,1092.07,4680.3,5952.42,25510.36
-PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,4499.82,19284.95,38486.31,164941.34
+PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,4499.66,19284.24,38486.31,164941.34
 June 2024 - Search - Accesorii Supraveghere - tROAS,2,2,3000.0,1166.24,4998.17,17095.53,73266.56
 June 2024 - Search - Supraveghere + Brands - tROAS,2,2,3000.0,1166.33,4998.55,5433.97,23288.45
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,2,4000.0,5476.33,23470.0,18770.91,80446.76
@@ -24,13 +24,13 @@ June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,0.97,4.16,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,3.03,12.99,13.53,57.97
 PMax - New - Alarme antiincendiu,10,2,1100.0,7176.61,30756.91,24669.78,105727.64
 PMax - New - Control Acces,10,2,1000.0,1261.69,5407.24,11841.62,50749.8
-PMax - New - Accesorii Supraveghere,10,2,3300.0,22041.92,94465.36,128323.82,549959.24
+PMax - New - Accesorii Supraveghere,10,2,3300.0,22041.92,94465.36,128325.01,549964.34
 PMax - New - Kituri Supraveghere,10,2,2500.0,5030.24,21558.16,33376.06,143040.24
 PMax - New - Sonorizari,10,2,500.0,1360.1,5829.02,12552.73,53797.4
-DGen - All other categories,14,2,600.0,2774.3,11889.86,13020.23,55801.0
-DGen - Supraveghere,14,2,1000.0,8200.93,35146.85,19402.43,83153.25
+DGen - All other categories,14,2,600.0,2774.3,11889.86,12830.09,54986.08
+DGen - Supraveghere,14,2,1000.0,8200.93,35146.86,19888.76,85237.56
 PMax - Scule si Unelte,10,2,4000.0,2863.63,12272.71,25885.26,110936.82
-PMax - Poor Products - Shopping - LOW ROAS,10,2,1100.0,4807.76,20604.68,53112.38,227624.5
+PMax - Poor Products - Shopping - LOW ROAS,10,2,1100.0,4807.76,20604.68,53142.51,227753.62
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
 PMax - Top Products last 14 days - Feed Only,10,2,1100.0,7678.87,32909.46,32571.12,139590.5
