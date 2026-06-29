@@ -1,18 +1,18 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
 Brand Protect,2,2,1500.0,2337.05,10015.93,45671.4,195734.56
 Caut Instalare,2,2,1000.0,263.03,1127.29,2113.56,9058.12
-PMax - New - Supraveghere Video,10,2,10000.0,25472.74,109168.87,167009.99,715757.12
+PMax - New - Supraveghere Video,10,2,10000.0,25472.74,109168.87,167309.45,717040.52
 PMax - New - FotoVoltaice/Solare,10,2,2000.0,957.66,4104.27,14187.95,60805.51
-PMax - New - Automatizari Porti,10,2,4500.0,13414.01,57488.63,96356.35,412955.8
-PMax - New - Interfoane,10,2,1800.0,1494.56,6405.25,29912.98,128198.5
-PMax - New - Sisteme Alarma,10,2,1800.0,768.33,3292.86,17465.05,74850.22
+PMax - New - Automatizari Porti,10,2,4500.0,13414.01,57488.63,96382.36,413067.27
+PMax - New - Interfoane,10,2,1800.0,1494.56,6405.25,29961.17,128405.01
+PMax - New - Sisteme Alarma,10,2,1800.0,768.33,3292.86,17573.55,75315.22
 PMax - New - SmartHome,10,2,2000.0,1653.27,7085.45,19278.89,82623.81
 PMax - Purchase - Accesorii,10,2,3300.0,4899.82,20999.22,37718.28,161649.76
 NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,3181.13,13633.43,17331.19,74276.52
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,220.2,943.72,763.46,3271.96
 DGen - Automatizari,14,2,750.0,846.45,3627.64,2338.19,10020.81
 June 2024 - Search - Automatizari - tROAS,2,2,3000.0,1091.27,4676.88,6234.08,26717.48
-PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,4665.49,19994.96,41523.79,177959.1
+PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,4665.49,19994.96,41704.62,178734.09
 June 2024 - Search - Accesorii Supraveghere - tROAS,2,2,3000.0,1194.54,5119.46,7487.02,32087.24
 June 2024 - Search - Supraveghere + Brands - tROAS,2,2,3000.0,1179.5,5054.99,4848.31,20778.49
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,2,4000.0,5173.47,22172.02,17548.68,75208.62
@@ -22,18 +22,18 @@ June 2024 - Search - Alarme - tROAS,2,2,2000.0,10.63,45.54,5877.47,25189.14
 June 2024 - Search - Acces Pontaj - tROAS,2,2,2000.0,23.57,100.99,57.28,245.47
 June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,0.97,4.16,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,3.03,12.99,27.05,115.94
-PMax - New - Alarme antiincendiu,10,2,1100.0,7032.44,30139.04,23663.23,101413.83
-PMax - New - Control Acces,10,2,1000.0,1352.69,5797.26,11968.37,51293.02
-PMax - New - Accesorii Supraveghere,10,2,3300.0,21304.56,91305.27,129181.09,553633.23
-PMax - New - Kituri Supraveghere,10,2,2500.0,5175.7,22181.56,35160.68,150688.62
+PMax - New - Alarme antiincendiu,10,2,1100.0,7032.44,30139.02,23663.23,101413.83
+PMax - New - Control Acces,10,2,1000.0,1352.9,5798.16,11968.37,51293.02
+PMax - New - Accesorii Supraveghere,10,2,3300.0,21304.56,91305.27,129513.76,555058.97
+PMax - New - Kituri Supraveghere,10,2,2500.0,5175.7,22181.56,35169.25,150725.34
 PMax - New - Sonorizari,10,2,500.0,1248.45,5350.52,11964.18,51275.08
 DGen - All other categories,14,2,600.0,2898.83,12423.58,11902.61,51011.18
-DGen - Supraveghere,14,2,1000.0,7982.83,34212.13,18209.87,78042.29
+DGen - Supraveghere,14,2,1000.0,7982.83,34212.13,18210.16,78043.52
 PMax - Scule si Unelte,10,2,4000.0,2601.49,11149.26,25913.24,111056.75
-PMax - Poor Products - Shopping - LOW ROAS,10,2,1100.0,5093.56,21829.56,50931.1,218276.15
+PMax - Poor Products - Shopping - LOW ROAS,10,2,1100.0,5093.56,21829.56,50994.1,218546.14
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
-PMax - Top Products last 14 days - Feed Only,10,2,1100.0,7560.09,32400.38,31961.81,136979.2
-DGen - Promo - NO RMKT - tROAS - AC,14,2,500.0,747.42,3203.23,0.0,0.0
-Video Views - NO RMKT - NO Product Feed,6,2,100.0,707.98,3034.21,0.0,0.0
+PMax - Top Products last 14 days - Feed Only,10,2,1100.0,7560.09,32400.38,31963.43,136986.14
+DGen - Promo - NO RMKT - tROAS - AC,14,2,500.0,747.42,3203.22,0.0,0.0
+Video Views - NO RMKT - NO Product Feed,6,2,100.0,707.98,3034.19,0.0,0.0
 PMax - Promotii - Full Assets - Male - 25 to 55,10,2,500.0,677.11,2901.89,1956.55,8385.19
