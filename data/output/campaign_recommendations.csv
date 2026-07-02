@@ -1,7 +1,7 @@
 campaign,channel,current_budget,recommended_budget,recommendation,priority,reason,report_date,roas_30d,spend_30d,spend_mtd_est,conv_value_30d
 DGen - Promo - NO RMKT - tROAS - AC,14,500.0,400.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-07-02,0.0,4046.07,261.04,0.0
 Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-07-02,0.0,3036.33,195.89,0.0
-DGen - Supraveghere,14,1000.0,800.0,Reduce 20%,2,ROAS sub 2.5.,2026-07-02,2.479,31961.06,2062.0,79235.19
+DGen - Supraveghere,14,1000.0,800.0,Reduce 20%,2,ROAS sub 2.5.,2026-07-02,2.479,31961.06,2062.0,79235.33
 NEW - DSA - Automatizari Porti - No Accesories,2,2000.0,1700.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-02,3.104,1013.51,65.39,3145.93
 DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,750.0,637.5,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-02,2.604,3606.06,232.65,9391.73
 June 2024 - Search - Supraveghere + Brands - tROAS,2,3000.0,2550.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-02,3.354,5706.35,368.15,19140.46
@@ -19,7 +19,7 @@ June 2024 - Search - Automatizari - tROAS,2,3000.0,3000.0,Hold / Preventive cap,
 June 2024 - Search - Accesorii Supraveghere - tROAS,2,3000.0,3000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-02,6.652,5739.0,370.26,38177.35
 PMax - Scule si Unelte,10,4000.0,4000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-02,8.684,10275.26,662.92,89225.56
 Brand Protect,2,1500.0,1500.0,Hold,6,Fara trigger de ajustare.,2026-07-02,21.629,10673.52,688.61,230862.31
-PMax - New - Supraveghere Video,10,10000.0,10000.0,Hold,6,Fara trigger de ajustare.,2026-07-02,5.652,113032.84,7292.44,638875.82
+PMax - New - Supraveghere Video,10,10000.0,10000.0,Hold,6,Fara trigger de ajustare.,2026-07-02,5.654,113033.84,7292.51,639080.48
 PMax - New - Automatizari Porti,10,4500.0,4500.0,Hold,6,Fara trigger de ajustare.,2026-07-02,7.152,57632.5,3718.23,412200.24
 PMax - Purchase - Accesorii,10,3300.0,3300.0,Hold,6,Fara trigger de ajustare.,2026-07-02,7.898,22766.66,1468.82,179799.87
 NEW - DSA - Supraveghere - No Accesories,2,1000.0,1000.0,Hold,6,Fara trigger de ajustare.,2026-07-02,5.646,14509.92,936.12,81922.37
