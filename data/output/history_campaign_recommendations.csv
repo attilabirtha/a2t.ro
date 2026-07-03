@@ -2025,7 +2025,7 @@ DGen - All other categories,14,600.0,540.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2
 DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,750.0,600.0,Reduce 20%,2,ROAS sub 2.5.,2026-07-03,2.424,3600.5,348.44,8726.54
 DGen - Promo - NO RMKT - tROAS - AC,14,500.0,400.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-07-03,0.0,4042.99,391.26,0.0
 DGen - RMKT - BF Promo,14,600.0,600.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-07-03,0.0,0.0,0.0,0.0
-DGen - Supraveghere,14,1000.0,850.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-03,2.852,31219.3,3021.22,89050.37
+DGen - Supraveghere,14,1000.0,850.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-03,2.862,31219.3,3021.22,89338.62
 June 2024 - Search - Acces Pontaj - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-07-03,1.094,101.6,9.83,111.18
 June 2024 - Search - Accesorii Supraveghere - tROAS,2,3000.0,3000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-03,6.529,5847.57,565.89,38177.35
 June 2024 - Search - Alarme - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-07-03,405.999,62.04,6.0,25189.14
@@ -2037,23 +2037,23 @@ June 2024 - Search - Sonorizari - tROAS,2,1000.0,1000.0,Hold,6,Date insuficiente
 June 2024 - Search - Supraveghere + Brands - tROAS,2,3000.0,2550.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-03,3.117,5837.18,564.89,18194.48
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,4000.0,3200.0,Reduce 20%,2,ROAS sub 2.5.,2026-07-03,2.311,20412.22,1975.38,47175.37
 NEW - DSA - Automatizari Porti - No Accesories,2,2000.0,1700.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-03,3.113,1010.43,97.78,3145.93
-NEW - DSA - Supraveghere - No Accesories,2,1000.0,1000.0,Hold,6,Fara trigger de ajustare.,2026-07-03,5.763,14188.72,1373.1,81772.48
+NEW - DSA - Supraveghere - No Accesories,2,1000.0,1000.0,Hold,6,Fara trigger de ajustare.,2026-07-03,5.851,14188.72,1373.1,83011.46
 PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,3300.0,3300.0,Hold,6,Fara trigger de ajustare.,2026-07-03,10.088,22624.62,2189.48,228242.24
-PMax - New - Accesorii Supraveghere,10,3300.0,3300.0,Hold,6,Fara trigger de ajustare.,2026-07-03,5.868,94267.11,9122.62,553132.95
+PMax - New - Accesorii Supraveghere,10,3300.0,3300.0,Hold,6,Fara trigger de ajustare.,2026-07-03,5.884,94267.11,9122.62,554648.72
 PMax - New - Alarme antiincendiu,10,1100.0,935.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-03,3.366,30337.43,2935.88,102121.77
 PMax - New - Automatizari Porti,10,4500.0,4500.0,Hold,6,Fara trigger de ajustare.,2026-07-03,7.173,57225.92,5537.99,410472.9
-PMax - New - Control Acces,10,1000.0,1000.0,Hold,6,Fara trigger de ajustare.,2026-07-03,8.41,7044.43,681.72,59241.43
+PMax - New - Control Acces,10,1000.0,1000.0,Hold,6,Fara trigger de ajustare.,2026-07-03,8.414,7044.43,681.72,59269.69
 PMax - New - FotoVoltaice/Solare,10,2000.0,2000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-03,17.748,3878.64,375.35,68839.63
 PMax - New - Interfoane,10,1800.0,1800.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-03,19.613,6632.81,641.88,130090.59
 PMax - New - Kituri Supraveghere,10,2500.0,2500.0,Hold,6,Fara trigger de ajustare.,2026-07-03,6.433,27696.13,2680.27,178168.89
 PMax - New - Sisteme Alarma,10,1800.0,1800.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-03,24.74,3719.12,359.91,92010.73
 PMax - New - SmartHome,10,2000.0,2000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-03,11.746,7649.75,740.3,89852.9
 PMax - New - Sonorizari,10,500.0,500.0,Hold,6,Fara trigger de ajustare.,2026-07-03,12.447,5122.67,495.74,63763.85
-PMax - New - Supraveghere Video,10,10000.0,10000.0,Hold,6,Fara trigger de ajustare.,2026-07-03,5.507,113147.27,10949.74,623069.26
-PMax - Poor Products - Shopping - LOW ROAS,10,1100.0,1100.0,Hold,6,Fara trigger de ajustare.,2026-07-03,10.889,23623.02,2286.1,257222.81
+PMax - New - Supraveghere Video,10,10000.0,10000.0,Hold,6,Fara trigger de ajustare.,2026-07-03,5.508,113147.27,10949.74,623206.01
+PMax - Poor Products - Shopping - LOW ROAS,10,1100.0,1100.0,Hold,6,Fara trigger de ajustare.,2026-07-03,10.892,23623.02,2286.1,257305.36
 PMax - Promo BF 2025 - Shopping Only,10,1800.0,1800.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-07-03,0.0,0.0,0.0,0.0
 PMax - Promotii - Full Assets - Male - 25 to 55,10,500.0,450.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-07-03,4.026,5448.1,527.24,21936.09
-PMax - Purchase - Accesorii,10,3300.0,3300.0,Hold,6,Fara trigger de ajustare.,2026-07-03,7.675,22986.31,2224.48,176411.88
-PMax - Scule si Unelte,10,4000.0,4000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-03,7.992,10165.7,983.78,81249.31
-PMax - Top Products last 14 days - Feed Only,10,1100.0,990.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-07-03,4.29,31108.53,3010.5,133444.13
+PMax - Purchase - Accesorii,10,3300.0,3300.0,Hold,6,Fara trigger de ajustare.,2026-07-03,7.675,22986.31,2224.48,176412.15
+PMax - Scule si Unelte,10,4000.0,4000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-03,7.993,10165.7,983.78,81250.96
+PMax - Top Products last 14 days - Feed Only,10,1100.0,990.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-07-03,4.29,31108.53,3010.5,133444.41
 Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-07-03,0.0,3032.79,293.5,0.0
