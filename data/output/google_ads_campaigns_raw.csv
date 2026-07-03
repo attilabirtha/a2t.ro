@@ -1,12 +1,12 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
 Brand Protect,2,2,1500.0,2493.33,10685.68,52876.94,226615.45
 Caut Instalare,2,2,1000.0,306.48,1313.48,2824.44,12104.72
-PMax - New - Supraveghere Video,10,2,10000.0,26401.03,113147.27,145532.09,623708.96
+PMax - New - Supraveghere Video,10,2,10000.0,26401.03,113147.27,145532.67,623711.44
 PMax - New - FotoVoltaice/Solare,10,2,2000.0,905.02,3878.64,16062.58,68839.63
-PMax - New - Automatizari Porti,10,2,4500.0,13352.72,57225.92,95777.01,410472.9
+PMax - New - Automatizari Porti,10,2,4500.0,13352.72,57225.92,95834.33,410718.58
 PMax - New - Interfoane,10,2,1800.0,1547.66,6632.81,30381.34,130205.74
 PMax - New - Sisteme Alarma,10,2,1800.0,867.79,3719.12,21469.88,92013.75
-PMax - New - SmartHome,10,2,2000.0,1784.94,7649.75,20965.68,89852.9
+PMax - New - SmartHome,10,2,2000.0,1784.94,7649.75,20966.83,89857.86
 PMax - Purchase - Accesorii,10,2,3300.0,5363.47,22986.31,41593.63,178258.41
 NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,3310.7,14188.72,19369.34,83011.46
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,235.77,1010.43,734.05,3145.93
@@ -23,11 +23,11 @@ June 2024 - Search - Acces Pontaj - tROAS,2,2,2000.0,23.71,101.6,25.94,111.18
 June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,2.25,9.65,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,2.62,11.24,27.05,115.94
 PMax - New - Alarme antiincendiu,10,2,1100.0,7078.73,30337.42,23828.41,102121.77
-PMax - New - Control Acces,10,2,1000.0,1643.7,7044.43,13829.59,59269.69
+PMax - New - Control Acces,10,2,1000.0,1643.7,7044.43,13830.17,59272.17
 PMax - New - Accesorii Supraveghere,10,2,3300.0,21995.66,94267.11,129476.76,554900.42
 PMax - New - Kituri Supraveghere,10,2,2500.0,6462.43,27696.13,41572.74,178168.89
 PMax - New - Sonorizari,10,2,500.0,1195.29,5122.67,14878.23,63763.85
-DGen - All other categories,14,2,600.0,2643.72,11330.22,12816.69,54928.66
+DGen - All other categories,14,2,600.0,2643.72,11330.22,12817.93,54934.0
 DGen - Supraveghere,14,2,1000.0,7284.5,31219.3,21328.52,91407.94
 PMax - Scule si Unelte,10,2,4000.0,2372.0,10165.7,18971.31,81305.63
 PMax - Poor Products - Shopping - LOW ROAS,10,2,1100.0,5512.04,23623.02,60570.85,259589.35
