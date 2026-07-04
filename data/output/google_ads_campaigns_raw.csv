@@ -1,18 +1,18 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
 Brand Protect,2,2,1500.0,2481.0,10632.84,46639.68,199884.36
 Caut Instalare,2,2,1000.0,304.7,1305.85,2824.44,12104.72
-PMax - New - Supraveghere Video,10,2,10000.0,26374.92,113035.38,147055.74,630238.9
+PMax - New - Supraveghere Video,10,2,10000.0,26374.92,113035.38,147060.39,630258.83
 PMax - New - FotoVoltaice/Solare,10,2,2000.0,897.79,3847.69,15088.02,64662.96
-PMax - New - Automatizari Porti,10,2,4500.0,13364.31,57275.63,92078.39,394621.67
+PMax - New - Automatizari Porti,10,2,4500.0,13364.84,57277.91,92078.39,394621.67
 PMax - New - Interfoane,10,2,1800.0,1530.14,6557.72,30670.51,131445.04
 PMax - New - Sisteme Alarma,10,2,1800.0,891.18,3819.35,21431.69,91850.11
 PMax - New - SmartHome,10,2,2000.0,1793.59,7686.82,20897.18,89559.33
-PMax - Purchase - Accesorii,10,2,3300.0,5404.81,23163.49,41612.75,178340.36
+PMax - Purchase - Accesorii,10,2,3300.0,5404.75,23163.22,41612.75,178340.36
 NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,3227.02,13830.08,19440.2,83315.14
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,233.77,1001.88,734.05,3145.93
-DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,2,750.0,837.08,3587.5,2440.78,10460.48
+DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,2,750.0,837.08,3587.48,2440.78,10460.48
 June 2024 - Search - Automatizari - tROAS,2,2,3000.0,1180.45,5059.08,6587.6,28232.56
-PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,5403.33,23157.14,55431.92,237565.38
+PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,5403.25,23156.81,55435.24,237579.59
 June 2024 - Search - Accesorii Supraveghere - tROAS,2,2,3000.0,1370.05,5871.66,9077.25,38902.49
 June 2024 - Search - Supraveghere + Brands - tROAS,2,2,3000.0,1389.51,5955.06,4245.5,18195.01
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,2,4000.0,4641.81,19893.47,10790.46,46244.81
@@ -22,13 +22,13 @@ June 2024 - Search - Alarme - tROAS,2,2,2000.0,14.59,62.53,5877.47,25189.14
 June 2024 - Search - Acces Pontaj - tROAS,2,2,2000.0,22.65,97.08,25.94,111.18
 June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,2.25,9.65,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,3.07,13.15,27.05,115.94
-PMax - New - Alarme antiincendiu,10,2,1100.0,6862.12,29409.07,22755.15,97522.08
+PMax - New - Alarme antiincendiu,10,2,1100.0,6861.81,29407.74,22755.15,97522.08
 PMax - New - Control Acces,10,2,1000.0,1696.61,7271.17,14659.49,62826.4
-PMax - New - Accesorii Supraveghere,10,2,3300.0,21920.7,93945.85,129910.73,556760.27
+PMax - New - Accesorii Supraveghere,10,2,3300.0,21920.7,93945.85,129911.12,556761.94
 PMax - New - Kituri Supraveghere,10,2,2500.0,6654.04,28517.34,43578.15,186763.5
 PMax - New - Sonorizari,10,2,500.0,1206.49,5170.68,14781.88,63350.93
 DGen - All other categories,14,2,600.0,2584.43,11076.13,9728.58,41693.91
-DGen - Supraveghere,14,2,1000.0,7189.95,30814.08,21329.54,91412.33
+DGen - Supraveghere,14,2,1000.0,7189.94,30814.04,21329.54,91412.33
 PMax - Scule si Unelte,10,2,4000.0,2332.62,9996.94,18659.94,79971.18
 PMax - Poor Products - Shopping - LOW ROAS,10,2,1100.0,5624.82,24106.38,62305.81,267024.88
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
