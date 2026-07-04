@@ -6,13 +6,13 @@ PMax - New - FotoVoltaice/Solare,10,2,2000.0,898.01,3848.64,15085.82,64653.53
 PMax - New - Automatizari Porti,10,2,4500.0,13364.35,57275.77,90220.51,386659.32
 PMax - New - Interfoane,10,2,1800.0,1530.14,6557.72,30271.21,129733.78
 PMax - New - Sisteme Alarma,10,2,1800.0,890.85,3817.92,20637.04,88444.44
-PMax - New - SmartHome,10,2,2000.0,1793.59,7686.82,20629.19,88410.82
-PMax - Purchase - Accesorii,10,2,3300.0,5404.82,23163.49,40610.58,174045.34
+PMax - New - SmartHome,10,2,2000.0,1793.59,7686.82,20781.49,89063.53
+PMax - Purchase - Accesorii,10,2,3300.0,5404.82,23163.49,40660.2,174258.0
 NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,3227.02,13830.08,19440.2,83315.14
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,233.77,1001.88,734.05,3145.93
-DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,2,750.0,836.76,3586.1,2429.58,10412.5
+DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,2,750.0,837.03,3587.29,2429.58,10412.5
 June 2024 - Search - Automatizari - tROAS,2,2,3000.0,1180.45,5059.08,6587.6,28232.56
-PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,5403.28,23156.9,53740.77,230317.59
+PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,5403.28,23156.9,53741.96,230322.68
 June 2024 - Search - Accesorii Supraveghere - tROAS,2,2,3000.0,1370.05,5871.66,8889.65,38098.5
 June 2024 - Search - Supraveghere + Brands - tROAS,2,2,3000.0,1389.51,5955.06,4245.38,18194.48
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,2,4000.0,4641.81,19893.47,10790.46,46244.81
@@ -23,12 +23,12 @@ June 2024 - Search - Acces Pontaj - tROAS,2,2,2000.0,22.65,97.08,25.94,111.18
 June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,2.25,9.65,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,3.07,13.15,27.05,115.94
 PMax - New - Alarme antiincendiu,10,2,1100.0,6862.0,29408.59,22674.13,97174.85
-PMax - New - Control Acces,10,2,1000.0,1696.61,7271.17,14285.44,61223.3
+PMax - New - Control Acces,10,2,1000.0,1696.61,7271.17,14287.1,61230.43
 PMax - New - Accesorii Supraveghere,10,2,3300.0,21921.93,93951.13,128288.07,549806.03
 PMax - New - Kituri Supraveghere,10,2,2500.0,6653.35,28514.38,40387.7,173090.13
 PMax - New - Sonorizari,10,2,500.0,1206.49,5170.68,14781.88,63350.93
-DGen - All other categories,14,2,600.0,2584.03,11074.43,9397.36,40274.39
-DGen - Supraveghere,14,2,1000.0,7188.09,30806.12,21198.52,90850.81
+DGen - All other categories,14,2,600.0,2584.06,11074.54,9397.36,40274.39
+DGen - Supraveghere,14,2,1000.0,7188.15,30806.36,21249.22,91068.09
 PMax - Scule si Unelte,10,2,4000.0,2332.43,9996.12,18260.29,78258.4
 PMax - Poor Products - Shopping - LOW ROAS,10,2,1100.0,5624.71,24105.9,60941.1,261176.15
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
