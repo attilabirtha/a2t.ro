@@ -10,9 +10,9 @@ PMax - New - SmartHome,10,2,2000.0,1778.24,7621.03,17255.13,73950.55
 PMax - Purchase - Accesorii,10,2,3300.0,5781.01,24775.74,43264.3,185418.43
 NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,3237.01,13872.89,19219.34,82368.59
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,235.76,1010.39,734.05,3145.94
-DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,2,750.0,750.05,3214.5,2181.92,9351.09
+DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,2,750.0,750.13,3214.83,2181.92,9351.09
 June 2024 - Search - Automatizari - tROAS,2,2,3000.0,1255.29,5379.81,6431.96,27565.55
-PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,5854.14,25089.18,63227.49,270974.96
+PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,5854.33,25089.98,63266.92,271143.96
 June 2024 - Search - Accesorii Supraveghere - tROAS,2,2,3000.0,1554.61,6662.63,7731.14,33133.44
 June 2024 - Search - Supraveghere + Brands - tROAS,2,2,3000.0,1515.13,6493.43,2429.8,10413.42
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,2,4000.0,4459.99,19114.26,9837.56,42160.98
@@ -24,11 +24,11 @@ June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,2.03,8.69,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,4.14,17.76,83.98,359.92
 PMax - New - Alarme antiincendiu,10,2,1100.0,6581.72,28207.39,21026.32,90112.8
 PMax - New - Control Acces,10,2,1000.0,1974.89,8463.81,18271.81,78307.74
-PMax - New - Accesorii Supraveghere,10,2,3300.0,22436.6,96156.87,141085.22,604650.96
-PMax - New - Kituri Supraveghere,10,2,2500.0,7563.81,32416.35,46926.77,201114.73
+PMax - New - Accesorii Supraveghere,10,2,3300.0,22436.6,96156.87,141306.65,605599.91
+PMax - New - Kituri Supraveghere,10,2,2500.0,7563.94,32416.88,46926.77,201114.73
 PMax - New - Sonorizari,10,2,500.0,1256.12,5383.37,13922.88,59669.47
-DGen - All other categories,14,2,600.0,2117.61,9075.47,8047.27,34488.28
-DGen - Supraveghere,14,2,1000.0,6800.82,29146.36,19808.76,84894.67
+DGen - All other categories,14,2,600.0,2117.63,9075.58,8047.27,34488.28
+DGen - Supraveghere,14,2,1000.0,6800.94,29146.91,19808.76,84894.67
 PMax - Scule si Unelte,10,2,4000.0,1990.53,8530.85,17603.28,75442.63
 PMax - Poor Products - Shopping - LOW ROAS,10,2,1100.0,6068.84,26009.3,70554.96,302378.41
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
