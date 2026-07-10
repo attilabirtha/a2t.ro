@@ -5249,6 +5249,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-07-10,Telecomanda de control pentru sistem de alarma Tri-X wireless Hikvision AXPRO DS-PKF1-WE(Black),sisteme de alarma wireless,1,PMax - New - Sisteme Alarma,1800.0,1.52,4.7,0.0,0.0
 2026-07-10,"DVR 4 canale AcuSense Hikvision iDS-7204HUHI-M1/X, 5MP, latime banda 96Mbps, 1 port SATA",dvr,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,1.52,4.7,29.61,6.3
 2026-07-10,"Card Micro SD DDPAI-128GB, stocare de mare viteza, 128GB",hard disk-uri,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,1.52,4.71,0.0,0.0
+2026-07-10,"Modul acces cu amprenta, pentru videointerfon, Dahua VTO4202FB-MF, 5VDC, IK07, IP65, aluminium negru",videointerfon,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Interfoane,5100.0,1.51,4.68,0.0,0.0
 2026-07-10,Buton de apel urgenta fix si mobil wireless Y-SW-G33,sisteme de alarma wireless,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Sisteme Alarma,5100.0,1.51,4.67,0.0,0.0
 2026-07-10,Centrala alarma hybrida Paradox EVOHD,sisteme alarma cablu,1,PMax - New - Sisteme Alarma,1800.0,1.51,4.69,0.0,0.0
 2026-07-10,"Set manusi de iarna Milwaukee, nivel taiere A, marime 8/M, 12 bucati, captuseala dubla, 4932471606",siguranta muncii,1,PMax - Catch All - Shopping Only - No  Brand - Low tROAS,3300.0,1.51,4.67,0.0,0.0
@@ -5923,7 +5924,6 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-07-10,"Buton de incendiu adresabil Bosch FMC-210-DM, cu geam, declansare indirecta (tip B), IP52, verde",antiincendiu adresabil,1,PMax - New - Alarme antiincendiu,1100.0,0.89,2.75,20.25,7.374
 2026-07-10,"Detector optic de fum, adresabil, indicator LED, IP40, Detnov, DOD-220A","senzori fum, gaz, standalone",1,PMax - New - Alarme antiincendiu,1100.0,0.89,2.75,0.0,0.0
 2026-07-10,"Centrala de control acces si de pontaj, 2 usi bidirectionale TCP/IP CCA3-2-2+CAB4-PS5",centrale si dispozitive stand-alone,1,PMax - New - Control Acces,1000.0,0.89,2.75,0.0,0.0
-2026-07-10,"Modul acces cu amprenta, pentru videointerfon, Dahua VTO4202FB-MF, 5VDC, IK07, IP65, aluminium negru",videointerfon,2,PMax - Catch All - Shopping Only - No  Brand - Low tROAS | PMax - New - Interfoane,5100.0,0.88,2.72,0.0,0.0
 2026-07-10,"Monitor interior videointerfon IP, Wi-Fi Dahua VTH2611L-WP, ecran tactil 4.3 inch, audio bidirectional, PoE, 1x RJ45, carcasa ABS",videointerfon,1,PMax - New - Interfoane,1800.0,0.88,2.73,0.0,0.0
 2026-07-10,"Comunicator universal 4G LTE, pentru panouri de control PSTN, GTCOM2-4G Topkodas",accesorii alarme,1,PMax - Purchase - Accesorii,3300.0,0.88,2.73,0.0,0.0
 2026-07-10,"Transformator sistem de alarma 45 W, TC45/16V",accesorii alarme,1,PMax - Purchase - Accesorii,3300.0,0.88,2.73,28.73,10.524
@@ -6420,6 +6420,7 @@ report_date,product,category,campaign_count,source_campaigns,daily_budget_total,
 2026-07-10,"Lampa LED Milwaukee pentru santier, model M18 TAL-0, 2200 lumeni, 18V, 4933464134",GoogleCategoryID 1167 | producatori scule si unelte,2,PMax - Promotii - Full Assets - Male - 25 to 55 | PMax - Scule si Unelte,4500.0,0.51,1.57,0.0,0.0
 2026-07-10,"Set conector 3 poli pentru doza 0,08 - 2,5mm fir litat 10 bucati, Safer 10X222-413",video balun si mufe,1,PMax - Poor Products - Shopping - LOW ROAS,1100.0,0.51,1.58,192.29,121.705
 2026-07-10,"Camera de supraveghere IP Dahua IPC-HDBW3441R-AS-P-0210B, WizSense, 4MP, Wide Angle 180°, IR 15m, Microfon, PoE, IP67",camere ip,1,PMax - New - Supraveghere Video,10000.0,0.5,1.56,0.0,0.0
+2026-07-10,"Camera IP PTRZ ColorVu Hikvision DS-2CD2747G2H-LIPTRZSU/SL(2.8-12), 4MP, IR/LED alb 40m, varifocala 2.8-12mm, Audio, PoE, IP66",camere ip,1,PMax - New - Supraveghere Video,10000.0,0.5,1.54,0.0,0.0
 2026-07-10,"Camera supraveghere Wi-Fi 6 Dahua IPC-P3AS-PV, 3MP, rotire si inclinare, lumina duala 30m, detectie cu AI om/vehicul, alarma, urmarire automata, slot",camere ip wireless,1,PMax - New - Supraveghere Video,10000.0,0.5,1.54,0.0,0.0
 2026-07-10,Repetor wireless DSC NEO PG-8920,sisteme alarma cablu,1,PMax - New - Sisteme Alarma,1800.0,0.5,1.55,0.0,0.0
 2026-07-10,"Tastatura pentru sisteme de alarma wireless HiLook, LED, butoane fizice, 868 MHz, ALARM-K201B-WE",sisteme de alarma wireless,1,PMax - New - Sisteme Alarma,1800.0,0.5,1.55,0.0,0.0
