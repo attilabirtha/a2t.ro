@@ -2639,7 +2639,7 @@ DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,750.0,637.5,Reduc
 DGen - Promo - NO RMKT - tROAS - PUR,14,300.0,240.0,Reduce 20%,2,ROAS sub 2.5.,2026-07-19,0.001,4109.31,2518.61,3.84
 DGen - RMKT - BF Promo,14,600.0,600.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-07-19,0.0,0.0,0.0,0.0
 DGen - RMKT Only Audiences,14,500.0,400.0,Reduce 20%,2,ROAS sub 2.5.,2026-07-19,1.407,1023.36,627.22,1440.2
-DGen - Supraveghere,14,1000.0,850.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-19,2.852,27072.59,16592.88,77207.17
+DGen - Supraveghere,14,1000.0,850.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-19,2.852,27073.77,16593.6,77207.17
 June 2024 - Search - Acces Pontaj - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-07-19,0.0,92.44,56.66,0.0
 June 2024 - Search - Accesorii Supraveghere - tROAS + AiMax,2,3000.0,2700.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-07-19,4.275,8059.17,4939.49,34451.81
 June 2024 - Search - Alarme - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-07-19,0.0,107.46,65.86,0.0
@@ -2668,6 +2668,6 @@ PMax - Poor Products - Shopping - LOW ROAS,10,1100.0,1100.0,Hold,6,Fara trigger 
 PMax - Promo BF 2025 - Shopping Only,10,1800.0,1800.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-07-19,0.0,0.0,0.0,0.0
 PMax - Promotii - Full Assets - Male - 25 to 55,10,500.0,450.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-07-19,4.738,13233.29,8110.72,62698.68
 PMax - Purchase - Accesorii,10,3300.0,3300.0,Hold,6,Fara trigger de ajustare.,2026-07-19,6.593,25182.41,15434.38,166028.85
-PMax - Scule si Unelte,10,4000.0,4000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-19,7.744,8014.84,4912.32,62067.77
+PMax - Scule si Unelte,10,4000.0,4000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-19,7.778,8014.84,4912.32,62341.76
 PMax - Top Products last 14 days - Feed Only,10,1100.0,990.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-07-19,4.863,31780.81,19478.56,154557.1
-Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-07-19,0.0,2981.65,1827.46,0.0
+Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-07-19,0.0,2981.65,1827.47,0.0

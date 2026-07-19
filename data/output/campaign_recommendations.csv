@@ -1,5 +1,5 @@
 campaign,channel,current_budget,recommended_budget,recommendation,priority,reason,report_date,roas_30d,spend_30d,spend_mtd_est,conv_value_30d
-Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-07-19,0.0,2981.65,1827.46,0.0
+Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-07-19,0.0,2981.65,1827.47,0.0
 June 2024 - Search - Supraveghere + Brands - tROAS,2,3000.0,2400.0,Reduce 20%,2,ROAS sub 2.5.,2026-07-19,1.657,6661.36,4082.77,11038.05
 DGen - Promo - NO RMKT - tROAS - PUR,14,300.0,240.0,Reduce 20%,2,ROAS sub 2.5.,2026-07-19,0.001,4109.31,2518.61,3.84
 DGen - RMKT Only Audiences,14,500.0,400.0,Reduce 20%,2,ROAS sub 2.5.,2026-07-19,1.407,1023.36,627.22,1440.2
@@ -7,7 +7,7 @@ DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,750.0,637.5,Reduc
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,4000.0,3400.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-19,2.743,14210.2,8709.48,38973.15
 PMax - New - Alarme antiincendiu,10,1100.0,935.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-19,3.292,26155.37,16030.71,86098.6
 DGen - All other categories,14,600.0,510.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-19,2.743,7661.02,4695.47,21014.75
-DGen - Supraveghere,14,1000.0,850.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-19,2.852,27072.59,16592.88,77207.17
+DGen - Supraveghere,14,1000.0,850.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-19,2.852,27073.77,16593.6,77207.17
 June 2024 - Search - Accesorii Supraveghere - tROAS + AiMax,2,3000.0,2700.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-07-19,4.275,8059.17,4939.49,34451.81
 PMax - Top Products last 14 days - Feed Only,10,1100.0,990.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-07-19,4.863,31780.81,19478.56,154557.1
 PMax - Promotii - Full Assets - Male - 25 to 55,10,500.0,450.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-07-19,4.738,13233.29,8110.72,62698.68
@@ -17,7 +17,7 @@ PMax - New - Interfoane,10,1800.0,1800.0,Hold / Preventive cap,5,Buget > 5x spen
 PMax - New - Sisteme Alarma,10,1800.0,1800.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-19,12.856,5408.76,3315.04,69533.19
 PMax - New - SmartHome,10,2000.0,2000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-19,7.867,7931.39,4861.17,62398.82
 June 2024 - Search - Automatizari - tROAS + AiMax,2,3000.0,3000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-19,6.347,5535.94,3393.0,35133.99
-PMax - Scule si Unelte,10,4000.0,4000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-19,7.744,8014.84,4912.32,62067.77
+PMax - Scule si Unelte,10,4000.0,4000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-07-19,7.778,8014.84,4912.32,62341.76
 Brand Protect,2,1500.0,1500.0,Hold,6,Fara trigger de ajustare.,2026-07-19,17.723,10998.22,6740.84,194924.23
 PMax - New - Supraveghere Video,10,10000.0,10000.0,Hold,6,Fara trigger de ajustare.,2026-07-19,5.381,90968.6,55754.95,489518.93
 PMax - New - Automatizari Porti,10,4500.0,4500.0,Hold,6,Fara trigger de ajustare.,2026-07-19,5.707,63416.89,38868.42,361898.34
