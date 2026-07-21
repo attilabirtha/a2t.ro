@@ -1,9 +1,9 @@
 campaign,channel,current_budget,recommended_budget,recommendation,priority,reason,report_date,roas_30d,spend_30d,spend_mtd_est,conv_value_30d
-Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-07-21,0.0,2974.97,2015.31,0.0
+Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-07-21,0.0,2974.97,2015.3,0.0
 June 2024 - Search - Supraveghere + Brands - tROAS,2,3000.0,2400.0,Reduce 20%,2,ROAS sub 2.5.,2026-07-21,1.642,6669.07,4517.76,10951.97
 DGen - All other categories,14,600.0,480.0,Reduce 20%,2,ROAS sub 2.5.,2026-07-21,2.494,6397.27,4333.63,15952.1
 DGen - Promo - NO RMKT - tROAS - PUR,14,300.0,240.0,Reduce 20%,2,ROAS sub 2.5.,2026-07-21,0.01,4154.46,2814.31,41.69
-DGen - RMKT Only Audiences,14,500.0,400.0,Reduce 20%,2,ROAS sub 2.5.,2026-07-21,1.562,2066.64,1399.98,3229.08
+DGen - RMKT Only Audiences,14,500.0,400.0,Reduce 20%,2,ROAS sub 2.5.,2026-07-21,1.562,2066.83,1400.11,3229.08
 DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,750.0,637.5,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-21,2.71,2536.51,1718.28,6874.27
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,4000.0,3400.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-21,2.588,14822.1,10040.78,38363.57
 PMax - New - Alarme antiincendiu,10,1100.0,935.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-07-21,3.672,26372.25,17865.07,96850.33
@@ -23,7 +23,7 @@ PMax - New - Automatizari Porti,10,4500.0,4500.0,Hold,6,Fara trigger de ajustare
 PMax - Purchase - Accesorii,10,3300.0,3300.0,Hold,6,Fara trigger de ajustare.,2026-07-21,6.959,25033.53,16958.2,174203.44
 NEW - DSA - Supraveghere - No Accesories,2,1000.0,1000.0,Hold,6,Fara trigger de ajustare.,2026-07-21,5.397,15515.64,10510.6,83740.4
 NEW - DSA - Automatizari Porti - No Accesories,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-07-21,6.665,990.93,671.28,6604.08
-PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,3300.0,3300.0,Hold,6,Fara trigger de ajustare.,2026-07-21,8.179,29980.02,20309.05,245194.15
+PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,3300.0,3300.0,Hold,6,Fara trigger de ajustare.,2026-07-21,8.179,29979.72,20308.84,245194.15
 June 2024 - Search - Interfoane - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-07-21,3.771,110.95,75.16,418.34
 June 2024 - Search - Fotovoltaice - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-07-21,0.0,44.55,30.18,0.0
 June 2024 - Search - Alarme - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-07-21,0.0,110.87,75.11,0.0
