@@ -476,25 +476,25 @@ function renderTable(el, rows) {
 
 function normalizeProductRows(rows) {
   return rows.map((row) => {
-    const productId = String(row.product_id ?? row.product_item_id ?? row.offer_id ?? row.id ?? '').trim();
-    const { product_item_id, offer_id, id, ...rest } = row;
+    const productId = String(row.product_item_id ?? row.id ?? row.product_id ?? row.offer_id ?? '').trim();
+    const { offer_id, product_id, id, ...rest } = row;
     return {
       ...rest,
-      product_id: productId,
+      product_item_id: productId,
     };
   });
 }
 
 function renderProductTable(el, rows) {
   if (!rows.length) { el.innerHTML = '<p>No data</p>'; return; }
-  const headers = ['report_date', 'product_id', 'product', 'category', 'campaign_count', 'source_campaigns', 'daily_budget_total', 'spend_mtd_est', 'spend_30d', 'conv_value_30d', 'roas_30d']
-    .filter((key) => key === 'product_id' || Object.prototype.hasOwnProperty.call(rows[0], key) || rows.some((row) => String(row[key] ?? '').trim() !== ''));
-  if (!headers.includes('product_id')) headers.splice(1, 0, 'product_id');
+  const headers = ['report_date', 'product_item_id', 'product', 'category', 'campaign_count', 'source_campaigns', 'daily_budget_total', 'spend_mtd_est', 'spend_30d', 'conv_value_30d', 'roas_30d']
+    .filter((key) => key === 'product_item_id' || Object.prototype.hasOwnProperty.call(rows[0], key) || rows.some((row) => String(row[key] ?? '').trim() !== ''));
+  if (!headers.includes('product_item_id')) headers.splice(1, 0, 'product_item_id');
   let html = '<table><thead><tr>' + headers.map((h) => `<th>${h}</th>`).join('') + '</tr></thead><tbody>';
   rows.forEach((r) => {
-    const productId = String(r.product_id ?? r.product_item_id ?? r.offer_id ?? r.id ?? '').trim();
+    const productId = String(r.product_item_id ?? r.id ?? r.product_id ?? r.offer_id ?? '').trim();
     html += '<tr>' + headers.map((h) => {
-      const value = h === 'product_id' ? productId : r[h];
+      const value = h === 'product_item_id' ? productId : r[h];
       return `<td>${esc(String(value ?? ''))}</td>`;
     }).join('') + '</tr>';
   });
@@ -505,7 +505,7 @@ function renderProductTable(el, rows) {
 function projectProductRows(rows) {
   return rows.map((row) => ({
     report_date: row.report_date || '',
-    product_id: String(row.product_id ?? row.product_item_id ?? row.offer_id ?? row.id ?? '').trim(),
+    product_item_id: String(row.product_item_id ?? row.id ?? row.product_id ?? row.offer_id ?? '').trim(),
     product: row.product || '',
     category: row.category || '',
     campaign_count: row.campaign_count ?? '',
