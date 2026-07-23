@@ -233,6 +233,7 @@ def fetch_product_category_product_summaries(
             if product not in by_product:
                 by_product[product] = {
                     "product": product,
+                    "product_item_id": product_id,
                     "spend_30d": 0.0,
                     "conv_value_30d": 0.0,
                 }
@@ -279,7 +280,7 @@ def fetch_product_category_product_summaries(
         product_rows.append(
             {
                 "report_date": report_date.isoformat(),
-                "product_item_id": product_id,
+                "product_item_id": m["product_item_id"],
                 "product": product,
                 "category": " | ".join(categories),
                 "campaign_count": len(campaigns),
