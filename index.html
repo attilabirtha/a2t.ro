@@ -474,6 +474,50 @@ function renderTable(el, rows) {
   el.innerHTML = html;
 }
 
+function normalizeProductRows(rows) {
+  return rows.map((row) => {
+    const productId = String(row.product_id ?? row.product_item_id ?? row.offer_id ?? row.id ?? '').trim();
+    const { product_item_id, offer_id, id, ...rest } = row;
+    return {
+      ...rest,
+      product_id: productId,
+    };
+  });
+}
+
+function renderProductTable(el, rows) {
+  if (!rows.length) { el.innerHTML = '<p>No data</p>'; return; }
+  const headers = ['report_date', 'product_id', 'product', 'category', 'campaign_count', 'source_campaigns', 'daily_budget_total', 'spend_mtd_est', 'spend_30d', 'conv_value_30d', 'roas_30d']
+    .filter((key) => key === 'product_id' || Object.prototype.hasOwnProperty.call(rows[0], key) || rows.some((row) => String(row[key] ?? '').trim() !== ''));
+  if (!headers.includes('product_id')) headers.splice(1, 0, 'product_id');
+  let html = '<table><thead><tr>' + headers.map((h) => `<th>${h}</th>`).join('') + '</tr></thead><tbody>';
+  rows.forEach((r) => {
+    const productId = String(r.product_id ?? r.product_item_id ?? r.offer_id ?? r.id ?? '').trim();
+    html += '<tr>' + headers.map((h) => {
+      const value = h === 'product_id' ? productId : r[h];
+      return `<td>${esc(String(value ?? ''))}</td>`;
+    }).join('') + '</tr>';
+  });
+  html += '</tbody></table>';
+  el.innerHTML = html;
+}
+
+function projectProductRows(rows) {
+  return rows.map((row) => ({
+    report_date: row.report_date || '',
+    product_id: String(row.product_id ?? row.product_item_id ?? row.offer_id ?? row.id ?? '').trim(),
+    product: row.product || '',
+    category: row.category || '',
+    campaign_count: row.campaign_count ?? '',
+    source_campaigns: row.source_campaigns || '',
+    daily_budget_total: row.daily_budget_total ?? '',
+    spend_mtd_est: row.spend_mtd_est ?? '',
+    spend_30d: row.spend_30d ?? '',
+    conv_value_30d: row.conv_value_30d ?? '',
+    roas_30d: row.roas_30d ?? '',
+  }));
+}
+
 function formatPacingRows(rows) {
   const numericKeys = new Set([
     'monthly_budget',
@@ -968,15 +1012,15 @@ function applyProductFilters() {
 
   renderEntitySpendBars(filtered, 'product', 'product-spend-bars');
   renderEntityRoasBars(filtered, 'product', 'product-roas-bars');
-  renderTable(document.getElementById('product-summary-table'), filtered);
+  renderProductTable(document.getElementById('product-summary-table'), filtered);
 }
 
 function initProductFilters(rows) {
-  productRowsState = rows.slice();
+  productRowsState = normalizeProductRows(rows);
   const categoryEl = document.getElementById('product-category-filter');
   const searchEl = document.getElementById('product-search-filter');
   const categories = Array.from(
-    new Set(rows.flatMap((r) => categoryTokens(r.category)))
+    new Set(productRowsState.flatMap((r) => categoryTokens(r.category)))
   ).sort((a, b) => a.localeCompare(b));
 
   if (categoryEl) {
@@ -1002,7 +1046,7 @@ function initProductFilters(rows) {
       const inSearch = !searchQ || String(r.product || '').toLowerCase().includes(searchQ);
       return inCat && inSearch;
     });
-    downloadCSV(filtered2, `a2t_products_${new Date().toISOString().slice(0, 10)}.csv`);
+    downloadCSV(projectProductRows(filtered2), `a2t_products_${new Date().toISOString().slice(0, 10)}.csv`);
   });
 
   applyProductFilters();

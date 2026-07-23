@@ -216,6 +216,7 @@ def run_daily(report_date: date, campaigns: list[CampaignRow], output_dir: Path,
         product_rows.append(
             {
                 "report_date": report_date.isoformat(),
+                "product_id": "",
                 "product": product,
                 "category": " | ".join(categories),
                 "campaign_count": int(m["campaigns"]),

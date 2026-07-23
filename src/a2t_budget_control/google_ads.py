@@ -279,6 +279,7 @@ def fetch_product_category_product_summaries(
         product_rows.append(
             {
                 "report_date": report_date.isoformat(),
+                "product_id": product_id,
                 "product": product,
                 "category": " | ".join(categories),
                 "campaign_count": len(campaigns),
