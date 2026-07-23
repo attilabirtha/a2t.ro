@@ -20,6 +20,78 @@
     .kpi.remaining { background:linear-gradient(135deg,#5a2a8a,#9559d6); }
     .kpi.risk { background:linear-gradient(135deg,#8a2a2a,#d45151); }
     .kpi.roas { background:linear-gradient(135deg,#0b5f3b,#23b26d); }
+    .kpi-trend-grid {
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap:12px;
+      margin:0 0 16px;
+    }
+    .trend-card {
+      background:linear-gradient(180deg,#ffffff 0%,#f8fbff 100%);
+      border:1px solid #e4eaf3;
+      border-radius:14px;
+      padding:14px;
+      box-shadow:0 6px 18px rgba(17,34,68,.05);
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+      min-height:170px;
+    }
+    .trend-head {
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:12px;
+    }
+    .trend-label {
+      margin:0;
+      font-size:13px;
+      font-weight:700;
+      color:#0f172a;
+      line-height:1.2;
+    }
+    .trend-value {
+      font-size:24px;
+      font-weight:800;
+      line-height:1.1;
+      color:#0f172a;
+      margin-top:2px;
+    }
+    .trend-sub {
+      font-size:12px;
+      color:#5b6b7d;
+      margin:0;
+    }
+    .trend-badge {
+      display:inline-flex;
+      align-items:center;
+      gap:4px;
+      padding:3px 8px;
+      border-radius:999px;
+      font-size:11px;
+      font-weight:700;
+      white-space:nowrap;
+    }
+    .trend-badge.up { background:#ecfdf5; color:#047857; }
+    .trend-badge.down { background:#fff1f2; color:#be123c; }
+    .trend-badge.flat { background:#eef2ff; color:#4338ca; }
+    .sparkline {
+      width:100%;
+      height:76px;
+      display:block;
+    }
+    .sparkline path.area { fill:rgba(37,99,235,.10); }
+    .sparkline path.line { fill:none; stroke:#2563eb; stroke-width:2.5; stroke-linecap:round; stroke-linejoin:round; }
+    .sparkline circle.last { fill:#2563eb; stroke:#fff; stroke-width:2; }
+    .trend-foot {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:8px;
+      margin-top:auto;
+      font-size:12px;
+      color:#64748b;
+    }
     table { width:100%; border-collapse: collapse; font-size:14px; }
     th, td { text-align:left; padding:8px; border-bottom:1px solid #e8edf3; }
     th { background:#f1f5f9; }
@@ -185,6 +257,11 @@
       <div class="note">Total conversion value / total spend (30d)</div>
     </div>
   </div>
+
+  <div class="card">
+    <h2 class="viz-title">KPI Evolution <span class="section-help" data-section="kpi_evolution" tabindex="0">?</span></h2>
+    <div id="kpi-evolution" class="kpi-trend-grid"></div>
+  </div>
   
   <nav class="tabs" aria-label="Dashboard tabs">
     <a class="tab-btn active" data-tab="account" href="#account">Account Level</a>
@@ -328,6 +405,7 @@ const SECTION_DESCRIPTIONS = {
   campaign_recommendations: "Rule-driven recommend-only actions per campaign (no auto-apply). Includes priority, reason, recommended budget, spend and ROAS context.",
   channel_summary: "Aggregated channel metrics for trailing 30 days: spend, conversion value, ROAS, budget totals and share.",
   pacing_history: "One row per report_date for pacing fields, upserted daily for trend tracking and operational audit.",
+  kpi_evolution: "Trend view for the five headline KPIs. Pacing, forecast, and remaining budget come from history_daily_pacing.csv; priority actions and account ROAS are derived from recommendation history.",
   spend_category: "Category-level estimated MTD spend. For live mode, categories come from Shopping product attributes (product_type preferred, taxonomy fallback).",
   roas_category: "Category-level ROAS over trailing 30 days. Use with spend chart to balance scale vs profitability.",
   category_summary: "Detailed category table including source campaigns contributing to each category aggregate.",
@@ -380,6 +458,13 @@ function num(v) {
 }
 function fmtPct(v) { return `${(num(v) * 100).toFixed(1)}%`; }
 function fmtRon(v) { return `${Math.round(num(v)).toLocaleString()} RON`; }
+function fmtAutoValue(v, mode) {
+  if (mode === 'pct') return fmtPct(v);
+  if (mode === 'ron') return fmtRon(v);
+  if (mode === 'count') return String(Math.round(num(v)));
+  if (mode === 'roas') return `${num(v).toFixed(2)}x`;
+  return String(v ?? '');
+}
 function esc(s) {
   return String(s).replace(/[&<>"']/g, c => (
     { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]
@@ -712,6 +797,122 @@ function renderKpis(pacingRows, recRows) {
   document.getElementById('kpi-remaining').textContent = fmtRon(p.remaining_budget || 0);
   document.getElementById('kpi-risk').textContent = String(riskCount);
   document.getElementById('kpi-total-roas').textContent = totalRoas.toFixed(2);
+}
+
+function parseDateKey(row) {
+  return String(row.report_date || row.date || '').trim();
+}
+
+function buildHistorySeries(pacingRows, recRows) {
+  const pacingByDate = new Map();
+  pacingRows.forEach((row) => {
+    const key = parseDateKey(row);
+    if (!key) return;
+    pacingByDate.set(key, row);
+  });
+
+  const recAgg = new Map();
+  recRows.forEach((row) => {
+    const key = parseDateKey(row);
+    if (!key) return;
+    const cur = recAgg.get(key) || { spend_30d: 0, conv_value_30d: 0, priority_actions: 0 };
+    cur.spend_30d += num(row.spend_30d);
+    cur.conv_value_30d += num(row.conv_value_30d);
+    if (Number(row.priority || 99) <= 2) cur.priority_actions += 1;
+    recAgg.set(key, cur);
+  });
+
+  const dates = Array.from(new Set([...pacingByDate.keys(), ...recAgg.keys()])).sort();
+  return dates.map((date) => {
+    const p = pacingByDate.get(date) || {};
+    const r = recAgg.get(date) || { spend_30d: 0, conv_value_30d: 0, priority_actions: 0 };
+    const spend30d = r.spend_30d;
+    const conv30d = r.conv_value_30d;
+    return {
+      report_date: date,
+      pacing_ratio: num(p.pacing_ratio),
+      forecast_ratio_vs_budget: num(p.forecast_ratio_vs_budget),
+      remaining_budget: num(p.remaining_budget),
+      priority_actions: r.priority_actions,
+      total_roas: spend30d > 0 ? (conv30d / spend30d) : 0,
+    };
+  });
+}
+
+function sparklineSvg(values, color = '#2563eb') {
+  const width = 320;
+  const height = 76;
+  const padding = 8;
+  const nums = values.map(num);
+  const min = Math.min(...nums);
+  const max = Math.max(...nums);
+  const span = max - min || 1;
+  const step = values.length > 1 ? (width - padding * 2) / (values.length - 1) : 0;
+  const points = nums.map((v, i) => {
+    const x = padding + (i * step);
+    const y = height - padding - ((v - min) / span) * (height - padding * 2);
+    return [x, y];
+  });
+  const line = points.map(([x, y]) => `${x.toFixed(1)},${y.toFixed(1)}`).join(' ');
+  const area = `M ${points[0][0].toFixed(1)} ${height - padding} ` + points.map(([x, y]) => `L ${x.toFixed(1)} ${y.toFixed(1)}`).join(' ') + ` L ${points[points.length - 1][0].toFixed(1)} ${height - padding} Z`;
+  const last = points[points.length - 1];
+  return `
+    <svg class="sparkline" viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" role="img" aria-hidden="true">
+      <path class="area" d="${area}"></path>
+      <path class="line" d="M ${line}" stroke="${color}"></path>
+      <circle class="last" cx="${last[0].toFixed(1)}" cy="${last[1].toFixed(1)}" r="3.5"></circle>
+    </svg>
+  `;
+}
+
+function renderKpiEvolution(pacingRows, recRows) {
+  const el = document.getElementById('kpi-evolution');
+  if (!el) return;
+  const series = buildHistorySeries(pacingRows, recRows);
+  if (!series.length) {
+    el.innerHTML = '<p class="muted">No KPI history yet.</p>';
+    return;
+  }
+
+  const cards = [
+    { key: 'pacing_ratio', label: 'Pacing Ratio', mode: 'pct', color: '#2563eb' },
+    { key: 'forecast_ratio_vs_budget', label: 'Forecast vs Budget', mode: 'pct', color: '#0f766e' },
+    { key: 'remaining_budget', label: 'Remaining Budget', mode: 'ron', color: '#7c3aed' },
+    { key: 'priority_actions', label: 'Priority 1-2 Actions', mode: 'count', color: '#dc2626' },
+    { key: 'total_roas', label: 'Total ROAS (Account)', mode: 'roas', color: '#16a34a' },
+  ];
+
+  const last = series[series.length - 1];
+  const prev = series.length > 1 ? series[series.length - 2] : null;
+  el.innerHTML = cards.map((card) => {
+    const values = series.map((row) => row[card.key]);
+    const latest = last[card.key];
+    const previous = prev ? prev[card.key] : latest;
+    const delta = latest - previous;
+    const badgeClass = Math.abs(delta) < 0.0001 ? 'flat' : delta > 0 ? 'up' : 'down';
+    const badgeText = Math.abs(delta) < 0.0001
+      ? 'Flat vs prior day'
+      : `${delta > 0 ? '+' : ''}${fmtAutoValue(delta, card.mode)}`;
+    const spark = sparklineSvg(values, card.color);
+    const latestLabel = fmtAutoValue(latest, card.mode);
+    const dateLabel = last.report_date || '';
+    return `
+      <div class="trend-card">
+        <div class="trend-head">
+          <div>
+            <p class="trend-label">${esc(card.label)}</p>
+            <div class="trend-value">${esc(latestLabel)}</div>
+          </div>
+          <span class="trend-badge ${badgeClass}">${esc(badgeText)}</span>
+        </div>
+        ${spark}
+        <div class="trend-foot">
+          <span>${esc(dateLabel)}</span>
+          <span>${esc(values.length)} days</span>
+        </div>
+      </div>
+    `;
+  }).join('');
 }
 
 function renderEntitySpendBars(rows, keyField, rootId) {
@@ -1098,16 +1299,18 @@ if (location.protocol === 'file:') {
 
 async function loadDashboardData() {
   try {
-    const [pacingRows, recRows, channelRows, historyRows, categoryRows, productRows] = await Promise.all([
+    const [pacingRows, recRows, channelRows, historyRows, historyRecRows, categoryRows, productRows] = await Promise.all([
       fetch(dataUrl('daily_pacing.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('daily_pacing.csv not found'); return r.text(); }).then(csvToRows),
       fetch(dataUrl('campaign_recommendations.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('campaign_recommendations.csv not found'); return r.text(); }).then(csvToRows),
       fetch(dataUrl('channel_summary.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('channel_summary.csv not found'); return r.text(); }).then(csvToRows),
       fetch(dataUrl('history_daily_pacing.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('history_daily_pacing.csv not found'); return r.text(); }).then(csvToRows),
+      fetch(dataUrl('history_campaign_recommendations.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('history_campaign_recommendations.csv not found'); return r.text(); }).then(csvToRows),
       fetch(dataUrl('category_summary.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('category_summary.csv not found'); return r.text(); }).then(csvToRows),
       fetch(dataUrl('product_summary.csv'), { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error('product_summary.csv not found'); return r.text(); }).then(csvToRows),
     ]);
 
     renderKpis(pacingRows, recRows);
+    renderKpiEvolution(historyRows, historyRecRows);
     renderBudgetSharePie(channelRows);
     renderRoasBars(channelRows);
     renderCampaignBudgetBars(recRows);
