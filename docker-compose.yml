@@ -14,8 +14,9 @@ services:
       - traefik.http.routers.a2t-dashboard.rule=Host(`dev.proclick.ro`) && PathPrefix(`/a2t-dashboard`)
       - traefik.http.routers.a2t-dashboard.entrypoints=websecure
       - traefik.http.routers.a2t-dashboard.tls.certresolver=myresolver
-      - traefik.http.routers.a2t-dashboard.middlewares=a2t-dashboard-strip
+      - traefik.http.routers.a2t-dashboard.middlewares=a2t-dashboard-strip,a2t-dashboard-auth@docker
       - traefik.http.middlewares.a2t-dashboard-strip.stripprefix.prefixes=/a2t-dashboard
+      - 'traefik.http.middlewares.a2t-dashboard-auth.basicauth.users=${A2T_AUTH}'
       - traefik.http.services.a2t-dashboard.loadbalancer.server.port=3000
 
 networks:
