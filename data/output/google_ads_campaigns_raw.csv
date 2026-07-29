@@ -1,9 +1,9 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
 Brand Protect,2,2,1500.0,2609.0,11181.43,50933.8,218287.74
 Caut Instalare,2,2,1000.0,290.78,1246.18,2589.33,11097.12
-PMax - New - Supraveghere Video,10,2,10000.0,19205.9,82311.01,126264.14,541132.04
+PMax - New - Supraveghere Video,10,2,10000.0,19206.51,82313.63,126276.55,541185.2
 PMax - New - FotoVoltaice/Solare,10,2,2000.0,590.58,2531.07,2298.31,9849.9
-PMax - New - Automatizari Porti,10,2,4500.0,14553.27,62371.17,87994.9,377121.02
+PMax - New - Automatizari Porti,10,2,4500.0,14553.27,62371.17,88402.1,378866.12
 PMax - New - Interfoane,10,2,1800.0,1677.86,7190.84,18207.55,78032.37
 PMax - New - Sisteme Alarma,10,2,1800.0,1558.85,6680.8,12002.07,51437.45
 PMax - New - SmartHome,10,2,2000.0,1933.63,8286.98,17490.6,74959.7
@@ -27,14 +27,14 @@ PMax - New - Control Acces,10,2,1000.0,2049.0,8781.44,17773.95,76174.07
 PMax - New - Accesorii Supraveghere,10,2,3300.0,16112.53,69053.7,131038.8,561594.85
 PMax - New - Kituri Supraveghere,10,2,2500.0,7322.51,31382.19,34164.85,146420.77
 PMax - New - Sonorizari,10,2,500.0,1982.82,8497.81,26836.23,115012.42
-DGen - All other categories,14,2,600.0,574.1,2460.41,1300.94,5575.48
-DGen - Supraveghere,14,2,1000.0,3980.6,17059.72,16615.95,71211.24
+DGen - All other categories,14,2,600.0,574.1,2460.43,1300.94,5575.48
+DGen - Supraveghere,14,2,1000.0,3980.6,17059.72,16637.77,71304.75
 PMax - Scule si Unelte,10,2,4000.0,2189.55,9383.79,18141.3,77748.42
 PMax - Poor Products - Shopping - LOW ROAS,10,2,1100.0,7600.94,32575.46,73442.12,314751.95
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
 PMax - Top Products last 14 days - Feed Only,10,2,1100.0,7623.06,32670.25,44325.61,189966.9
-DGen - Promo - NO RMKT - tROAS - PUR,14,2,300.0,313.29,1342.65,31.42,134.66
-Video Views - NO RMKT - NO Product Feed,6,2,100.0,689.77,2956.15,0.0,0.0
-PMax - Promotii - Full Assets - Male - 25 to 55,10,2,500.0,3610.88,15475.19,22207.39,95174.55
+DGen - Promo - NO RMKT - tROAS - PUR,14,2,300.0,313.29,1342.67,31.42,134.66
+Video Views - NO RMKT - NO Product Feed,6,2,100.0,689.76,2956.13,0.0,0.0
+PMax - Promotii - Full Assets - Male - 25 to 55,10,2,500.0,3610.88,15475.19,22212.45,95196.21
 DGen - RMKT Only Audiences,14,2,500.0,1425.12,6107.66,3977.79,17047.66
