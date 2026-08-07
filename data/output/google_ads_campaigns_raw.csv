@@ -1,9 +1,9 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
 Brand Protect,2,2,1500.0,2595.14,11122.05,50742.44,217467.58
 Caut Instalare,2,2,1000.0,251.47,1077.75,2098.0,8991.42
-PMax - New - Supraveghere Video,10,2,10000.0,19818.58,84936.76,137630.71,589845.92
+PMax - New - Supraveghere Video,10,2,10000.0,19818.58,84936.76,137870.85,590875.05
 PMax - New - FotoVoltaice/Solare,10,2,2000.0,601.33,2577.13,2951.23,12648.13
-PMax - New - Automatizari Porti,10,2,4500.0,13211.27,56619.75,77047.7,330204.42
+PMax - New - Automatizari Porti,10,2,4500.0,13211.27,56619.75,77047.73,330204.55
 PMax - New - Interfoane,10,2,1800.0,2019.22,8653.78,23763.01,101841.46
 PMax - New - Sisteme Alarma,10,2,1800.0,1605.56,6880.96,13227.58,56689.61
 PMax - New - SmartHome,10,2,2000.0,1982.91,8498.18,20301.08,87004.62
@@ -22,13 +22,13 @@ June 2024 - Search - Alarme - tROAS,2,2,2000.0,18.9,81.02,0.0,0.0
 June 2024 - Search - Acces Pontaj - tROAS,2,2,2000.0,17.49,74.94,0.0,0.0
 June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,1.91,8.17,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,1.8,7.73,0.0,0.0
-PMax - New - Alarme antiincendiu,10,2,1100.0,5963.11,25556.17,28386.99,121658.54
+PMax - New - Alarme antiincendiu,10,2,1100.0,5963.1,25556.16,28386.99,121658.54
 PMax - New - Control Acces,10,2,1000.0,2189.75,9384.63,21191.88,90822.34
 PMax - New - Accesorii Supraveghere,10,2,3300.0,12863.84,55130.74,130065.55,557423.78
 PMax - New - Kituri Supraveghere,10,2,2500.0,5371.21,23019.48,29846.95,127915.49
 PMax - New - Sonorizari,10,2,500.0,2627.26,11259.7,19276.68,82614.33
 DGen - All other categories,14,2,600.0,436.52,1870.81,1183.32,5071.38
-DGen - Supraveghere,14,2,1000.0,2987.86,12805.1,12894.13,55260.55
+DGen - Supraveghere,14,2,1000.0,2987.87,12805.14,12894.13,55260.55
 PMax - Scule si Unelte,10,2,4000.0,2182.63,9354.12,20655.46,88523.38
 PMax - Poor Products - Shopping - LOW ROAS,10,2,1400.0,7529.71,32270.17,73594.07,315403.16
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
@@ -36,5 +36,5 @@ PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
 PMax - Top Products last 14 days - Feed Only,10,2,2000.0,7918.53,33936.54,50450.55,216216.64
 DGen - Promo - NO RMKT - tROAS - PUR,14,2,300.0,199.63,855.55,305.15,1307.78
 Video Views - NO RMKT - NO Product Feed,6,2,100.0,685.66,2938.55,0.0,0.0
-PMax - Promotii - Full Assets - Male - 25 to 55,10,2,500.0,3464.84,14849.33,26560.44,113830.48
+PMax - Promotii - Full Assets - Male - 25 to 55,10,2,500.0,3464.84,14849.33,26575.62,113895.51
 DGen - RMKT Only Audiences,14,2,500.0,2461.75,10550.35,10263.85,43987.92
