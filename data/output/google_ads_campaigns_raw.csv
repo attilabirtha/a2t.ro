@@ -1,7 +1,7 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
 Brand Protect,2,2,1500.0,2556.91,10958.19,48172.11,206451.91
 Caut Instalare,2,2,1000.0,233.79,1001.94,2054.13,8803.43
-PMax - New - Supraveghere Video,10,2,10000.0,19147.33,82060.0,132954.39,569804.52
+PMax - New - Supraveghere Video,10,2,10000.0,19147.33,82060.0,133026.66,570114.25
 PMax - New - FotoVoltaice/Solare,10,2,2000.0,610.42,2616.1,2955.33,12665.72
 PMax - New - Automatizari Porti,10,2,4500.0,12283.18,52642.19,74048.26,317349.67
 PMax - New - Interfoane,10,2,1800.0,1994.4,8547.42,23788.39,101950.25
@@ -23,8 +23,8 @@ June 2024 - Search - Acces Pontaj - tROAS,2,2,2000.0,14.88,63.79,0.0,0.0
 June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,2.21,9.48,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,1.8,7.73,0.0,0.0
 PMax - New - Alarme antiincendiu,10,2,1100.0,5643.91,24188.2,26158.29,112106.98
-PMax - New - Control Acces,10,2,1000.0,2068.1,8863.29,21502.05,92151.65
-PMax - New - Accesorii Supraveghere,10,2,3300.0,11219.18,48082.2,92505.52,396452.22
+PMax - New - Control Acces,10,2,1000.0,2068.1,8863.29,21502.99,92155.67
+PMax - New - Accesorii Supraveghere,10,2,3300.0,11219.18,48082.2,92929.14,398267.73
 PMax - New - Kituri Supraveghere,10,2,2500.0,4888.1,20948.99,31125.5,133395.0
 PMax - New - Sonorizari,10,2,500.0,2617.55,11218.07,22303.1,95584.71
 DGen - All other categories,14,2,600.0,463.06,1984.55,1655.9,7096.72
@@ -33,7 +33,7 @@ PMax - Scule si Unelte,10,2,4000.0,2040.75,8746.06,20321.06,87090.25
 PMax - Poor Products - Shopping - LOW ROAS,10,2,1400.0,7379.66,31627.12,73490.13,314957.69
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
-PMax - Top Products last 14 days - Feed Only,10,2,2000.0,8212.56,35196.68,52404.92,224592.53
+PMax - Top Products last 14 days - Feed Only,10,2,2000.0,8212.56,35196.68,52405.62,224595.5
 DGen - Promo - NO RMKT - tROAS - PUR,14,2,300.0,199.63,855.55,305.15,1307.78
 Video Views - NO RMKT - NO Product Feed,6,2,100.0,685.76,2938.99,0.0,0.0
 PMax - Promotii - Full Assets - Male - 25 to 55,10,2,500.0,3411.3,14619.85,25357.23,108673.85
