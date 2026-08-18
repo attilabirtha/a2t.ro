@@ -1,18 +1,18 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
 Brand Protect,2,2,1500.0,2643.12,11327.67,51785.28,221936.92
 Caut Instalare,2,2,1000.0,205.79,881.96,1628.37,6978.74
-PMax - New - Supraveghere Video,10,2,10000.0,21144.87,90620.86,138647.09,594201.82
+PMax - New - Supraveghere Video,10,2,10000.0,21144.87,90620.86,139272.71,596883.05
 PMax - New - FotoVoltaice/Solare,10,2,2000.0,476.98,2044.21,3325.85,14253.64
-PMax - New - Automatizari Porti,10,2,4500.0,10237.32,43874.24,65581.07,281061.73
-PMax - New - Interfoane,10,2,1800.0,2006.5,8599.27,24322.43,104238.97
+PMax - New - Automatizari Porti,10,2,4500.0,10237.32,43874.24,65635.64,281295.59
+PMax - New - Interfoane,10,2,1800.0,2006.5,8599.27,24326.22,104255.22
 PMax - New - Sisteme Alarma,10,2,1800.0,1210.49,5187.79,8831.33,37848.55
-PMax - New - SmartHome,10,2,2000.0,1602.97,6869.88,18710.06,80185.99
-PMax - Purchase - Accesorii,10,2,3300.0,5316.8,22786.31,42101.5,180434.98
+PMax - New - SmartHome,10,2,2000.0,1602.97,6869.88,19131.46,81991.98
+PMax - Purchase - Accesorii,10,2,3300.0,5316.8,22786.31,42133.86,180573.7
 NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,3981.42,17063.24,14622.52,62667.93
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,362.29,1552.69,1649.38,7068.78
 DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,2,750.0,1470.3,6301.28,5454.33,23375.71
 June 2024 - Search - Automatizari - tROAS + AiMax,2,2,3000.0,1280.18,5486.47,5267.31,22574.17
-PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,7859.44,33683.32,72361.06,310118.82
+PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,7859.87,33685.17,72369.59,310155.4
 June 2024 - Search - Accesorii Supraveghere - tROAS + AiMax,2,2,3000.0,3448.51,14779.34,11847.86,50776.53
 June 2024 - Search - Supraveghere + Brands - tROAS,2,2,3000.0,925.18,3965.06,2306.45,9884.77
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,2,4000.0,4413.99,18917.09,17260.71,73974.45
@@ -22,19 +22,19 @@ June 2024 - Search - Alarme - tROAS,2,2,2000.0,12.35,52.93,0.0,0.0
 June 2024 - Search - Acces Pontaj - tROAS,2,2,2000.0,12.88,55.2,0.0,0.01
 June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,3.0,12.87,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,2.66,11.39,0.0,0.0
-PMax - New - Alarme antiincendiu,10,2,1100.0,4935.41,21151.75,22764.68,97562.9
+PMax - New - Alarme antiincendiu,10,2,1100.0,4935.41,21151.75,22766.07,97568.89
 PMax - New - Control Acces,10,2,1000.0,2246.05,9625.91,22257.82,95390.67
-PMax - New - Accesorii Supraveghere,10,2,3300.0,9149.51,39212.19,77865.67,333710.03
+PMax - New - Accesorii Supraveghere,10,2,3300.0,9149.51,39212.19,77873.58,333743.91
 PMax - New - Kituri Supraveghere,10,2,2500.0,5070.9,21732.44,31452.79,134797.65
 PMax - New - Sonorizari,10,2,500.0,2659.62,11398.38,21348.16,91492.1
-DGen - All other categories,14,2,600.0,741.76,3178.98,2416.2,10355.16
-DGen - Supraveghere,14,2,1000.0,2222.49,9524.98,7523.98,32245.61
+DGen - All other categories,14,2,600.0,741.76,3178.99,2416.2,10355.16
+DGen - Supraveghere,14,2,1000.0,2222.69,9525.82,7724.38,33104.47
 PMax - Scule si Unelte,10,2,4000.0,1473.38,6314.5,10836.41,46441.77
-PMax - Poor Products - Shopping - LOW ROAS,10,2,1400.0,7029.71,30127.32,67541.87,289465.14
+PMax - Poor Products - Shopping - LOW ROAS,10,2,1400.0,7029.71,30127.32,67559.02,289538.66
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
-PMax - Top Products last 14 days - Feed Only,10,2,2000.0,10243.75,43901.8,53170.24,227872.48
+PMax - Top Products last 14 days - Feed Only,10,2,2000.0,10243.75,43901.8,54276.24,232612.45
 DGen - Promo - NO RMKT - tROAS - PUR,14,2,300.0,175.64,752.76,358.79,1537.68
 Video Views - NO RMKT - NO Product Feed,6,2,100.0,686.36,2941.52,0.0,0.0
-PMax - Promotii - Full Assets - Male - 25 to 55,10,2,500.0,3486.03,14940.14,26789.92,114813.95
+PMax - Promotii - Full Assets - Male - 25 to 55,10,2,500.0,3486.03,14940.14,26807.08,114887.47
 DGen - RMKT Only Audiences,14,2,500.0,3515.02,15064.38,15771.97,67594.15
