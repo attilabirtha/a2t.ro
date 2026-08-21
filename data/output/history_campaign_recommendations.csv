@@ -3939,7 +3939,7 @@ June 2024 - Search - Supraveghere + Brands - tROAS,2,3000.0,2550.0,Reduce 15%,3,
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,4000.0,3600.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-08-21,4.031,19567.72,13255.55,78883.15
 NEW - DSA - Automatizari Porti - No Accesories,2,2000.0,1700.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-08-21,3.165,1750.9,1186.09,5541.1
 NEW - DSA - Supraveghere - No Accesories,2,1000.0,850.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-08-21,3.57,17578.4,11907.95,62762.03
-PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,3300.0,3630.0000000000005,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-21,11.086,38593.59,26144.05,427851.88
+PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,3300.0,3630.0000000000005,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-21,11.087,38593.59,26144.05,427880.83
 PMax - New - Accesorii Supraveghere,10,3300.0,3630.0000000000005,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-21,9.291,42860.36,29034.44,398235.6
 PMax - New - Alarme antiincendiu,10,1100.0,1100.0,Hold,6,Fara trigger de ajustare.,2026-08-21,5.68,21674.46,14682.7,123102.25
 PMax - New - Automatizari Porti,10,4500.0,4500.0,Hold,6,Fara trigger de ajustare.,2026-08-21,6.543,43347.45,29364.4,283630.31
@@ -3950,7 +3950,7 @@ PMax - New - Kituri Supraveghere,10,2500.0,2500.0,Hold,6,Fara trigger de ajustar
 PMax - New - Sisteme Alarma,10,1800.0,1800.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-08-21,7.516,5078.37,3440.19,38169.32
 PMax - New - SmartHome,10,2000.0,2000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-08-21,12.366,6595.79,4468.11,81566.51
 PMax - New - Sonorizari,10,500.0,550.0,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-21,8.127,10797.94,7314.73,87750.45
-PMax - New - Supraveghere Video,10,10000.0,10000.0,Hold,6,Fara trigger de ajustare.,2026-08-21,6.65,96710.61,65513.64,643156.13
+PMax - New - Supraveghere Video,10,10000.0,10000.0,Hold,6,Fara trigger de ajustare.,2026-08-21,6.65,96710.61,65513.64,643164.7
 PMax - Poor Products - Shopping - LOW ROAS,10,1400.0,1540.0000000000002,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-21,11.372,30690.35,20790.23,349014.02
 PMax - Promo BF 2025 - Shopping Only,10,1800.0,1800.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-08-21,0.0,0.0,0.0,0.0
 PMax - Promotii - Full Assets - Male - 25 to 55,10,500.0,550.0,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-21,8.534,14641.01,9918.11,124940.53
