@@ -3999,12 +3999,12 @@ PMax - Top Products last 14 days - Feed Only,10,2000.0,2000.0,Hold,6,Fara trigge
 Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-08-22,0.0,2943.82,2089.16,0.0
 Brand Protect,2,1500.0,1650.0000000000002,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-23,20.454,11160.46,8280.34,228274.22
 Caut Instalare,2,1000.0,1000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-08-23,6.225,812.34,602.7,5056.83
-DGen - All other categories,14,600.0,540.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-08-23,4.685,5367.35,3982.23,25144.87
+DGen - All other categories,14,600.0,540.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-08-23,4.685,5367.35,3982.22,25144.87
 DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,750.0,637.5,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-08-23,3.827,6831.6,5068.61,26145.36
 DGen - Promo - NO RMKT - tROAS - PUR,14,300.0,300.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-08-23,2.52,624.07,463.02,1572.4
 DGen - RMKT - BF Promo,14,600.0,600.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-08-23,0.0,0.0,0.0,0.0
-DGen - RMKT Only Audiences,14,500.0,425.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-08-23,3.799,14931.19,11077.98,56729.19
-DGen - Supraveghere,14,1000.0,850.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-08-23,3.193,8955.66,6644.52,28592.11
+DGen - RMKT Only Audiences,14,500.0,425.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-08-23,3.799,14931.22,11078.0,56729.19
+DGen - Supraveghere,14,1000.0,850.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-08-23,3.192,8957.08,6645.57,28592.11
 June 2024 - Search - Acces Pontaj - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-08-23,0.0,48.26,35.81,0.01
 June 2024 - Search - Accesorii Supraveghere - tROAS + AiMax,2,3000.0,2700.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-08-23,4.975,15216.23,11289.46,75699.85
 June 2024 - Search - Alarme - tROAS,2,2000.0,2000.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-08-23,0.0,49.83,36.97,0.0
@@ -4017,7 +4017,7 @@ June 2024 - Search - Supraveghere + Brands - tROAS,2,3000.0,2550.0,Reduce 15%,3,
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,4000.0,3600.0,Reduce 10%,4,ROAS intre 4.0 si 5.0.,2026-08-23,4.125,19568.68,14518.7,80716.24
 NEW - DSA - Automatizari Porti - No Accesories,2,2000.0,1700.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-08-23,2.745,1839.5,1364.79,5050.18
 NEW - DSA - Supraveghere - No Accesories,2,1000.0,850.0,Reduce 15%,3,ROAS intre 2.5 si 4.0.,2026-08-23,3.223,17524.62,13002.13,56477.51
-PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,3300.0,3630.0000000000005,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-23,12.061,40383.33,29961.83,487053.46
+PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,3300.0,3630.0000000000005,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-23,12.063,40383.33,29961.83,487137.45
 PMax - New - Accesorii Supraveghere,10,3300.0,3630.0000000000005,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-23,8.776,43113.98,31987.79,378371.26
 PMax - New - Alarme antiincendiu,10,1100.0,1100.0,Hold,6,Fara trigger de ajustare.,2026-08-23,6.664,20844.41,15465.21,138910.66
 PMax - New - Automatizari Porti,10,4500.0,4500.0,Hold,6,Fara trigger de ajustare.,2026-08-23,6.491,40926.9,30365.12,265650.97
@@ -4025,14 +4025,14 @@ PMax - New - Control Acces,10,1000.0,1100.0,Increase up to 10%,6,ROAS > 7.0 si c
 PMax - New - FotoVoltaice/Solare,10,2000.0,2000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-08-23,10.553,2375.4,1762.39,25066.8
 PMax - New - Interfoane,10,1800.0,1800.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-08-23,14.564,8329.26,6179.77,121305.67
 PMax - New - Kituri Supraveghere,10,2500.0,2500.0,Hold,6,Fara trigger de ajustare.,2026-08-23,6.173,24387.75,18094.14,150549.43
-PMax - New - Sisteme Alarma,10,1800.0,1800.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-08-23,9.01,4643.4,3445.1,41838.16
+PMax - New - Sisteme Alarma,10,1800.0,1800.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-08-23,9.042,4643.4,3445.1,41985.62
 PMax - New - SmartHome,10,2000.0,2000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-08-23,13.028,6143.65,4558.19,80039.47
 PMax - New - Sonorizari,10,500.0,550.0,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-23,8.388,10095.36,7490.11,84683.12
-PMax - New - Supraveghere Video,10,10000.0,10000.0,Hold,6,Fara trigger de ajustare.,2026-08-23,6.513,95920.41,71166.76,624718.79
-PMax - Poor Products - Shopping - LOW ROAS,10,1400.0,1540.0000000000002,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-23,11.157,31104.42,23077.47,347016.92
+PMax - New - Supraveghere Video,10,10000.0,10000.0,Hold,6,Fara trigger de ajustare.,2026-08-23,6.515,95920.48,71166.8,624913.01
+PMax - Poor Products - Shopping - LOW ROAS,10,1400.0,1540.0000000000002,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-23,11.167,31104.42,23077.47,347347.67
 PMax - Promo BF 2025 - Shopping Only,10,1800.0,1800.0,Hold,6,Date insuficiente: spend_30d sub pragul minim.,2026-08-23,0.0,0.0,0.0,0.0
 PMax - Promotii - Full Assets - Male - 25 to 55,10,500.0,550.0,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-23,8.772,14536.44,10785.1,127516.21
 PMax - Purchase - Accesorii,10,3300.0,3630.0000000000005,Increase up to 10%,6,ROAS > 7.0 si cont sub pacing.,2026-08-23,8.941,23165.53,17187.33,207114.25
-PMax - Scule si Unelte,10,4000.0,4000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-08-23,8.348,5279.13,3916.77,44067.6
+PMax - Scule si Unelte,10,4000.0,4000.0,Hold / Preventive cap,5,Buget > 5x spend mediu zilnic 30d.,2026-08-23,8.38,5279.13,3916.77,44240.59
 PMax - Top Products last 14 days - Feed Only,10,2000.0,2000.0,Hold,6,Fara trigger de ajustare.,2026-08-23,5.281,47362.35,35139.81,250115.22
 Video Views - NO RMKT - NO Product Feed,6,100.0,80.0,Reduce 20% / Pause candidate,1,Zero valoare conversii in 30d.,2026-08-23,0.0,2943.77,2184.09,0.0
