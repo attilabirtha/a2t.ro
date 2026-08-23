@@ -1,7 +1,7 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
-Brand Protect,2,2,1500.0,2604.11,11160.46,53263.98,228274.22
+Brand Protect,2,2,1500.0,2604.11,11160.46,53345.42,228623.21
 Caut Instalare,2,2,1000.0,189.55,812.34,1179.93,5056.83
-PMax - New - Supraveghere Video,10,2,10000.0,22381.61,95921.21,146949.31,629782.77
+PMax - New - Supraveghere Video,10,2,10000.0,22381.61,95921.21,146994.69,629977.23
 PMax - New - FotoVoltaice/Solare,10,2,2000.0,554.09,2374.69,5848.92,25066.8
 PMax - New - Automatizari Porti,10,2,4500.0,9549.61,40926.9,62365.01,267278.62
 PMax - New - Interfoane,10,2,1800.0,1943.49,8329.26,29227.71,125261.61
@@ -10,9 +10,9 @@ PMax - New - SmartHome,10,2,2000.0,1433.52,6143.65,18895.16,80979.25
 PMax - Purchase - Accesorii,10,2,3300.0,5404.64,23162.74,51877.66,222332.82
 NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,4089.08,17524.62,13352.83,57226.43
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,429.22,1839.5,1178.37,5050.18
-DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,2,750.0,1594.03,6831.58,6102.81,26154.92
+DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,2,750.0,1594.03,6831.56,6102.81,26154.92
 June 2024 - Search - Automatizari - tROAS + AiMax,2,2,3000.0,1237.74,5304.59,3790.29,16244.11
-PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,9422.87,40383.71,114015.08,488636.04
+PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,9422.87,40383.71,114107.94,489034.03
 June 2024 - Search - Accesorii Supraveghere - tROAS + AiMax,2,2,3000.0,3549.91,15213.91,18138.83,77737.83
 June 2024 - Search - Supraveghere + Brands - tROAS,2,2,3000.0,922.22,3952.36,2318.7,9937.29
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,2,4000.0,4566.19,19569.4,18833.79,80716.24
@@ -22,19 +22,19 @@ June 2024 - Search - Alarme - tROAS,2,2,2000.0,11.63,49.83,0.0,0.0
 June 2024 - Search - Acces Pontaj - tROAS,2,2,2000.0,11.26,48.26,0.0,0.01
 June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,3.46,14.82,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,3.49,14.98,0.0,0.0
-PMax - New - Alarme antiincendiu,10,2,1100.0,4863.77,20844.74,32506.26,139312.53
+PMax - New - Alarme antiincendiu,10,2,1100.0,4864.16,20846.38,32506.26,139312.53
 PMax - New - Control Acces,10,2,1000.0,2254.59,9662.54,23482.16,100637.84
-PMax - New - Accesorii Supraveghere,10,2,3300.0,10058.25,43106.78,88975.15,381322.09
-PMax - New - Kituri Supraveghere,10,2,2500.0,5690.36,24387.24,35128.2,150549.43
+PMax - New - Accesorii Supraveghere,10,2,3300.0,10058.25,43106.78,89669.37,384297.31
+PMax - New - Kituri Supraveghere,10,2,2500.0,5690.36,24387.24,35199.13,150853.42
 PMax - New - Sonorizari,10,2,500.0,2355.58,10095.36,19856.94,85101.15
-DGen - All other categories,14,2,600.0,1252.32,5367.1,6091.03,26104.4
-DGen - Supraveghere,14,2,1000.0,2091.19,8962.25,6954.39,29804.52
+DGen - All other categories,14,2,600.0,1252.32,5367.08,6091.03,26104.4
+DGen - Supraveghere,14,2,1000.0,2091.19,8962.24,6954.39,29804.52
 PMax - Scule si Unelte,10,2,4000.0,1231.8,5279.13,10322.8,44240.59
-PMax - Poor Products - Shopping - LOW ROAS,10,2,1400.0,7257.73,31104.55,81722.95,350241.2
+PMax - Poor Products - Shopping - LOW ROAS,10,2,1400.0,7257.73,31104.55,82880.36,355201.53
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
-PMax - Top Products last 14 days - Feed Only,10,2,2000.0,11049.73,47355.97,58786.2,251940.87
+PMax - Top Products last 14 days - Feed Only,10,2,2000.0,11049.73,47355.97,58965.51,252709.33
 DGen - Promo - NO RMKT - tROAS - PUR,14,2,300.0,145.62,624.07,366.89,1572.4
 Video Views - NO RMKT - NO Product Feed,6,2,100.0,686.84,2943.6,0.0,0.0
-PMax - Promotii - Full Assets - Male - 25 to 55,10,2,500.0,3391.83,14536.43,30109.35,129040.07
-DGen - RMKT Only Audiences,14,2,500.0,3484.16,14932.1,13319.36,57082.96
+PMax - Promotii - Full Assets - Male - 25 to 55,10,2,500.0,3391.83,14536.43,30154.1,129231.87
+DGen - RMKT Only Audiences,14,2,500.0,3484.16,14932.09,13319.36,57082.96
