@@ -1,18 +1,18 @@
 campaign,channel,status,daily_budget,spend_7d,spend_30d,conv_value_7d,conv_value_30d
-Brand Protect,2,2,1500.0,2413.83,10344.99,48668.34,208578.6
+Brand Protect,2,2,1500.0,2413.83,10344.99,48740.44,208887.59
 Caut Instalare,2,2,1000.0,182.1,780.43,2667.11,11430.49
-PMax - New - Supraveghere Video,10,2,10000.0,24462.85,104840.8,142144.79,609191.97
+PMax - New - Supraveghere Video,10,2,10000.0,24462.85,104840.8,142952.98,612655.64
 PMax - New - FotoVoltaice/Solare,10,2,2000.0,1035.49,4437.82,6032.84,25855.04
-PMax - New - Automatizari Porti,10,2,4500.0,10706.65,45885.65,67278.31,288335.62
-PMax - New - Interfoane,10,2,1800.0,2814.01,12060.06,27664.92,118563.96
-PMax - New - Sisteme Alarma,10,2,1800.0,1565.12,6707.67,14839.85,63599.38
-PMax - New - SmartHome,10,2,2000.0,1624.33,6961.42,12731.75,54564.65
-PMax - Purchase - Accesorii,10,2,3300.0,5343.68,22901.48,52902.32,226724.23
+PMax - New - Automatizari Porti,10,2,4500.0,10706.65,45885.65,67443.7,289044.45
+PMax - New - Interfoane,10,2,1800.0,2814.01,12060.06,27819.06,119224.56
+PMax - New - Sisteme Alarma,10,2,1800.0,1565.12,6707.67,15135.73,64867.4
+PMax - New - SmartHome,10,2,2000.0,1624.33,6961.42,13034.85,55863.63
+PMax - Purchase - Accesorii,10,2,3300.0,5343.68,22901.48,55404.11,237446.2
 NEW - DSA - Supraveghere - No Accesories,2,2,1000.0,4046.56,17342.41,16635.5,71294.98
 NEW - DSA - Automatizari Porti - No Accesories,2,2,2000.0,630.04,2700.16,6509.97,27899.89
-DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,2,750.0,514.15,2203.52,1021.66,4378.55
+DGen - Automatizari + ViewThrough Conversions from 01.07.26,14,2,750.0,514.15,2203.52,1053.9,4516.7
 June 2024 - Search - Automatizari - tROAS + AiMax,2,2,3000.0,1221.93,5236.86,3741.34,16034.3
-PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,9035.85,38725.06,96557.26,413816.84
+PMax - Catch All - Shopping Only - No  Brand - Low tROAS,10,2,3300.0,9035.85,38725.06,96572.08,413880.34
 June 2024 - Search - Accesorii Supraveghere - tROAS + AiMax,2,2,3000.0,5043.81,21616.32,17904.87,76735.14
 June 2024 - Search - Supraveghere + Brands - tROAS,2,2,3000.0,1110.14,4757.72,4644.19,19903.68
 June 2024 - Search - Supraveghere - Generic - tROAS + AIMax - test 19.03.26,2,2,4000.0,6582.14,28209.19,12935.29,55436.97
@@ -23,18 +23,18 @@ June 2024 - Search - Acces Pontaj - tROAS,2,2,2000.0,23.27,99.71,379.82,1627.81
 June 2024 - Search - Sonorizari - tROAS,2,2,1000.0,2.37,10.18,0.0,0.0
 June 2024 - Search - Smart Home - tROAS,2,2,300.0,4.82,20.68,0.0,0.0
 PMax - New - Alarme antiincendiu,10,2,1100.0,6585.59,28223.95,30551.46,130934.83
-PMax - New - Control Acces,10,2,1000.0,2255.44,9666.16,16700.98,71575.63
+PMax - New - Control Acces,10,2,1000.0,2255.44,9666.16,16736.24,71726.74
 PMax - New - Accesorii Supraveghere,10,2,3300.0,13425.66,57538.56,105778.18,453335.04
-PMax - New - Kituri Supraveghere,10,2,2500.0,7154.27,30661.16,34973.2,149885.15
+PMax - New - Kituri Supraveghere,10,2,2500.0,7154.29,30661.26,34973.2,149885.15
 PMax - New - Sonorizari,10,2,500.0,1061.02,4547.21,9474.35,40604.35
-DGen - All other categories,14,2,600.0,2074.12,8889.09,11157.01,47815.76
+DGen - All other categories,14,2,600.0,2074.13,8889.14,11235.05,48150.21
 DGen - Supraveghere,14,2,1000.0,2207.84,9462.17,4744.8,20334.87
 PMax - Scule si Unelte,10,2,4000.0,2563.19,10985.1,20392.58,87396.78
-PMax - Poor Products - Shopping - LOW ROAS,10,2,1400.0,8300.91,35575.34,87351.57,374363.86
+PMax - Poor Products - Shopping - LOW ROAS,10,2,1400.0,8300.91,35575.34,87519.7,375084.43
 DGen - RMKT - BF Promo,14,2,600.0,0.0,0.0,0.0,0.0
 PMax - Promo BF 2025 - Shopping Only,10,2,1800.0,0.0,0.0,0.0,0.0
-PMax - Top Products last 14 days - Feed Only,10,2,2000.0,10167.86,43576.56,67495.4,289266.0
+PMax - Top Products last 14 days - Feed Only,10,2,2000.0,10167.86,43576.56,67497.17,289273.59
 DGen - Promo - NO RMKT - tROAS - PUR,14,2,300.0,0.0,0.0,0.0,0.0
 Video Views - NO RMKT - NO Product Feed,6,2,100.0,697.89,2990.95,0.0,0.0
 PMax - Promotii - Full Assets - Male - 25 to 55,10,2,500.0,4154.69,17805.82,27080.06,116057.39
-DGen - RMKT Only Audiences,14,2,500.0,3489.28,14954.07,19097.99,81848.54
+DGen - RMKT Only Audiences,14,2,500.0,3489.28,14954.07,19259.81,82542.03
